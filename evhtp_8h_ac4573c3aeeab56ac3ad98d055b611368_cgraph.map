@@ -1,0 +1,4 @@
+<map id="evhtp_unset_all_hooks" name="evhtp_unset_all_hooks">
+<area shape="rect" id="node2" href="$evhtp_8h.html#a33bd27d412124a8456b9c5f04b2dda96" title="remove a specific hook from being called. " alt="" coords="211,5,341,31"/>
+<area shape="rect" id="node3" href="$evhtp_8h.html#a77933df4d525c46ca185ac424892a824" title="sets a callback hook for either a connection or a path/regex . " alt="" coords="389,5,505,31"/>
+</map>

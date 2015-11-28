@@ -1,0 +1,7 @@
+<map id="evhtp_connection_take_ownership" name="evhtp_connection_take_ownership">
+<area shape="rect" id="node2" href="$evhtp_8h.html#a10e7acec945c44c0f74f642374992985" title="returns the underlying connections bufferevent " alt="" coords="212,5,393,31"/>
+<area shape="rect" id="node3" href="$evhtp_8h.html#ac4573c3aeeab56ac3ad98d055b611368" title="removes all hooks. " alt="" coords="223,55,381,80"/>
+<area shape="rect" id="node6" href="$evhtp_8h.html#aaecfa52e314fb9ec4879fb5c33d40bf0" title="Sets the connections underlying bufferevent. " alt="" coords="212,104,392,129"/>
+<area shape="rect" id="node4" href="$evhtp_8h.html#a33bd27d412124a8456b9c5f04b2dda96" title="remove a specific hook from being called. " alt="" coords="441,55,571,80"/>
+<area shape="rect" id="node5" href="$evhtp_8h.html#a77933df4d525c46ca185ac424892a824" title="sets a callback hook for either a connection or a path/regex . " alt="" coords="619,55,734,80"/>
+</map>

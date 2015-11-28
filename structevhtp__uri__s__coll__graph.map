@@ -1,0 +1,4 @@
+<map id="evhtp_uri_s" name="evhtp_uri_s">
+<area shape="rect" id="node2" href="$structevhtp__authority__s.html" title="structure which represents authority information in a URI " alt="" coords="5,5,132,31"/>
+<area shape="rect" id="node3" href="$structevhtp__path__s.html" title="structure which represents a URI path and or file " alt="" coords="155,5,257,31"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="evhtp_defaults_s" name="evhtp_defaults_s">
+<area shape="rect" id="node7" href="$structevhtp__s.html" title="main structure containing all configuration information " alt="" coords="105,99,173,125"/>
+<area shape="rect" id="node2" href="$structevhtp__request__s.html" title="a structure containing all information for a http request. " alt="" coords="487,207,607,233"/>
+<area shape="rect" id="node3" href="$structevhtp__hooks__s.html" title="evhtp_hooks_s" alt="" coords="472,556,583,581"/>
+<area shape="rect" id="node4" href="$structevhtp__connection__s.html" title="evhtp_connection_s" alt="" coords="275,369,415,394"/>
+<area shape="rect" id="node8" href="$structevhtp__ssl__cfg__s.html" title="evhtp_ssl_cfg_s" alt="" coords="29,556,146,581"/>
+<area shape="rect" id="node5" href="$structhtparser.html" title="htparser" alt="" coords="132,207,202,233"/>
+<area shape="rect" id="node6" href="$structevthr.html" title="evthr" alt="" coords="347,207,398,233"/>
+<area shape="rect" id="node9" href="$structevthr__pool.html" title="evthr_pool" alt="" coords="97,5,181,31"/>
+<area shape="rect" id="node10" href="$structevhtp__uri__s.html" title="a generic container representing an entire URI strucutre " alt="" coords="502,99,592,125"/>
+<area shape="rect" id="node11" href="$structevhtp__authority__s.html" title="structure which represents authority information in a URI " alt="" coords="608,5,735,31"/>
+<area shape="rect" id="node12" href="$structevhtp__path__s.html" title="structure which represents a URI path and or file " alt="" coords="483,5,585,31"/>
+</map>

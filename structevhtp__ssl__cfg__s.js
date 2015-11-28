@@ -1,0 +1,25 @@
+var structevhtp__ssl__cfg__s =
+[
+    [ "args", "structevhtp__ssl__cfg__s.html#ad34f4fda0ad0e02015fca7992125f7f5", null ],
+    [ "cafile", "structevhtp__ssl__cfg__s.html#a4ca82049f206059cb1995cd144fa19f3", null ],
+    [ "capath", "structevhtp__ssl__cfg__s.html#a853a1164c4937b9d709012d609b40462", null ],
+    [ "ciphers", "structevhtp__ssl__cfg__s.html#ab0bb633888e73f36f9e44477d71066ca", null ],
+    [ "dhparams", "structevhtp__ssl__cfg__s.html#a020d6b4e4db584d739870da09002662c", null ],
+    [ "named_curve", "structevhtp__ssl__cfg__s.html#a42fce7a1f03fb4467bb2298c3b3fe28b", null ],
+    [ "pemfile", "structevhtp__ssl__cfg__s.html#a336ba9e6f5c4917f1b122ed87e45d755", null ],
+    [ "privfile", "structevhtp__ssl__cfg__s.html#a285a052efaaeda9173673c04e60600f3", null ],
+    [ "scache_add", "structevhtp__ssl__cfg__s.html#a2a6ff5fa7eff83bb4f64b9c57ee4b647", null ],
+    [ "scache_del", "structevhtp__ssl__cfg__s.html#abaefac75ccf6a4719a988189095151c6", null ],
+    [ "scache_get", "structevhtp__ssl__cfg__s.html#af81771839ffb39ac3b5196758bad1c26", null ],
+    [ "scache_init", "structevhtp__ssl__cfg__s.html#a0c74d4941390d936cb182d6a641a126d", null ],
+    [ "scache_size", "structevhtp__ssl__cfg__s.html#ac65690b27f89c9af4615ec8a34d5b531", null ],
+    [ "scache_timeout", "structevhtp__ssl__cfg__s.html#ad186f86293e0a9eb2145b8639eef9d03", null ],
+    [ "scache_type", "structevhtp__ssl__cfg__s.html#abecfda1ecab0ca6ad79d897765d7833f", null ],
+    [ "ssl_ctx_timeout", "structevhtp__ssl__cfg__s.html#a18ca2086e2c07a31520061df78c3e357", null ],
+    [ "ssl_opts", "structevhtp__ssl__cfg__s.html#adcb529b4293ccf2295b8d46bc18f286b", null ],
+    [ "store_flags", "structevhtp__ssl__cfg__s.html#afb721e2f2145ede1cf1879b116287f34", null ],
+    [ "verify_depth", "structevhtp__ssl__cfg__s.html#af0a0f2e1001b7baf73a073e86c717cab", null ],
+    [ "verify_peer", "structevhtp__ssl__cfg__s.html#a7a9512eccdd998f8d959d1bb421976e3", null ],
+    [ "x509_chk_issued_cb", "structevhtp__ssl__cfg__s.html#ac3df678477d089db2dc317a463f618ae", null ],
+    [ "x509_verify_cb", "structevhtp__ssl__cfg__s.html#ac7761733a1243784616aa935cd324aff", null ]
+];

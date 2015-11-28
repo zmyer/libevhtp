@@ -1,0 +1,5 @@
+<map id="evhtp_parse_query" name="evhtp_parse_query">
+<area shape="rect" id="node2" href="$evhtp_8h.html#afff256fe6fa65959ee77369095cd7ec0" title="Parses the query portion of the uri into a set of key/values. " alt="" coords="189,31,370,56"/>
+<area shape="rect" id="node3" href="$evhtp_8h.html#ab8204ae1df330466d4fd40c9e0d892bd" title="appends a key/val structure to a evhtp_kvs_t tailq " alt="" coords="418,5,549,31"/>
+<area shape="rect" id="node4" href="$evhtp_8h.html#af4ee662cbc3b5687bb413b73cdd7f8e8" title="Allocates a new key/value structure. " alt="" coords="430,55,537,80"/>
+</map>

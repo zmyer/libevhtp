@@ -1,0 +1,4 @@
+<map id="evhtp_header_key_add" name="evhtp_header_key_add">
+<area shape="rect" id="node2" href="$evhtp_8h.html#a503b047c0137763e0adaf635b7c664a8" title="creates a new evhtp_header_t key/val structure " alt="" coords="241,5,375,31"/>
+<area shape="rect" id="node3" href="$evhtp_8h.html#a45e5dd8e1166577254d6da73f4cf9fd1" title="adds an evhtp_header_t to the end of the evhtp_headers_t tailq " alt="" coords="214,55,402,80"/>
+</map>

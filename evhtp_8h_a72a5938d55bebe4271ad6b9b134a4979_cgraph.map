@@ -1,0 +1,4 @@
+<map id="evhtp_bind_socket" name="evhtp_bind_socket">
+<area shape="rect" id="node2" href="$evhtp_8h.html#a9df8b5f5d1c042aa96bf0a9a1c241665" title="bind to an already allocated sockaddr. " alt="" coords="186,5,334,31"/>
+<area shape="rect" id="node3" href="$evhtp_8h.html#a8bc42cc848d9992f9a07bfeaa605b6b6" title="create the listener plus setup various options with an already&#45;bound socket. " alt="" coords="382,5,529,31"/>
+</map>

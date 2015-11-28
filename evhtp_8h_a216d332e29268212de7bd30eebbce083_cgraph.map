@@ -1,0 +1,5 @@
+<map id="evhtp_set_regex_cb" name="evhtp_set_regex_cb">
+<area shape="rect" id="node2" href="$evhtp_8h.html#ad1f65d29824a4e4042038923974af521" title="creates a new evhtp_callback_t structure. " alt="" coords="197,5,338,31"/>
+<area shape="rect" id="node3" href="$evhtp_8h.html#aed64dd241139eee390f22c97a594ef57" title="Adds a evhtp_callback_t to the evhtp_callbacks_t list. " alt="" coords="195,55,341,93"/>
+<area shape="rect" id="node4" href="$evhtp_8h.html#a1d14eab0ccaff45e6eec1a36317dbee7" title="frees information associated with a ainflwx callback. " alt="" coords="198,117,338,143"/>
+</map>

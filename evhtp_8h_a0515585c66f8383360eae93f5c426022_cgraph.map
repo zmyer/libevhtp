@@ -1,0 +1,5 @@
+<map id="evhtp_send_reply" name="evhtp_send_reply">
+<area shape="rect" id="node2" href="$evhtp_8h.html#a083d7d161ae2139b52fbba2ff07caf88" title="returns the underlying evhtp_connection_t structure from a request " alt="" coords="180,5,384,31"/>
+<area shape="rect" id="node3" href="$evhtp_8h.html#a457c275878124e961a282c3f0b1fa741" title="free&#39;s all connection related resources, this will also call your request fini hook and request fini ..." alt="" coords="204,55,360,80"/>
+<area shape="rect" id="node4" href="$evhtp_8h.html#a10e7acec945c44c0f74f642374992985" title="returns the underlying connections bufferevent " alt="" coords="191,104,372,129"/>
+</map>

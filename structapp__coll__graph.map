@@ -1,0 +1,15 @@
+<map id="app" name="app">
+<area shape="rect" id="node2" href="$structapp__parent.html" title="app_parent" alt="" coords="5,194,94,219"/>
+<area shape="rect" id="node3" href="$structevhtp__s.html" title="main structure containing all configuration information " alt="" coords="284,99,352,125"/>
+<area shape="rect" id="node4" href="$structevhtp__ssl__cfg__s.html" title="evhtp_ssl_cfg_s" alt="" coords="167,309,284,334"/>
+<area shape="rect" id="node5" href="$structevhtp__connection__s.html" title="evhtp_connection_s" alt="" coords="578,194,718,219"/>
+<area shape="rect" id="node6" href="$structevhtp__request__s.html" title="a structure containing all information for a http request. " alt="" coords="795,309,915,334"/>
+<area shape="rect" id="node7" href="$structevhtp__hooks__s.html" title="evhtp_hooks_s" alt="" coords="638,543,749,568"/>
+<area shape="rect" id="node14" href="$structevhtp__defaults__s.html" title="evhtp_defaults_s" alt="" coords="377,543,499,568"/>
+<area shape="rect" id="node8" href="$structevhtp__uri__s.html" title="a generic container representing an entire URI strucutre " alt="" coords="866,194,956,219"/>
+<area shape="rect" id="node9" href="$structevhtp__authority__s.html" title="structure which represents authority information in a URI " alt="" coords="848,99,974,125"/>
+<area shape="rect" id="node10" href="$structevhtp__path__s.html" title="structure which represents a URI path and or file " alt="" coords="998,99,1099,125"/>
+<area shape="rect" id="node11" href="$structhtparser.html" title="htparser" alt="" coords="613,99,684,125"/>
+<area shape="rect" id="node12" href="$structevthr.html" title="evthr" alt="" coords="707,99,758,125"/>
+<area shape="rect" id="node13" href="$structevthr__pool.html" title="evthr_pool" alt="" coords="276,5,360,31"/>
+</map>
