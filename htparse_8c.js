@@ -1,5 +1,6 @@
 var htparse_8c =
 [
+    [ "htparser", "structhtparser.html", "structhtparser" ],
     [ "htparse_debug_strlen", "htparse_8c.html#a183d47c42f799257abca385d9e17591b", null ],
     [ "htparse_log_debug", "htparse_8c.html#a91f06e2606fca128c430dd7a007a404c", null ],
     [ "PARSER_STACK_MAX", "htparse_8c.html#a7b9afab0109e3df665e8351cc39d5fae", null ],

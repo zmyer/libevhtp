@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>Libevhtp: evthr_pool Struct Reference</title>
+<title>Libevhtp: evthr_pool_t Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -47,7 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -69,9 +69,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -105,24 +104,51 @@ $(document).ready(function(){initNavTree('structevthr__pool.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="structevthr__pool-members.html">List of all members</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
-<div class="title">evthr_pool Struct Reference</div>  </div>
+<div class="title">evthr_pool_t Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for evthr_pool_t:</div>
+<div class="dyncontent">
+<div class="center"><img src="structevthr__pool__coll__graph.png" border="0" usemap="#evthr__pool__t_coll__map" alt="Collaboration graph"/></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a4772ba5370fc6fcb1aa686babc3bae91"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4772ba5370fc6fcb1aa686babc3bae91"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>nthreads</b></td></tr>
-<tr class="separator:a4772ba5370fc6fcb1aa686babc3bae91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af806d987babcd52532cfbaeabbc864b4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af806d987babcd52532cfbaeabbc864b4"></a>
-evthr_pool_slist_t&#160;</td><td class="memItemRight" valign="bottom"><b>threads</b></td></tr>
-<tr class="separator:af806d987babcd52532cfbaeabbc864b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Data Fields</h2></td></tr>
+<tr class="memitem:a7c3b2244b5ff8572e23616492b99272a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevthr__pool.html#a7c3b2244b5ff8572e23616492b99272a">nthreads</a></td></tr>
+<tr class="separator:a7c3b2244b5ff8572e23616492b99272a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57bc184d4bbbe2a008a07d6565e75581"><td class="memItemLeft" align="right" valign="top"><a class="el" href="evthr_8c.html#a938a8ac6e50cfed1a57b4ae6b3e5c372">evthr_pool_slist_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevthr__pool.html#a57bc184d4bbbe2a008a07d6565e75581">threads</a></td></tr>
+<tr class="separator:a57bc184d4bbbe2a008a07d6565e75581"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Field Documentation</h2>
+<a class="anchor" id="a7c3b2244b5ff8572e23616492b99272a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int evthr_pool_t::nthreads</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a57bc184d4bbbe2a008a07d6565e75581"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="evthr_8c.html#a938a8ac6e50cfed1a57b4ae6b3e5c372">evthr_pool_slist_t</a> evthr_pool_t::threads</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>evthr.c</li>
+<li><a class="el" href="evthr_8c.html">evthr.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -130,7 +156,7 @@ evthr_pool_slist_t&#160;</td><td class="memItemRight" valign="bottom"><b>threads
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structevthr__pool.html">evthr_pool</a></li>
-    <li class="footer">Generated on Fri Nov 27 2015 17:59:27 for Libevhtp by
+    <li class="footer">Generated on Sat Nov 28 2015 03:40:29 for Libevhtp by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

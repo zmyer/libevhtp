@@ -47,7 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+      <li><a href="globals.html"><span>Globals</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -104,6 +104,7 @@ $(document).ready(function(){initNavTree('thread__design_8c.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">thread_design.c File Reference</div>  </div>
@@ -129,6 +130,13 @@ Include dependency graph for thread_design.c:</div>
 </map>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structapp__parent.html">app_parent</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structapp.html">app</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a93ac29e74eec0391d7697393e98e710a"><td class="memItemLeft" align="right" valign="top">static evthr_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="thread__design_8c.html#a93ac29e74eec0391d7697393e98e710a">get_request_thr</a> (evhtp_request_t *request)</td></tr>
@@ -531,13 +539,13 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="evhtp_8c.html#ad90238a469b4289cf16c2aacc4763d4c">evhtp_request_get_connection()</a>, <a class="el" href="evhtp_8c.html#ab35aec3adb697918e24b8ff966afe235">evhtp_request_pause()</a>, <a class="el" href="evthr_8c.html#a15c9c2860107ab242683af481b7b8164">evthr_get_aux()</a>, <a class="el" href="thread__design_8c.html#a93ac29e74eec0391d7697393e98e710a">get_request_thr()</a>, <a class="el" href="thread__design_8c.html#a7f594f6b4acdbd916912fe04c3c9969c">redis_get_srcport_cb()</a>, <a class="el" href="thread__design_8c.html#a2f935a1dc83d38794ae77dda33027f7f">redis_global_incr_cb()</a>, <a class="el" href="thread__design_8c.html#a144b94610bf92c6e0d449a558b088b6a">redis_set_srcport_cb()</a>, and <a class="el" href="thread__design_8c.html#aaa741fae8d16dba83749ec33bd9091a9">redis_srcaddr_incr_cb()</a>.</p>
+<p>References <a class="el" href="evhtp_8c.html#ad90238a469b4289cf16c2aacc4763d4c">evhtp_request_get_connection()</a>, <a class="el" href="evhtp_8c.html#ab35aec3adb697918e24b8ff966afe235">evhtp_request_pause()</a>, <a class="el" href="evthr_8c.html#a15c9c2860107ab242683af481b7b8164">evthr_get_aux()</a>, <a class="el" href="thread__design_8c.html#a93ac29e74eec0391d7697393e98e710a">get_request_thr()</a>, <a class="el" href="structapp.html#a3c94b39b9031529c72dc95f644afe68c">app::redis</a>, <a class="el" href="thread__design_8c.html#a7f594f6b4acdbd916912fe04c3c9969c">redis_get_srcport_cb()</a>, <a class="el" href="thread__design_8c.html#a2f935a1dc83d38794ae77dda33027f7f">redis_global_incr_cb()</a>, <a class="el" href="thread__design_8c.html#a144b94610bf92c6e0d449a558b088b6a">redis_set_srcport_cb()</a>, and <a class="el" href="thread__design_8c.html#aaa741fae8d16dba83749ec33bd9091a9">redis_srcaddr_incr_cb()</a>.</p>
 
 <p>Referenced by <a class="el" href="thread__design_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;                                                           {</div>
 <div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="keyword">struct </span>sockaddr_in * sin;</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <span class="keyword">struct </span>app_parent  * app_parent;</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <span class="keyword">struct </span>app         * app;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <span class="keyword">struct </span><a class="code" href="structapp__parent.html">app_parent</a>  * <a class="code" href="structapp__parent.html">app_parent</a>;</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <span class="keyword">struct </span><a class="code" href="structapp.html">app</a>         * <a class="code" href="structapp.html">app</a>;</div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    evthr_t            * thread;</div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    evhtp_connection_t * conn;</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <span class="keywordtype">char</span>                 tmp[1024];</div>
@@ -552,29 +560,32 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    evutil_inet_ntop(AF_INET, &amp;sin-&gt;sin_addr, tmp, <span class="keyword">sizeof</span>(tmp));</div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;</div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="comment">/* increment a global counter of hits on redis */</span></div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    redisAsyncCommand(app-&gt;redis, <a class="code" href="thread__design_8c.html#a2f935a1dc83d38794ae77dda33027f7f">redis_global_incr_cb</a>,</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    redisAsyncCommand(app-&gt;<a class="code" href="structapp.html#a3c94b39b9031529c72dc95f644afe68c">redis</a>, <a class="code" href="thread__design_8c.html#a2f935a1dc83d38794ae77dda33027f7f">redis_global_incr_cb</a>,</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                      (<span class="keywordtype">void</span> *)request, <span class="stringliteral">&quot;INCR requests:total&quot;</span>);</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;</div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    <span class="comment">/* increment a counter for hits from this source address on redis */</span></div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    redisAsyncCommand(app-&gt;redis, <a class="code" href="thread__design_8c.html#aaa741fae8d16dba83749ec33bd9091a9">redis_srcaddr_incr_cb</a>,</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    redisAsyncCommand(app-&gt;<a class="code" href="structapp.html#a3c94b39b9031529c72dc95f644afe68c">redis</a>, <a class="code" href="thread__design_8c.html#aaa741fae8d16dba83749ec33bd9091a9">redis_srcaddr_incr_cb</a>,</div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                      (<span class="keywordtype">void</span> *)request, <span class="stringliteral">&quot;INCR requests:ip:%s&quot;</span>, tmp);</div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <span class="comment">/* add the source port of this request to a source-specific set */</span></div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    redisAsyncCommand(app-&gt;redis, <a class="code" href="thread__design_8c.html#a144b94610bf92c6e0d449a558b088b6a">redis_set_srcport_cb</a>, (<span class="keywordtype">void</span> *)request,</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    redisAsyncCommand(app-&gt;<a class="code" href="structapp.html#a3c94b39b9031529c72dc95f644afe68c">redis</a>, <a class="code" href="thread__design_8c.html#a144b94610bf92c6e0d449a558b088b6a">redis_set_srcport_cb</a>, (<span class="keywordtype">void</span> *)request,</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                      <span class="stringliteral">&quot;SADD requests:ip:%s:ports %d&quot;</span>, tmp, ntohs(sin-&gt;sin_port));</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <span class="comment">/* get all of the ports this source address has used */</span></div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    redisAsyncCommand(app-&gt;redis, <a class="code" href="thread__design_8c.html#a7f594f6b4acdbd916912fe04c3c9969c">redis_get_srcport_cb</a>, (<span class="keywordtype">void</span> *)request,</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    redisAsyncCommand(app-&gt;<a class="code" href="structapp.html#a3c94b39b9031529c72dc95f644afe68c">redis</a>, <a class="code" href="thread__design_8c.html#a7f594f6b4acdbd916912fe04c3c9969c">redis_get_srcport_cb</a>, (<span class="keywordtype">void</span> *)request,</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                      <span class="stringliteral">&quot;SMEMBERS requests:ip:%s:ports&quot;</span>, tmp);</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="comment">/* pause the request processing */</span></div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <a class="code" href="evhtp_8c.html#ab35aec3adb697918e24b8ff966afe235">evhtp_request_pause</a>(request);</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;}</div>
 <div class="ttc" id="thread__design_8c_html_a144b94610bf92c6e0d449a558b088b6a"><div class="ttname"><a href="thread__design_8c.html#a144b94610bf92c6e0d449a558b088b6a">redis_set_srcport_cb</a></div><div class="ttdeci">void redis_set_srcport_cb(redisAsyncContext *redis, void *redis_reply, void *arg)</div><div class="ttdef"><b>Definition:</b> thread_design.c:161</div></div>
+<div class="ttc" id="structapp_html_a3c94b39b9031529c72dc95f644afe68c"><div class="ttname"><a href="structapp.html#a3c94b39b9031529c72dc95f644afe68c">app::redis</a></div><div class="ttdeci">redisAsyncContext * redis</div><div class="ttdef"><b>Definition:</b> thread_design.c:112</div></div>
 <div class="ttc" id="evhtp_8c_html_ab35aec3adb697918e24b8ff966afe235"><div class="ttname"><a href="evhtp_8c.html#ab35aec3adb697918e24b8ff966afe235">evhtp_request_pause</a></div><div class="ttdeci">void evhtp_request_pause(evhtp_request_t *request)</div><div class="ttdoc">Wrapper around evhtp_connection_pause. </div><div class="ttdef"><b>Definition:</b> evhtp.c:2387</div></div>
 <div class="ttc" id="evhtp_8c_html_ad90238a469b4289cf16c2aacc4763d4c"><div class="ttname"><a href="evhtp_8c.html#ad90238a469b4289cf16c2aacc4763d4c">evhtp_request_get_connection</a></div><div class="ttdeci">evhtp_connection_t * evhtp_request_get_connection(evhtp_request_t *request)</div><div class="ttdoc">returns the underlying evhtp_connection_t structure from a request </div><div class="ttdef"><b>Definition:</b> evhtp.c:4023</div></div>
 <div class="ttc" id="thread__design_8c_html_a7f594f6b4acdbd916912fe04c3c9969c"><div class="ttname"><a href="thread__design_8c.html#a7f594f6b4acdbd916912fe04c3c9969c">redis_get_srcport_cb</a></div><div class="ttdeci">void redis_get_srcport_cb(redisAsyncContext *redis, void *redis_reply, void *arg)</div><div class="ttdef"><b>Definition:</b> thread_design.c:183</div></div>
 <div class="ttc" id="evthr_8c_html_a15c9c2860107ab242683af481b7b8164"><div class="ttname"><a href="evthr_8c.html#a15c9c2860107ab242683af481b7b8164">evthr_get_aux</a></div><div class="ttdeci">void * evthr_get_aux(evthr_t *thr)</div><div class="ttdef"><b>Definition:</b> evthr.c:186</div></div>
+<div class="ttc" id="structapp__parent_html"><div class="ttname"><a href="structapp__parent.html">app_parent</a></div><div class="ttdef"><b>Definition:</b> thread_design.c:102</div></div>
+<div class="ttc" id="structapp_html"><div class="ttname"><a href="structapp.html">app</a></div><div class="ttdef"><b>Definition:</b> thread_design.c:109</div></div>
 <div class="ttc" id="thread__design_8c_html_aaa741fae8d16dba83749ec33bd9091a9"><div class="ttname"><a href="thread__design_8c.html#aaa741fae8d16dba83749ec33bd9091a9">redis_srcaddr_incr_cb</a></div><div class="ttdeci">void redis_srcaddr_incr_cb(redisAsyncContext *redis, void *redis_reply, void *arg)</div><div class="ttdef"><b>Definition:</b> thread_design.c:144</div></div>
 <div class="ttc" id="thread__design_8c_html_a93ac29e74eec0391d7697393e98e710a"><div class="ttname"><a href="thread__design_8c.html#a93ac29e74eec0391d7697393e98e710a">get_request_thr</a></div><div class="ttdeci">static evthr_t * get_request_thr(evhtp_request_t *request)</div><div class="ttdef"><b>Definition:</b> thread_design.c:116</div></div>
 <div class="ttc" id="thread__design_8c_html_a2f935a1dc83d38794ae77dda33027f7f"><div class="ttname"><a href="thread__design_8c.html#a2f935a1dc83d38794ae77dda33027f7f">redis_global_incr_cb</a></div><div class="ttdeci">void redis_global_incr_cb(redisAsyncContext *redis, void *redis_reply, void *arg)</div><div class="ttdef"><b>Definition:</b> thread_design.c:127</div></div>
@@ -665,26 +676,33 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="evthr_8c.html#a46dff6afc6d6722688fd09c74add2ddd">evthr_get_base()</a>, and <a class="el" href="evthr_8c.html#a11ac55f7b6aa964581d18d36efb8dc76">evthr_set_aux()</a>.</p>
+<p>References <a class="el" href="structapp.html#aa370ebb09dde24763fa5344c0456cfdd">app::evbase</a>, <a class="el" href="evthr_8c.html#a46dff6afc6d6722688fd09c74add2ddd">evthr_get_base()</a>, <a class="el" href="evthr_8c.html#a11ac55f7b6aa964581d18d36efb8dc76">evthr_set_aux()</a>, <a class="el" href="structapp.html#aefa62c5f176e89ca4a5691651c699eaa">app::parent</a>, <a class="el" href="structapp.html#a3c94b39b9031529c72dc95f644afe68c">app::redis</a>, <a class="el" href="structapp__parent.html#a3ca4646a570b9173b6b2721c552b0d51">app_parent::redis_host</a>, and <a class="el" href="structapp__parent.html#ac80a740b507cce37556e4532baf2fa8b">app_parent::redis_port</a>.</p>
 
 <p>Referenced by <a class="el" href="thread__design_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;                                                             {</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keyword">struct </span>app_parent * app_parent;</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <span class="keyword">struct </span>app        * app;</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keyword">struct </span><a class="code" href="structapp__parent.html">app_parent</a> * <a class="code" href="structapp__parent.html">app_parent</a>;</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <span class="keyword">struct </span><a class="code" href="structapp.html">app</a>        * <a class="code" href="structapp.html">app</a>;</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    app_parent  = (<span class="keyword">struct </span>app_parent *)arg;</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    app         = calloc(<span class="keyword">sizeof</span>(<span class="keyword">struct</span> app), 1);</div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    app-&gt;parent = app_parent;</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    app-&gt;evbase = <a class="code" href="evthr_8c.html#a46dff6afc6d6722688fd09c74add2ddd">evthr_get_base</a>(thread);</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    app-&gt;redis  = redisAsyncConnect(app_parent-&gt;redis_host, app_parent-&gt;redis_port);</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    app-&gt;<a class="code" href="structapp.html#aefa62c5f176e89ca4a5691651c699eaa">parent</a> = app_parent;</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    app-&gt;<a class="code" href="structapp.html#aa370ebb09dde24763fa5344c0456cfdd">evbase</a> = <a class="code" href="evthr_8c.html#a46dff6afc6d6722688fd09c74add2ddd">evthr_get_base</a>(thread);</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    app-&gt;<a class="code" href="structapp.html#a3c94b39b9031529c72dc95f644afe68c">redis</a>  = redisAsyncConnect(app_parent-&gt;<a class="code" href="structapp__parent.html#a3ca4646a570b9173b6b2721c552b0d51">redis_host</a>, app_parent-&gt;<a class="code" href="structapp__parent.html#ac80a740b507cce37556e4532baf2fa8b">redis_port</a>);</div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    redisLibeventAttach(app-&gt;redis, app-&gt;evbase);</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    redisLibeventAttach(app-&gt;<a class="code" href="structapp.html#a3c94b39b9031529c72dc95f644afe68c">redis</a>, app-&gt;<a class="code" href="structapp.html#aa370ebb09dde24763fa5344c0456cfdd">evbase</a>);</div>
 <div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;</div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    <a class="code" href="evthr_8c.html#a11ac55f7b6aa964581d18d36efb8dc76">evthr_set_aux</a>(thread, app);</div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;}</div>
 <div class="ttc" id="evthr_8c_html_a11ac55f7b6aa964581d18d36efb8dc76"><div class="ttname"><a href="evthr_8c.html#a11ac55f7b6aa964581d18d36efb8dc76">evthr_set_aux</a></div><div class="ttdeci">void evthr_set_aux(evthr_t *thr, void *aux)</div><div class="ttdef"><b>Definition:</b> evthr.c:179</div></div>
+<div class="ttc" id="structapp_html_a3c94b39b9031529c72dc95f644afe68c"><div class="ttname"><a href="structapp.html#a3c94b39b9031529c72dc95f644afe68c">app::redis</a></div><div class="ttdeci">redisAsyncContext * redis</div><div class="ttdef"><b>Definition:</b> thread_design.c:112</div></div>
+<div class="ttc" id="structapp__parent_html_ac80a740b507cce37556e4532baf2fa8b"><div class="ttname"><a href="structapp__parent.html#ac80a740b507cce37556e4532baf2fa8b">app_parent::redis_port</a></div><div class="ttdeci">uint16_t redis_port</div><div class="ttdef"><b>Definition:</b> thread_design.c:106</div></div>
+<div class="ttc" id="structapp__parent_html_a3ca4646a570b9173b6b2721c552b0d51"><div class="ttname"><a href="structapp__parent.html#a3ca4646a570b9173b6b2721c552b0d51">app_parent::redis_host</a></div><div class="ttdeci">char * redis_host</div><div class="ttdef"><b>Definition:</b> thread_design.c:105</div></div>
+<div class="ttc" id="structapp__parent_html"><div class="ttname"><a href="structapp__parent.html">app_parent</a></div><div class="ttdef"><b>Definition:</b> thread_design.c:102</div></div>
 <div class="ttc" id="evthr_8c_html_a46dff6afc6d6722688fd09c74add2ddd"><div class="ttname"><a href="evthr_8c.html#a46dff6afc6d6722688fd09c74add2ddd">evthr_get_base</a></div><div class="ttdeci">evbase_t * evthr_get_base(evthr_t *thr)</div><div class="ttdef"><b>Definition:</b> evthr.c:174</div></div>
+<div class="ttc" id="structapp_html_aefa62c5f176e89ca4a5691651c699eaa"><div class="ttname"><a href="structapp.html#aefa62c5f176e89ca4a5691651c699eaa">app::parent</a></div><div class="ttdeci">struct app_parent * parent</div><div class="ttdef"><b>Definition:</b> thread_design.c:110</div></div>
+<div class="ttc" id="structapp_html"><div class="ttname"><a href="structapp.html">app</a></div><div class="ttdef"><b>Definition:</b> thread_design.c:109</div></div>
+<div class="ttc" id="structapp_html_aa370ebb09dde24763fa5344c0456cfdd"><div class="ttname"><a href="structapp.html#aa370ebb09dde24763fa5344c0456cfdd">app::evbase</a></div><div class="ttdeci">evbase_t * evbase</div><div class="ttdef"><b>Definition:</b> thread_design.c:111</div></div>
 </div><!-- fragment -->
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -733,20 +751,20 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="thread__design_8c.html#a7850b605551f990f0887eba05a2b09a6">app_init_thread()</a>, <a class="el" href="thread__design_8c.html#aa88a386872b2e9ed3cdf2d099d20b22d">app_process_request()</a>, <a class="el" href="evhtp_8c.html#a25b40b813f8a36cc383915b6ed3ec0ce">evhtp_bind_socket()</a>, <a class="el" href="evhtp_8c.html#a97bbe491064943a8d5e0d3e7a937209b">evhtp_new()</a>, <a class="el" href="evhtp_8c.html#a39a5c7910a382f902c896b25854b742d">evhtp_set_gencb()</a>, and <a class="el" href="evhtp_8c.html#abadb1db7b98cd01c9856ebe55efe77b3">evhtp_use_threads()</a>.</p>
+<p>References <a class="el" href="thread__design_8c.html#a7850b605551f990f0887eba05a2b09a6">app_init_thread()</a>, <a class="el" href="thread__design_8c.html#aa88a386872b2e9ed3cdf2d099d20b22d">app_process_request()</a>, <a class="el" href="structapp__parent.html#a87dfc155746438a3b5a757cfd30779bf">app_parent::evbase</a>, <a class="el" href="structapp__parent.html#a5530f720ffb1c13ea0137e71c1e4bf9f">app_parent::evhtp</a>, <a class="el" href="evhtp_8c.html#a25b40b813f8a36cc383915b6ed3ec0ce">evhtp_bind_socket()</a>, <a class="el" href="evhtp_8c.html#a97bbe491064943a8d5e0d3e7a937209b">evhtp_new()</a>, <a class="el" href="evhtp_8c.html#a39a5c7910a382f902c896b25854b742d">evhtp_set_gencb()</a>, <a class="el" href="evhtp_8c.html#abadb1db7b98cd01c9856ebe55efe77b3">evhtp_use_threads()</a>, <a class="el" href="structapp__parent.html#a3ca4646a570b9173b6b2721c552b0d51">app_parent::redis_host</a>, and <a class="el" href="structapp__parent.html#ac80a740b507cce37556e4532baf2fa8b">app_parent::redis_port</a>.</p>
 <div class="fragment"><div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;                             {</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    <a class="code" href="evthr_8h.html#ac1a9bb265b995e58237889446894e944">evbase_t</a>          * evbase;</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    evhtp_t           * evhtp;</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    <span class="keyword">struct </span>app_parent * app_p;</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    <a class="code" href="evthr_8h.html#ac1a9bb265b995e58237889446894e944">evbase_t</a>          * <a class="code" href="structapp__parent.html#a87dfc155746438a3b5a757cfd30779bf">evbase</a>;</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    evhtp_t           * <a class="code" href="structapp__parent.html#a5530f720ffb1c13ea0137e71c1e4bf9f">evhtp</a>;</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    <span class="keyword">struct </span><a class="code" href="structapp__parent.html">app_parent</a> * app_p;</div>
 <div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;</div>
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    evbase            = event_base_new();</div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    evhtp             = <a class="code" href="evhtp_8c.html#a97bbe491064943a8d5e0d3e7a937209b">evhtp_new</a>(evbase, NULL);</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    app_p             = calloc(<span class="keyword">sizeof</span>(<span class="keyword">struct</span> app_parent), 1);</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    app_p             = calloc(<span class="keyword">sizeof</span>(<span class="keyword">struct</span> <a class="code" href="structapp__parent.html">app_parent</a>), 1);</div>
 <div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    app_p-&gt;evhtp      = evhtp;</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    app_p-&gt;evbase     = evbase;</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    app_p-&gt;redis_host = <span class="stringliteral">&quot;127.0.0.1&quot;</span>;</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    app_p-&gt;redis_port = 6379;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    app_p-&gt;<a class="code" href="structapp__parent.html#a5530f720ffb1c13ea0137e71c1e4bf9f">evhtp</a>      = <a class="code" href="structapp__parent.html#a5530f720ffb1c13ea0137e71c1e4bf9f">evhtp</a>;</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    app_p-&gt;<a class="code" href="structapp__parent.html#a87dfc155746438a3b5a757cfd30779bf">evbase</a>     = <a class="code" href="structapp__parent.html#a87dfc155746438a3b5a757cfd30779bf">evbase</a>;</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    app_p-&gt;<a class="code" href="structapp__parent.html#a3ca4646a570b9173b6b2721c552b0d51">redis_host</a> = <span class="stringliteral">&quot;127.0.0.1&quot;</span>;</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    app_p-&gt;<a class="code" href="structapp__parent.html#ac80a740b507cce37556e4532baf2fa8b">redis_port</a> = 6379;</div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;</div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    <a class="code" href="evhtp_8c.html#a39a5c7910a382f902c896b25854b742d">evhtp_set_gencb</a>(evhtp, <a class="code" href="thread__design_8c.html#aa88a386872b2e9ed3cdf2d099d20b22d">app_process_request</a>, NULL);</div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    <a class="code" href="evhtp_8c.html#abadb1db7b98cd01c9856ebe55efe77b3">evhtp_use_threads</a>(evhtp, <a class="code" href="thread__design_8c.html#a7850b605551f990f0887eba05a2b09a6">app_init_thread</a>, 4, app_p);</div>
@@ -761,7 +779,12 @@ Here is the caller graph for this function:</div>
 <div class="ttc" id="thread__design_8c_html_a7850b605551f990f0887eba05a2b09a6"><div class="ttname"><a href="thread__design_8c.html#a7850b605551f990f0887eba05a2b09a6">app_init_thread</a></div><div class="ttdeci">void app_init_thread(evhtp_t *htp, evthr_t *thread, void *arg)</div><div class="ttdef"><b>Definition:</b> thread_design.c:251</div></div>
 <div class="ttc" id="evthr_8h_html_ac1a9bb265b995e58237889446894e944"><div class="ttname"><a href="evthr_8h.html#ac1a9bb265b995e58237889446894e944">evbase_t</a></div><div class="ttdeci">struct event_base evbase_t</div><div class="ttdef"><b>Definition:</b> evthr.h:23</div></div>
 <div class="ttc" id="thread__design_8c_html_aa88a386872b2e9ed3cdf2d099d20b22d"><div class="ttname"><a href="thread__design_8c.html#aa88a386872b2e9ed3cdf2d099d20b22d">app_process_request</a></div><div class="ttdeci">void app_process_request(evhtp_request_t *request, void *arg)</div><div class="ttdef"><b>Definition:</b> thread_design.c:213</div></div>
+<div class="ttc" id="structapp__parent_html_ac80a740b507cce37556e4532baf2fa8b"><div class="ttname"><a href="structapp__parent.html#ac80a740b507cce37556e4532baf2fa8b">app_parent::redis_port</a></div><div class="ttdeci">uint16_t redis_port</div><div class="ttdef"><b>Definition:</b> thread_design.c:106</div></div>
+<div class="ttc" id="structapp__parent_html_a5530f720ffb1c13ea0137e71c1e4bf9f"><div class="ttname"><a href="structapp__parent.html#a5530f720ffb1c13ea0137e71c1e4bf9f">app_parent::evhtp</a></div><div class="ttdeci">evhtp_t * evhtp</div><div class="ttdef"><b>Definition:</b> thread_design.c:103</div></div>
 <div class="ttc" id="evhtp_8c_html_a39a5c7910a382f902c896b25854b742d"><div class="ttname"><a href="evhtp_8c.html#a39a5c7910a382f902c896b25854b742d">evhtp_set_gencb</a></div><div class="ttdeci">void evhtp_set_gencb(evhtp_t *htp, evhtp_callback_cb cb, void *arg)</div><div class="ttdoc">sets a callback which is called if no other callbacks are matched </div><div class="ttdef"><b>Definition:</b> evhtp.c:3773</div></div>
+<div class="ttc" id="structapp__parent_html_a3ca4646a570b9173b6b2721c552b0d51"><div class="ttname"><a href="structapp__parent.html#a3ca4646a570b9173b6b2721c552b0d51">app_parent::redis_host</a></div><div class="ttdeci">char * redis_host</div><div class="ttdef"><b>Definition:</b> thread_design.c:105</div></div>
+<div class="ttc" id="structapp__parent_html"><div class="ttname"><a href="structapp__parent.html">app_parent</a></div><div class="ttdef"><b>Definition:</b> thread_design.c:102</div></div>
+<div class="ttc" id="structapp__parent_html_a87dfc155746438a3b5a757cfd30779bf"><div class="ttname"><a href="structapp__parent.html#a87dfc155746438a3b5a757cfd30779bf">app_parent::evbase</a></div><div class="ttdeci">evbase_t * evbase</div><div class="ttdef"><b>Definition:</b> thread_design.c:104</div></div>
 <div class="ttc" id="evhtp_8c_html_a97bbe491064943a8d5e0d3e7a937209b"><div class="ttname"><a href="evhtp_8c.html#a97bbe491064943a8d5e0d3e7a937209b">evhtp_new</a></div><div class="ttdeci">evhtp_t * evhtp_new(evbase_t *evbase, void *arg)</div><div class="ttdoc">creates a new evhtp_t instance </div><div class="ttdef"><b>Definition:</b> evhtp.c:4212</div></div>
 </div><!-- fragment -->
 <p><div class="dynheader">
@@ -872,7 +895,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="thread__design_8c.html">thread_design.c</a></li>
-    <li class="footer">Generated on Fri Nov 27 2015 21:18:31 for Libevhtp by
+    <li class="footer">Generated on Sat Nov 28 2015 03:40:29 for Libevhtp by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

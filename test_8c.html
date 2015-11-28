@@ -47,7 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+      <li><a href="globals.html"><span>Globals</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -104,6 +104,7 @@ $(document).ready(function(){initNavTree('test_8c.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
@@ -135,6 +136,11 @@ Include dependency graph for test.c:</div>
 </map>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpauser.html">pauser</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a6021bc0fdaf51a10bbb813ca01916a92"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="test_8c.html#a6021bc0fdaf51a10bbb813ca01916a92">OPENSSL_THREAD_DEFINES</a></td></tr>
@@ -300,18 +306,21 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="evhtp_8c.html#a3f537cfe43afe795f575e4080d8a4f69">evhtp_request_resume()</a>.</p>
+<p>References <a class="el" href="evhtp_8c.html#a3f537cfe43afe795f575e4080d8a4f69">evhtp_request_resume()</a>, <a class="el" href="structpauser.html#a4835db9003e04fd114e1d6647cf0e384">pauser::request</a>, and <a class="el" href="structpauser.html#a0c12cdf9eee457a4700f7711d7df335d">pauser::timer_ev</a>.</p>
 
 <p>Referenced by <a class="el" href="test_8c.html#aa89f9eb0aba3f81282340f2362515eb8">pause_init_cb()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                                                                    {</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">struct </span>pauser * pause = (<span class="keyword">struct </span>pauser *)arg;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">struct </span><a class="code" href="structpauser.html">pauser</a> * pause = (<span class="keyword">struct </span><a class="code" href="structpauser.html">pauser</a> *)arg;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    printf(<span class="stringliteral">&quot;resume_request_timer(%p) timer_ev = %p\n&quot;</span>, pause-&gt;request-&gt;conn, pause-&gt;timer_ev);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    printf(<span class="stringliteral">&quot;resume_request_timer(%p) timer_ev = %p\n&quot;</span>, pause-&gt;<a class="code" href="structpauser.html#a4835db9003e04fd114e1d6647cf0e384">request</a>-&gt;conn, pause-&gt;<a class="code" href="structpauser.html#a0c12cdf9eee457a4700f7711d7df335d">timer_ev</a>);</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    fflush(stdout);</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="evhtp_8c.html#a3f537cfe43afe795f575e4080d8a4f69">evhtp_request_resume</a>(pause-&gt;request);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="evhtp_8c.html#a3f537cfe43afe795f575e4080d8a4f69">evhtp_request_resume</a>(pause-&gt;<a class="code" href="structpauser.html#a4835db9003e04fd114e1d6647cf0e384">request</a>);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
+<div class="ttc" id="structpauser_html_a0c12cdf9eee457a4700f7711d7df335d"><div class="ttname"><a href="structpauser.html#a0c12cdf9eee457a4700f7711d7df335d">pauser::timer_ev</a></div><div class="ttdeci">event_t * timer_ev</div><div class="ttdef"><b>Definition:</b> test.c:30</div></div>
 <div class="ttc" id="evhtp_8c_html_a3f537cfe43afe795f575e4080d8a4f69"><div class="ttname"><a href="evhtp_8c.html#a3f537cfe43afe795f575e4080d8a4f69">evhtp_request_resume</a></div><div class="ttdeci">void evhtp_request_resume(evhtp_request_t *request)</div><div class="ttdoc">Wrapper around evhtp_connection_resume. </div><div class="ttdef"><b>Definition:</b> evhtp.c:2402</div></div>
+<div class="ttc" id="structpauser_html_a4835db9003e04fd114e1d6647cf0e384"><div class="ttname"><a href="structpauser.html#a4835db9003e04fd114e1d6647cf0e384">pauser::request</a></div><div class="ttdeci">evhtp_request_t * request</div><div class="ttdef"><b>Definition:</b> test.c:31</div></div>
+<div class="ttc" id="structpauser_html"><div class="ttname"><a href="structpauser.html">pauser</a></div><div class="ttdef"><b>Definition:</b> test.c:29</div></div>
 </div><!-- fragment -->
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -375,31 +384,35 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="evhtp_8h.html#ab4f1c1b0d77da95865ab9fd2701c0c9a">EVHTP_RES_PAUSE</a>.</p>
+<p>References <a class="el" href="evhtp_8h.html#ab4f1c1b0d77da95865ab9fd2701c0c9a">EVHTP_RES_PAUSE</a>, <a class="el" href="structpauser.html#a0c12cdf9eee457a4700f7711d7df335d">pauser::timer_ev</a>, and <a class="el" href="structpauser.html#aac2b7e2bc955d56fc53096d37dda07c7">pauser::tv</a>.</p>
 
 <p>Referenced by <a class="el" href="test_8c.html#aa89f9eb0aba3f81282340f2362515eb8">pause_init_cb()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                                                                         {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keyword">struct </span>pauser * pause = (<span class="keyword">struct </span>pauser *)arg;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keyword">struct </span><a class="code" href="structpauser.html">pauser</a> * pause = (<span class="keyword">struct </span><a class="code" href="structpauser.html">pauser</a> *)arg;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">int</span>             s     = rand() % 1000000;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    printf(<span class="stringliteral">&quot;pause_cb(%p) pause == %p, timer_ev = %p\n&quot;</span>,</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;           request-&gt;conn, pause, pause-&gt;timer_ev);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    printf(<span class="stringliteral">&quot;pause_cb(%p) k=%s, v=%s timer_ev = %p\n&quot;</span>, request-&gt;conn,</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;           header-&gt;key, header-&gt;val, pause-&gt;timer_ev);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;           <a class="code" href="structpauser.html#a4835db9003e04fd114e1d6647cf0e384">request</a>-&gt;conn, pause, pause-&gt;<a class="code" href="structpauser.html#a0c12cdf9eee457a4700f7711d7df335d">timer_ev</a>);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    printf(<span class="stringliteral">&quot;pause_cb(%p) k=%s, v=%s timer_ev = %p\n&quot;</span>, <a class="code" href="structpauser.html#a4835db9003e04fd114e1d6647cf0e384">request</a>-&gt;conn,</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;           header-&gt;key, header-&gt;val, pause-&gt;<a class="code" href="structpauser.html#a0c12cdf9eee457a4700f7711d7df335d">timer_ev</a>);</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    printf(<span class="stringliteral">&quot;pause_cb(%p) setting to %ld usec sleep timer_ev = %p\n&quot;</span>,</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;           request-&gt;conn, (<span class="keywordtype">long</span> <span class="keywordtype">int</span>)s, pause-&gt;timer_ev);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;           <a class="code" href="structpauser.html#a4835db9003e04fd114e1d6647cf0e384">request</a>-&gt;conn, (<span class="keywordtype">long</span> <span class="keywordtype">int</span>)s, pause-&gt;<a class="code" href="structpauser.html#a0c12cdf9eee457a4700f7711d7df335d">timer_ev</a>);</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    pause-&gt;tv-&gt;tv_sec  = 0;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    pause-&gt;tv-&gt;tv_usec = s;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    pause-&gt;<a class="code" href="structpauser.html#aac2b7e2bc955d56fc53096d37dda07c7">tv</a>-&gt;tv_sec  = 0;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    pause-&gt;<a class="code" href="structpauser.html#aac2b7e2bc955d56fc53096d37dda07c7">tv</a>-&gt;tv_usec = s;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">if</span> (evtimer_pending(pause-&gt;timer_ev, NULL)) {</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        evtimer_del(pause-&gt;timer_ev);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">if</span> (evtimer_pending(pause-&gt;<a class="code" href="structpauser.html#a0c12cdf9eee457a4700f7711d7df335d">timer_ev</a>, NULL)) {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        evtimer_del(pause-&gt;<a class="code" href="structpauser.html#a0c12cdf9eee457a4700f7711d7df335d">timer_ev</a>);</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    evtimer_add(pause-&gt;timer_ev, pause-&gt;tv);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    evtimer_add(pause-&gt;<a class="code" href="structpauser.html#a0c12cdf9eee457a4700f7711d7df335d">timer_ev</a>, pause-&gt;<a class="code" href="structpauser.html#aac2b7e2bc955d56fc53096d37dda07c7">tv</a>);</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="evhtp_8h.html#ab4f1c1b0d77da95865ab9fd2701c0c9a">EVHTP_RES_PAUSE</a>;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
+<div class="ttc" id="structpauser_html_a0c12cdf9eee457a4700f7711d7df335d"><div class="ttname"><a href="structpauser.html#a0c12cdf9eee457a4700f7711d7df335d">pauser::timer_ev</a></div><div class="ttdeci">event_t * timer_ev</div><div class="ttdef"><b>Definition:</b> test.c:30</div></div>
+<div class="ttc" id="structpauser_html_a4835db9003e04fd114e1d6647cf0e384"><div class="ttname"><a href="structpauser.html#a4835db9003e04fd114e1d6647cf0e384">pauser::request</a></div><div class="ttdeci">evhtp_request_t * request</div><div class="ttdef"><b>Definition:</b> test.c:31</div></div>
+<div class="ttc" id="structpauser_html_aac2b7e2bc955d56fc53096d37dda07c7"><div class="ttname"><a href="structpauser.html#aac2b7e2bc955d56fc53096d37dda07c7">pauser::tv</a></div><div class="ttdeci">struct timeval * tv</div><div class="ttdef"><b>Definition:</b> test.c:32</div></div>
+<div class="ttc" id="structpauser_html"><div class="ttname"><a href="structpauser.html">pauser</a></div><div class="ttdef"><b>Definition:</b> test.c:29</div></div>
 <div class="ttc" id="evhtp_8h_html_ab4f1c1b0d77da95865ab9fd2701c0c9a"><div class="ttname"><a href="evhtp_8h.html#ab4f1c1b0d77da95865ab9fd2701c0c9a">EVHTP_RES_PAUSE</a></div><div class="ttdeci">#define EVHTP_RES_PAUSE</div><div class="ttdef"><b>Definition:</b> evhtp.h:209</div></div>
 </div><!-- fragment -->
 <p><div class="dynheader">
@@ -502,21 +515,25 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="evhtp_8h.html#a137a73d703e70ec04a807668a5d523da">EVHTP_RES_OK</a>.</p>
+<p>References <a class="el" href="evhtp_8h.html#a137a73d703e70ec04a807668a5d523da">EVHTP_RES_OK</a>, <a class="el" href="structpauser.html#a0c12cdf9eee457a4700f7711d7df335d">pauser::timer_ev</a>, and <a class="el" href="structpauser.html#aac2b7e2bc955d56fc53096d37dda07c7">pauser::tv</a>.</p>
 
 <p>Referenced by <a class="el" href="test_8c.html#aa89f9eb0aba3f81282340f2362515eb8">pause_init_cb()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                                                          {</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keyword">struct </span>pauser * pause = (<span class="keyword">struct </span>pauser *)arg;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keyword">struct </span><a class="code" href="structpauser.html">pauser</a> * pause = (<span class="keyword">struct </span><a class="code" href="structpauser.html">pauser</a> *)arg;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    printf(<span class="stringliteral">&quot;pause_request_fini() req=%p, c=%p\n&quot;</span>, request, request-&gt;conn);</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    event_free(pause-&gt;timer_ev);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    printf(<span class="stringliteral">&quot;pause_request_fini() req=%p, c=%p\n&quot;</span>, <a class="code" href="structpauser.html#a4835db9003e04fd114e1d6647cf0e384">request</a>, <a class="code" href="structpauser.html#a4835db9003e04fd114e1d6647cf0e384">request</a>-&gt;conn);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    event_free(pause-&gt;<a class="code" href="structpauser.html#a0c12cdf9eee457a4700f7711d7df335d">timer_ev</a>);</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    free(pause-&gt;tv);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    free(pause-&gt;<a class="code" href="structpauser.html#aac2b7e2bc955d56fc53096d37dda07c7">tv</a>);</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    free(pause);</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="evhtp_8h.html#a137a73d703e70ec04a807668a5d523da">EVHTP_RES_OK</a>;</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;}</div>
+<div class="ttc" id="structpauser_html_a0c12cdf9eee457a4700f7711d7df335d"><div class="ttname"><a href="structpauser.html#a0c12cdf9eee457a4700f7711d7df335d">pauser::timer_ev</a></div><div class="ttdeci">event_t * timer_ev</div><div class="ttdef"><b>Definition:</b> test.c:30</div></div>
+<div class="ttc" id="structpauser_html_a4835db9003e04fd114e1d6647cf0e384"><div class="ttname"><a href="structpauser.html#a4835db9003e04fd114e1d6647cf0e384">pauser::request</a></div><div class="ttdeci">evhtp_request_t * request</div><div class="ttdef"><b>Definition:</b> test.c:31</div></div>
+<div class="ttc" id="structpauser_html_aac2b7e2bc955d56fc53096d37dda07c7"><div class="ttname"><a href="structpauser.html#aac2b7e2bc955d56fc53096d37dda07c7">pauser::tv</a></div><div class="ttdeci">struct timeval * tv</div><div class="ttdef"><b>Definition:</b> test.c:32</div></div>
 <div class="ttc" id="evhtp_8h_html_a137a73d703e70ec04a807668a5d523da"><div class="ttname"><a href="evhtp_8h.html#a137a73d703e70ec04a807668a5d523da">EVHTP_RES_OK</a></div><div class="ttdeci">#define EVHTP_RES_OK</div><div class="ttdef"><b>Definition:</b> evhtp.h:213</div></div>
+<div class="ttc" id="structpauser_html"><div class="ttname"><a href="structpauser.html">pauser</a></div><div class="ttdef"><b>Definition:</b> test.c:29</div></div>
 </div><!-- fragment -->
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -569,17 +586,17 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="evhtp_8h.html#a85ac11e4887a6ffac8f6d3c26d25d143ad462108a44b51cf21685e92d9b39e150">evhtp_hook_on_connection_fini</a>, <a class="el" href="evhtp_8h.html#a85ac11e4887a6ffac8f6d3c26d25d143a3722d9a701af7e65b856a5ebc176049c">evhtp_hook_on_header</a>, <a class="el" href="evhtp_8h.html#a85ac11e4887a6ffac8f6d3c26d25d143a6d8fb26ccc62b92b11c83206a7a6e1a4">evhtp_hook_on_request_fini</a>, <a class="el" href="evhtp_8h.html#a137a73d703e70ec04a807668a5d523da">EVHTP_RES_OK</a>, <a class="el" href="evhtp_8c.html#a30bc311c68a5c463d106766ab9250e0e">evhtp_set_hook()</a>, <a class="el" href="test_8c.html#a6437543229efe2878558b51600275be1">pause_cb()</a>, <a class="el" href="test_8c.html#a1ad3b1f51d0be67f4f61c4c7c0777f6b">pause_connection_fini()</a>, <a class="el" href="test_8c.html#adb9ff8deafba2fd84515374ce65d38dc">pause_request_fini()</a>, and <a class="el" href="test_8c.html#a25dc771db1a1e57d95323711defc3613">resume_request_timer()</a>.</p>
+<p>References <a class="el" href="evhtp_8h.html#a85ac11e4887a6ffac8f6d3c26d25d143ad462108a44b51cf21685e92d9b39e150">evhtp_hook_on_connection_fini</a>, <a class="el" href="evhtp_8h.html#a85ac11e4887a6ffac8f6d3c26d25d143a3722d9a701af7e65b856a5ebc176049c">evhtp_hook_on_header</a>, <a class="el" href="evhtp_8h.html#a85ac11e4887a6ffac8f6d3c26d25d143a6d8fb26ccc62b92b11c83206a7a6e1a4">evhtp_hook_on_request_fini</a>, <a class="el" href="evhtp_8h.html#a137a73d703e70ec04a807668a5d523da">EVHTP_RES_OK</a>, <a class="el" href="evhtp_8c.html#a30bc311c68a5c463d106766ab9250e0e">evhtp_set_hook()</a>, <a class="el" href="test_8c.html#a6437543229efe2878558b51600275be1">pause_cb()</a>, <a class="el" href="test_8c.html#a1ad3b1f51d0be67f4f61c4c7c0777f6b">pause_connection_fini()</a>, <a class="el" href="test_8c.html#adb9ff8deafba2fd84515374ce65d38dc">pause_request_fini()</a>, <a class="el" href="structpauser.html#a4835db9003e04fd114e1d6647cf0e384">pauser::request</a>, <a class="el" href="test_8c.html#a25dc771db1a1e57d95323711defc3613">resume_request_timer()</a>, <a class="el" href="structpauser.html#a0c12cdf9eee457a4700f7711d7df335d">pauser::timer_ev</a>, and <a class="el" href="structpauser.html#aac2b7e2bc955d56fc53096d37dda07c7">pauser::tv</a>.</p>
 
 <p>Referenced by <a class="el" href="test_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                                                                      {</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <a class="code" href="evthr_8h.html#ac1a9bb265b995e58237889446894e944">evbase_t</a>      * evbase = req-&gt;conn-&gt;evbase;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keyword">struct </span>pauser * pause  = calloc(<span class="keyword">sizeof</span>(<span class="keyword">struct</span> pauser), 1);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keyword">struct </span><a class="code" href="structpauser.html">pauser</a> * pause  = calloc(<span class="keyword">sizeof</span>(<span class="keyword">struct</span> <a class="code" href="structpauser.html">pauser</a>), 1);</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    pause-&gt;tv       = calloc(<span class="keyword">sizeof</span>(<span class="keyword">struct</span> timeval), 1);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    pause-&gt;<a class="code" href="structpauser.html#aac2b7e2bc955d56fc53096d37dda07c7">tv</a>       = calloc(<span class="keyword">sizeof</span>(<span class="keyword">struct</span> timeval), 1);</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    pause-&gt;timer_ev = evtimer_new(evbase, <a class="code" href="test_8c.html#a25dc771db1a1e57d95323711defc3613">resume_request_timer</a>, pause);</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    pause-&gt;request  = req;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    pause-&gt;<a class="code" href="structpauser.html#a0c12cdf9eee457a4700f7711d7df335d">timer_ev</a> = evtimer_new(evbase, <a class="code" href="test_8c.html#a25dc771db1a1e57d95323711defc3613">resume_request_timer</a>, pause);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    pause-&gt;<a class="code" href="structpauser.html#a4835db9003e04fd114e1d6647cf0e384">request</a>  = req;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <a class="code" href="evhtp_8c.html#a30bc311c68a5c463d106766ab9250e0e">evhtp_set_hook</a>(&amp;req-&gt;hooks, <a class="code" href="evhtp_8h.html#a85ac11e4887a6ffac8f6d3c26d25d143a3722d9a701af7e65b856a5ebc176049c">evhtp_hook_on_header</a>, <a class="code" href="test_8c.html#a6437543229efe2878558b51600275be1">pause_cb</a>, pause);</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <a class="code" href="evhtp_8c.html#a30bc311c68a5c463d106766ab9250e0e">evhtp_set_hook</a>(&amp;req-&gt;hooks, <a class="code" href="evhtp_8h.html#a85ac11e4887a6ffac8f6d3c26d25d143a6d8fb26ccc62b92b11c83206a7a6e1a4">evhtp_hook_on_request_fini</a>, <a class="code" href="test_8c.html#adb9ff8deafba2fd84515374ce65d38dc">pause_request_fini</a>, pause);</div>
@@ -589,14 +606,18 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;}</div>
 <div class="ttc" id="evthr_8h_html_ac1a9bb265b995e58237889446894e944"><div class="ttname"><a href="evthr_8h.html#ac1a9bb265b995e58237889446894e944">evbase_t</a></div><div class="ttdeci">struct event_base evbase_t</div><div class="ttdef"><b>Definition:</b> evthr.h:23</div></div>
 <div class="ttc" id="evhtp_8h_html_a85ac11e4887a6ffac8f6d3c26d25d143ad462108a44b51cf21685e92d9b39e150"><div class="ttname"><a href="evhtp_8h.html#a85ac11e4887a6ffac8f6d3c26d25d143ad462108a44b51cf21685e92d9b39e150">evhtp_hook_on_connection_fini</a></div><div class="ttdef"><b>Definition:</b> evhtp.h:126</div></div>
+<div class="ttc" id="structpauser_html_a0c12cdf9eee457a4700f7711d7df335d"><div class="ttname"><a href="structpauser.html#a0c12cdf9eee457a4700f7711d7df335d">pauser::timer_ev</a></div><div class="ttdeci">event_t * timer_ev</div><div class="ttdef"><b>Definition:</b> test.c:30</div></div>
 <div class="ttc" id="test_8c_html_a25dc771db1a1e57d95323711defc3613"><div class="ttname"><a href="test_8c.html#a25dc771db1a1e57d95323711defc3613">resume_request_timer</a></div><div class="ttdeci">static void resume_request_timer(evutil_socket_t sock, short which, void *arg)</div><div class="ttdef"><b>Definition:</b> test.c:37</div></div>
 <div class="ttc" id="evhtp_8h_html_a85ac11e4887a6ffac8f6d3c26d25d143a6d8fb26ccc62b92b11c83206a7a6e1a4"><div class="ttname"><a href="evhtp_8h.html#a85ac11e4887a6ffac8f6d3c26d25d143a6d8fb26ccc62b92b11c83206a7a6e1a4">evhtp_hook_on_request_fini</a></div><div class="ttdef"><b>Definition:</b> evhtp.h:125</div></div>
 <div class="ttc" id="test_8c_html_adb9ff8deafba2fd84515374ce65d38dc"><div class="ttname"><a href="test_8c.html#adb9ff8deafba2fd84515374ce65d38dc">pause_request_fini</a></div><div class="ttdeci">static evhtp_res pause_request_fini(evhtp_request_t *request, void *arg)</div><div class="ttdef"><b>Definition:</b> test.c:78</div></div>
 <div class="ttc" id="evhtp_8c_html_a30bc311c68a5c463d106766ab9250e0e"><div class="ttname"><a href="evhtp_8c.html#a30bc311c68a5c463d106766ab9250e0e">evhtp_set_hook</a></div><div class="ttdeci">int evhtp_set_hook(evhtp_hooks_t **hooks, evhtp_hook_type type, evhtp_hook cb, void *arg)</div><div class="ttdoc">sets a callback hook for either a connection or a path/regex . </div><div class="ttdef"><b>Definition:</b> evhtp.c:3428</div></div>
 <div class="ttc" id="evhtp_8h_html_a85ac11e4887a6ffac8f6d3c26d25d143a3722d9a701af7e65b856a5ebc176049c"><div class="ttname"><a href="evhtp_8h.html#a85ac11e4887a6ffac8f6d3c26d25d143a3722d9a701af7e65b856a5ebc176049c">evhtp_hook_on_header</a></div><div class="ttdef"><b>Definition:</b> evhtp.h:121</div></div>
 <div class="ttc" id="test_8c_html_a1ad3b1f51d0be67f4f61c4c7c0777f6b"><div class="ttname"><a href="test_8c.html#a1ad3b1f51d0be67f4f61c4c7c0777f6b">pause_connection_fini</a></div><div class="ttdeci">static evhtp_res pause_connection_fini(evhtp_connection_t *connection, void *arg)</div><div class="ttdef"><b>Definition:</b> test.c:71</div></div>
+<div class="ttc" id="structpauser_html_a4835db9003e04fd114e1d6647cf0e384"><div class="ttname"><a href="structpauser.html#a4835db9003e04fd114e1d6647cf0e384">pauser::request</a></div><div class="ttdeci">evhtp_request_t * request</div><div class="ttdef"><b>Definition:</b> test.c:31</div></div>
+<div class="ttc" id="structpauser_html_aac2b7e2bc955d56fc53096d37dda07c7"><div class="ttname"><a href="structpauser.html#aac2b7e2bc955d56fc53096d37dda07c7">pauser::tv</a></div><div class="ttdeci">struct timeval * tv</div><div class="ttdef"><b>Definition:</b> test.c:32</div></div>
 <div class="ttc" id="test_8c_html_a6437543229efe2878558b51600275be1"><div class="ttname"><a href="test_8c.html#a6437543229efe2878558b51600275be1">pause_cb</a></div><div class="ttdeci">static evhtp_res pause_cb(evhtp_request_t *request, evhtp_header_t *header, void *arg)</div><div class="ttdef"><b>Definition:</b> test.c:47</div></div>
 <div class="ttc" id="evhtp_8h_html_a137a73d703e70ec04a807668a5d523da"><div class="ttname"><a href="evhtp_8h.html#a137a73d703e70ec04a807668a5d523da">EVHTP_RES_OK</a></div><div class="ttdeci">#define EVHTP_RES_OK</div><div class="ttdef"><b>Definition:</b> evhtp.h:213</div></div>
+<div class="ttc" id="structpauser_html"><div class="ttname"><a href="structpauser.html">pauser</a></div><div class="ttdef"><b>Definition:</b> test.c:29</div></div>
 </div><!-- fragment -->
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -662,10 +683,11 @@ Here is the caller graph for this function:</div>
 
 <p>Referenced by <a class="el" href="test_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                                                     {</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    printf(<span class="stringliteral">&quot;test_pause_cb(%p)\n&quot;</span>, request-&gt;conn);</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <a class="code" href="evhtp_8c.html#a207355af4b2d3e5211c4df0bbb8d195d">evhtp_send_reply</a>(request, <a class="code" href="evhtp_8h.html#a137a73d703e70ec04a807668a5d523da">EVHTP_RES_OK</a>);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    printf(<span class="stringliteral">&quot;test_pause_cb(%p)\n&quot;</span>, <a class="code" href="structpauser.html#a4835db9003e04fd114e1d6647cf0e384">request</a>-&gt;conn);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <a class="code" href="evhtp_8c.html#a207355af4b2d3e5211c4df0bbb8d195d">evhtp_send_reply</a>(<a class="code" href="structpauser.html#a4835db9003e04fd114e1d6647cf0e384">request</a>, <a class="code" href="evhtp_8h.html#a137a73d703e70ec04a807668a5d523da">EVHTP_RES_OK</a>);</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;}</div>
 <div class="ttc" id="evhtp_8c_html_a207355af4b2d3e5211c4df0bbb8d195d"><div class="ttname"><a href="evhtp_8c.html#a207355af4b2d3e5211c4df0bbb8d195d">evhtp_send_reply</a></div><div class="ttdeci">void evhtp_send_reply(evhtp_request_t *request, evhtp_res code)</div><div class="ttdoc">generates all the right information for a reply to be sent to the client </div><div class="ttdef"><b>Definition:</b> evhtp.c:3046</div></div>
+<div class="ttc" id="structpauser_html_a4835db9003e04fd114e1d6647cf0e384"><div class="ttname"><a href="structpauser.html#a4835db9003e04fd114e1d6647cf0e384">pauser::request</a></div><div class="ttdeci">evhtp_request_t * request</div><div class="ttdef"><b>Definition:</b> test.c:31</div></div>
 <div class="ttc" id="evhtp_8h_html_a137a73d703e70ec04a807668a5d523da"><div class="ttname"><a href="evhtp_8h.html#a137a73d703e70ec04a807668a5d523da">EVHTP_RES_OK</a></div><div class="ttdeci">#define EVHTP_RES_OK</div><div class="ttdef"><b>Definition:</b> evhtp.h:213</div></div>
 </div><!-- fragment -->
 <p><div class="dynheader">
@@ -857,7 +879,7 @@ Here is the caller graph for this function:</div>
 
 <p>Referenced by <a class="el" href="test_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                                                      {</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    evhtp_connection_t * conn = <a class="code" href="evhtp_8c.html#ad90238a469b4289cf16c2aacc4763d4c">evhtp_request_get_connection</a>(request);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    evhtp_connection_t * conn = <a class="code" href="evhtp_8c.html#ad90238a469b4289cf16c2aacc4763d4c">evhtp_request_get_connection</a>(<a class="code" href="structpauser.html#a4835db9003e04fd114e1d6647cf0e384">request</a>);</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <a class="code" href="evhtp_8h.html#af92ce7197ff545dc83b76f1650bc57e1">evbev_t</a>            * bev  = <a class="code" href="evhtp_8c.html#a2cc81187783bdb226a6b9eb713b6f92c">evhtp_connection_take_ownership</a>(conn);</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    bufferevent_enable(bev, EV_READ);</div>
@@ -869,6 +891,7 @@ Here is the caller graph for this function:</div>
 <div class="ttc" id="evhtp_8c_html_ad90238a469b4289cf16c2aacc4763d4c"><div class="ttname"><a href="evhtp_8c.html#ad90238a469b4289cf16c2aacc4763d4c">evhtp_request_get_connection</a></div><div class="ttdeci">evhtp_connection_t * evhtp_request_get_connection(evhtp_request_t *request)</div><div class="ttdoc">returns the underlying evhtp_connection_t structure from a request </div><div class="ttdef"><b>Definition:</b> evhtp.c:4023</div></div>
 <div class="ttc" id="test_8c_html_a0ac372a7ece0a7461f67993897854a84"><div class="ttname"><a href="test_8c.html#a0ac372a7ece0a7461f67993897854a84">_owned_eventcb</a></div><div class="ttdeci">static void _owned_eventcb(evbev_t *bev, short events, void *arg)</div><div class="ttdef"><b>Definition:</b> test.c:120</div></div>
 <div class="ttc" id="evhtp_8h_html_af92ce7197ff545dc83b76f1650bc57e1"><div class="ttname"><a href="evhtp_8h.html#af92ce7197ff545dc83b76f1650bc57e1">evbev_t</a></div><div class="ttdeci">struct bufferevent evbev_t</div><div class="ttdef"><b>Definition:</b> evhtp.h:71</div></div>
+<div class="ttc" id="structpauser_html_a4835db9003e04fd114e1d6647cf0e384"><div class="ttname"><a href="structpauser.html#a4835db9003e04fd114e1d6647cf0e384">pauser::request</a></div><div class="ttdeci">evhtp_request_t * request</div><div class="ttdef"><b>Definition:</b> test.c:31</div></div>
 <div class="ttc" id="test_8c_html_adebf5bcfed51c2b3417b5382b129ed8f"><div class="ttname"><a href="test_8c.html#adebf5bcfed51c2b3417b5382b129ed8f">_owned_readcb</a></div><div class="ttdeci">static void _owned_readcb(evbev_t *bev, void *arg)</div><div class="ttdef"><b>Definition:</b> test.c:114</div></div>
 </div><!-- fragment -->
 <p><div class="dynheader">
@@ -3575,7 +3598,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="test_8c.html">test.c</a></li>
-    <li class="footer">Generated on Fri Nov 27 2015 21:18:31 for Libevhtp by
+    <li class="footer">Generated on Sat Nov 28 2015 03:40:29 for Libevhtp by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

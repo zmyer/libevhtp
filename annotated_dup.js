@@ -1,5 +1,7 @@
 var annotated_dup =
 [
+    [ "app", "structapp.html", "structapp" ],
+    [ "app_parent", "structapp__parent.html", "structapp__parent" ],
     [ "evhtp_alias_t", "structevhtp__alias__s.html", "structevhtp__alias__s" ],
     [ "evhtp_authority_t", "structevhtp__authority__s.html", "structevhtp__authority__s" ],
     [ "evhtp_callback_t", "structevhtp__callback__s.html", "structevhtp__callback__s" ],
@@ -12,5 +14,18 @@ var annotated_dup =
     [ "evhtp_t", "structevhtp__s.html", "structevhtp__s" ],
     [ "evhtp_ssl_cfg_t", "structevhtp__ssl__cfg__s.html", "structevhtp__ssl__cfg__s" ],
     [ "evhtp_uri_t", "structevhtp__uri__s.html", "structevhtp__uri__s" ],
-    [ "htparse_hooks", "structhtparse__hooks.html", "structhtparse__hooks" ]
+    [ "evthr_t", "structevthr.html", "structevthr" ],
+    [ "evthr_cmd_t", "structevthr__cmd.html", "structevthr__cmd" ],
+    [ "evthr_pool_t", "structevthr__pool.html", "structevthr__pool" ],
+    [ "htparse_hooks", "structhtparse__hooks.html", "structhtparse__hooks" ],
+    [ "htparser", "structhtparser.html", "structhtparser" ],
+    [ "lambda_position_t", "structlambda__position__t.html", "structlambda__position__t" ],
+    [ "lambda_range_t", "structlambda__range__t.html", "structlambda__range__t" ],
+    [ "lambda_source_t", "structlambda__source__t.html", "structlambda__source__t" ],
+    [ "lambda_t", "structlambda__t.html", "structlambda__t" ],
+    [ "lambda_vector_t", "structlambda__vector__t.html", "structlambda__vector__t" ],
+    [ "parse_data_t", "structparse__data__t.html", "structparse__data__t" ],
+    [ "pauser", "structpauser.html", "structpauser" ],
+    [ "test", "structtest.html", "structtest" ],
+    [ "testobj", "structtestobj.html", "structtestobj" ]
 ];

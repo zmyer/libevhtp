@@ -1,12 +1,17 @@
 var searchData=
 [
+  ['raw_5fquery',['raw_query',['../structtest.html#a10b807a211259696f58c9dcd56cc640d',1,'test']]],
+  ['rdr',['rdr',['../structevthr.html#ada744e877327f161184becb5b47bfe54',1,'evthr']]],
   ['recv_5ftimeo',['recv_timeo',['../structevhtp__s.html#a8671270cb39332d451e1dbce6c8b3652',1,'evhtp_s::recv_timeo()'],['../structevhtp__connection__s.html#a56df6edd782fa02880fbdca4f678a85b',1,'evhtp_connection_s::recv_timeo()']]],
+  ['redis',['redis',['../structapp.html#a3c94b39b9031529c72dc95f644afe68c',1,'app']]],
   ['redis_5fget_5fsrcport_5fcb',['redis_get_srcport_cb',['../thread__design_8c.html#a7f594f6b4acdbd916912fe04c3c9969c',1,'thread_design.c']]],
   ['redis_5fglobal_5fincr_5fcb',['redis_global_incr_cb',['../thread__design_8c.html#a2f935a1dc83d38794ae77dda33027f7f',1,'thread_design.c']]],
+  ['redis_5fhost',['redis_host',['../structapp__parent.html#a3ca4646a570b9173b6b2721c552b0d51',1,'app_parent']]],
+  ['redis_5fport',['redis_port',['../structapp__parent.html#ac80a740b507cce37556e4532baf2fa8b',1,'app_parent']]],
   ['redis_5fset_5fsrcport_5fcb',['redis_set_srcport_cb',['../thread__design_8c.html#a144b94610bf92c6e0d449a558b088b6a',1,'thread_design.c']]],
   ['redis_5fsrcaddr_5fincr_5fcb',['redis_srcaddr_incr_cb',['../thread__design_8c.html#aaa741fae8d16dba83749ec33bd9091a9',1,'thread_design.c']]],
   ['regex',['regex',['../structevhtp__callback__s.html#aa7685aea3282b104cb5515773f1bc134',1,'evhtp_callback_s']]],
-  ['request',['request',['../structevhtp__connection__s.html#a64637a41126c20514bbf0c64ff35d635',1,'evhtp_connection_s']]],
+  ['request',['request',['../structevhtp__connection__s.html#a64637a41126c20514bbf0c64ff35d635',1,'evhtp_connection_s::request()'],['../structpauser.html#a4835db9003e04fd114e1d6647cf0e384',1,'pauser::request()']]],
   ['request_5fcb',['request_cb',['../test__client_8c.html#a806040d88de64501d8570818aeb01a48',1,'test_client.c']]],
   ['request_5fpsets',['request_psets',['../evhtp_8c.html#a3f39f09131afc2edc12dafb8330a37c9',1,'evhtp.c']]],
   ['response_5fcb',['response_cb',['../test__perf_8c.html#a13d12a78f407ed9554ca2a13a32fc88c',1,'test_perf.c']]],

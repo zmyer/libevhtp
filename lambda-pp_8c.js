@@ -1,5 +1,11 @@
 var lambda_pp_8c =
 [
+    [ "lambda_range_t", "structlambda__range__t.html", "structlambda__range__t" ],
+    [ "lambda_position_t", "structlambda__position__t.html", "structlambda__position__t" ],
+    [ "lambda_source_t", "structlambda__source__t.html", "structlambda__source__t" ],
+    [ "lambda_t", "structlambda__t.html", "structlambda__t" ],
+    [ "lambda_vector_t", "structlambda__vector__t.html", "structlambda__vector__t" ],
+    [ "parse_data_t", "structparse__data__t.html", "structparse__data__t" ],
     [ "isalpha", "lambda-pp_8c.html#a195193447efef4f373aff481e14eebea", null ],
     [ "isdigit", "lambda-pp_8c.html#aefb5fe894e4d5f0e52d5853f99200d96", null ],
     [ "isalnum", "lambda-pp_8c.html#a3db1d3e3db557d4493cd4084bce8834c", null ],

@@ -1,5 +1,5 @@
 <map id="lambda_vector_t" name="lambda_vector_t">
-<area shape="rect" id="node2" href="$structlambda__t.html" title="lambda_t" alt="" coords="26,105,102,131"/>
-<area shape="rect" id="node3" href="$structlambda__range__t.html" title="lambda_range_t" alt="" coords="5,5,123,31"/>
-<area shape="rect" id="node4" href="$structlambda__position__t.html" title="lambda_position_t" alt="" coords="126,105,256,131"/>
+<area shape="rect" id="node2" href="$structlambda__t.html" title="{lambda_t\n||}" alt="" coords="156,349,232,423"/>
+<area shape="rect" id="node5" href="$structlambda__range__t.html" title="{lambda_range_t\n||}" alt="" coords="242,153,359,227"/>
+<area shape="rect" id="node7" href="$structlambda__position__t.html" title="{lambda_position_t\n||}" alt="" coords="331,251,460,324"/>
 </map>

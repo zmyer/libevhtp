@@ -1,5 +1,6 @@
 var test_8c =
 [
+    [ "pauser", "structpauser.html", "structpauser" ],
     [ "OPENSSL_THREAD_DEFINES", "test_8c.html#a6021bc0fdaf51a10bbb813ca01916a92", null ],
     [ "resume_request_timer", "test_8c.html#a25dc771db1a1e57d95323711defc3613", null ],
     [ "pause_cb", "test_8c.html#a6437543229efe2878558b51600275be1", null ],

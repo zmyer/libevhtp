@@ -47,7 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+      <li><a href="globals.html"><span>Globals</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -104,6 +104,7 @@ $(document).ready(function(){initNavTree('evthr_8c.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
@@ -139,6 +140,15 @@ Include dependency graph for evthr.c:</div>
 </map>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevthr__cmd.html">evthr_cmd_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevthr__pool.html">evthr_pool_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevthr.html">evthr_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a369266c24eacffb87046522897a570d5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="evthr_8c.html#a369266c24eacffb87046522897a570d5">_GNU_SOURCE</a></td></tr>
@@ -153,9 +163,9 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a697c96f7afc7a68bd78a518ea87e32bb"><td class="memItemLeft" align="right" valign="top">struct evthr_cmd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="evthr_8c.html#a697c96f7afc7a68bd78a518ea87e32bb">__attribute__</a> ((packed))</td></tr>
+<tr class="memitem:a697c96f7afc7a68bd78a518ea87e32bb"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structevthr__cmd.html">evthr_cmd</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="evthr_8c.html#a697c96f7afc7a68bd78a518ea87e32bb">__attribute__</a> ((packed))</td></tr>
 <tr class="separator:a697c96f7afc7a68bd78a518ea87e32bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24003859864206885f050bcf474bd55b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="evthr_8c.html#a24003859864206885f050bcf474bd55b">TAILQ_HEAD</a> (evthr_pool_slist, evthr)</td></tr>
+<tr class="memitem:a24003859864206885f050bcf474bd55b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="evthr_8c.html#a24003859864206885f050bcf474bd55b">TAILQ_HEAD</a> (evthr_pool_slist, <a class="el" href="structevthr.html">evthr</a>)</td></tr>
 <tr class="separator:a24003859864206885f050bcf474bd55b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ca698fd31b3842cf9336146d9b55d03"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="evthr_8c.html#a7ca698fd31b3842cf9336146d9b55d03">_evthr_read_cmd</a> (evutil_socket_t sock, short which, void *<a class="el" href="evthr_8c.html#add0eb34e0cef9e763462cf9080f9be0a">args</a>)</td></tr>
 <tr class="separator:a7ca698fd31b3842cf9336146d9b55d03"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,7 +218,7 @@ Variables</h2></td></tr>
 <tr class="separator:add0eb34e0cef9e763462cf9080f9be0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaeb82a619f6f2dba845cd9a862f33bfd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="evthr_8h.html#aad251512bf9380b9572db267d5bd5532">evthr_cb</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="evthr_8c.html#aaeb82a619f6f2dba845cd9a862f33bfd">cb</a></td></tr>
 <tr class="separator:aaeb82a619f6f2dba845cd9a862f33bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7d119462c343c7239b4555c77dc393b"><td class="memItemLeft" align="right" valign="top">struct evthr_pool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="evthr_8c.html#af7d119462c343c7239b4555c77dc393b">__attribute__</a></td></tr>
+<tr class="memitem:af7d119462c343c7239b4555c77dc393b"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structevthr__pool.html">evthr_pool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="evthr_8c.html#af7d119462c343c7239b4555c77dc393b">__attribute__</a></td></tr>
 <tr class="separator:af7d119462c343c7239b4555c77dc393b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -277,7 +287,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct evthr_cmd __attribute__ </td>
+          <td class="memname">struct <a class="el" href="structevthr__cmd.html">evthr_cmd</a> __attribute__ </td>
           <td>(</td>
           <td class="paramtype">(packed)&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -301,7 +311,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">evthr&#160;</td>
+          <td class="paramtype"><a class="el" href="structevthr.html">evthr</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -533,7 +543,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="evthr_8c.html#aaeb82a619f6f2dba845cd9a862f33bfd">cb</a>, <a class="el" href="evthr_8h.html#a9ea30835e60d0e58c66bb0772c749bf1a98794f354b6ddad48687d383579f02b8">EVTHR_RES_OK</a>, and <a class="el" href="evthr_8h.html#a9ea30835e60d0e58c66bb0772c749bf1a519314fdfd257c928d354cf373350656">EVTHR_RES_RETRY</a>.</p>
+<p>References <a class="el" href="structevthr.html#a22ab54101b161e4fde60b99f2b91fe7b">evthr_t::arg</a>, <a class="el" href="evthr_8c.html#aaeb82a619f6f2dba845cd9a862f33bfd">cb</a>, <a class="el" href="evthr_8h.html#a9ea30835e60d0e58c66bb0772c749bf1a98794f354b6ddad48687d383579f02b8">EVTHR_RES_OK</a>, and <a class="el" href="evthr_8h.html#a9ea30835e60d0e58c66bb0772c749bf1a519314fdfd257c928d354cf373350656">EVTHR_RES_RETRY</a>.</p>
 
 <p>Referenced by <a class="el" href="evthr_8h.html#ae4d07fdb8fa1213e5925e25ee7f38983">evthr_pool_defer()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                                                       {</div>
@@ -681,6 +691,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>References <a class="el" href="structevthr.html#aa0b3950ab48a1dc990ac39b1db9c2627">evthr_t::aux</a>.</p>
 
 <p>Referenced by <a class="el" href="thread__design_8c.html#a7850b605551f990f0887eba05a2b09a6">app_init_thread()</a>, and <a class="el" href="test__proxy_8c.html#ae236dad0ef446c6fcd2c202bb4b0b4a8">init_thread_cb()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                                         {</div>
@@ -1282,7 +1294,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="evthr_8h.html#a9ea30835e60d0e58c66bb0772c749bf1a3a7c57b1a41de5037297b4aeb5ccb4d9">EVTHR_RES_FATAL</a>, <a class="el" href="evthr_8h.html#a9ea30835e60d0e58c66bb0772c749bf1a98794f354b6ddad48687d383579f02b8">EVTHR_RES_OK</a>, <a class="el" href="evthr_8c.html#a3e59f1e4310133cd27bceeee9398854a">evthr_stop()</a>, and <a class="el" href="evhtp-internal_8h.html#a6a36cc8868ae46d6db5ef3888636bb94">TAILQ_FOREACH_SAFE</a>.</p>
+<p>References <a class="el" href="evthr_8h.html#a9ea30835e60d0e58c66bb0772c749bf1a3a7c57b1a41de5037297b4aeb5ccb4d9">EVTHR_RES_FATAL</a>, <a class="el" href="evthr_8h.html#a9ea30835e60d0e58c66bb0772c749bf1a98794f354b6ddad48687d383579f02b8">EVTHR_RES_OK</a>, <a class="el" href="evthr_8c.html#a3e59f1e4310133cd27bceeee9398854a">evthr_stop()</a>, <a class="el" href="evhtp-internal_8h.html#a6a36cc8868ae46d6db5ef3888636bb94">TAILQ_FOREACH_SAFE</a>, and <a class="el" href="structevthr.html#a9875d19ee6202fe0a271e1360e1d00ce">evthr_t::thr</a>.</p>
 
 <p>Referenced by <a class="el" href="evhtp_8h.html#a847390a47422662b122bf95ecf7229e8">evhtp_free()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;                                     {</div>
@@ -1357,7 +1369,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="evthr_8c.html#aaeb82a619f6f2dba845cd9a862f33bfd">cb</a>, <a class="el" href="evhtp-internal_8h.html#ae7aa70ee9350e7db0b825b794cc68387">evhtp_unlikely</a>, <a class="el" href="evthr_8c.html#a3f09961614cd3efb20100bc540adc78e">evthr_defer()</a>, <a class="el" href="evthr_8h.html#a9ea30835e60d0e58c66bb0772c749bf1a3a7c57b1a41de5037297b4aeb5ccb4d9">EVTHR_RES_FATAL</a>, <a class="el" href="evthr_8h.html#a9ea30835e60d0e58c66bb0772c749bf1a4bcc3f7aef7bec82634d217110d085cb">EVTHR_RES_NOCB</a>, <a class="el" href="evthr_8h.html#a9ea30835e60d0e58c66bb0772c749bf1a98794f354b6ddad48687d383579f02b8">EVTHR_RES_OK</a>, and <a class="el" href="evthr_8h.html#a9ea30835e60d0e58c66bb0772c749bf1a519314fdfd257c928d354cf373350656">EVTHR_RES_RETRY</a>.</p>
+<p>References <a class="el" href="structevthr.html#a22ab54101b161e4fde60b99f2b91fe7b">evthr_t::arg</a>, <a class="el" href="evthr_8c.html#aaeb82a619f6f2dba845cd9a862f33bfd">cb</a>, <a class="el" href="evhtp-internal_8h.html#ae7aa70ee9350e7db0b825b794cc68387">evhtp_unlikely</a>, <a class="el" href="evthr_8c.html#a3f09961614cd3efb20100bc540adc78e">evthr_defer()</a>, <a class="el" href="evthr_8h.html#a9ea30835e60d0e58c66bb0772c749bf1a3a7c57b1a41de5037297b4aeb5ccb4d9">EVTHR_RES_FATAL</a>, <a class="el" href="evthr_8h.html#a9ea30835e60d0e58c66bb0772c749bf1a4bcc3f7aef7bec82634d217110d085cb">EVTHR_RES_NOCB</a>, <a class="el" href="evthr_8h.html#a9ea30835e60d0e58c66bb0772c749bf1a98794f354b6ddad48687d383579f02b8">EVTHR_RES_OK</a>, and <a class="el" href="evthr_8h.html#a9ea30835e60d0e58c66bb0772c749bf1a519314fdfd257c928d354cf373350656">EVTHR_RES_RETRY</a>.</p>
 
 <p>Referenced by <a class="el" href="evhtp_8c.html#a01058d2a190e93744fcd8b38d3eec6c5">_evhtp_accept_cb()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;                                                               {</div>
@@ -1704,7 +1716,7 @@ Here is the caller graph for this function:</div>
 
 <p>Referenced by <a class="el" href="evhtp_8c.html#a63a90ce1a8d024ab6ecf79055d0aaeac">_evhtp_use_threads()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;                                      {</div>
-<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    evthr_t * evthr = NULL;</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    evthr_t * <a class="code" href="structevthr.html">evthr</a> = NULL;</div>
 <div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;</div>
 <div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;    <span class="keywordflow">if</span> (pool == NULL) {</div>
 <div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;        <span class="keywordflow">return</span> -1;</div>
@@ -1720,6 +1732,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;</div>
 <div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;}</div>
+<div class="ttc" id="structevthr_html"><div class="ttname"><a href="structevthr.html">evthr</a></div><div class="ttdef"><b>Definition:</b> evthr.c:45</div></div>
 <div class="ttc" id="evthr_8c_html_a08fc36209f69a6bf58581c395ca22df0"><div class="ttname"><a href="evthr_8c.html#a08fc36209f69a6bf58581c395ca22df0">evthr_start</a></div><div class="ttdeci">int evthr_start(evthr_t *thread)</div><div class="ttdef"><b>Definition:</b> evthr.c:255</div></div>
 </div><!-- fragment -->
 <p><div class="dynheader">
@@ -1795,7 +1808,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct evthr_pool  __attribute__</td>
+          <td class="memname">struct <a class="el" href="structevthr__pool.html">evthr_pool</a>  __attribute__</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1808,7 +1821,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="evthr_8c.html">evthr.c</a></li>
-    <li class="footer">Generated on Fri Nov 27 2015 21:18:31 for Libevhtp by
+    <li class="footer">Generated on Sat Nov 28 2015 03:40:29 for Libevhtp by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

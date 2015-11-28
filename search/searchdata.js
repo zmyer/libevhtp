@@ -1,7 +1,7 @@
 var indexSectionsWithContent =
 {
   0: "_abcdefghiklmnopqrstuvwx",
-  1: "eh",
+  1: "aehlpt",
   2: "ehlmqtv",
   3: "_abcdefghiklmnopqrstuv",
   4: "_abcdefghiklmnopqrstuvwx",
@@ -29,7 +29,7 @@ var indexSectionNames =
 var indexSectionLabels =
 {
   0: "All",
-  1: "Classes",
+  1: "Data Structures",
   2: "Files",
   3: "Functions",
   4: "Variables",

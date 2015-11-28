@@ -1,5 +1,7 @@
 var thread__design_8c =
 [
+    [ "app_parent", "structapp__parent.html", "structapp__parent" ],
+    [ "app", "structapp.html", "structapp" ],
     [ "get_request_thr", "thread__design_8c.html#a93ac29e74eec0391d7697393e98e710a", null ],
     [ "redis_global_incr_cb", "thread__design_8c.html#a2f935a1dc83d38794ae77dda33027f7f", null ],
     [ "redis_srcaddr_incr_cb", "thread__design_8c.html#aaa741fae8d16dba83749ec33bd9091a9", null ],

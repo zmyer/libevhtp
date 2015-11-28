@@ -47,7 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -69,9 +69,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -105,8 +104,7 @@ $(document).ready(function(){initNavTree('structlambda__vector__t.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="structlambda__vector__t-members.html">List of all members</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
 <div class="title">lambda_vector_t Struct Reference</div>  </div>
 </div><!--header-->
@@ -116,39 +114,129 @@ Collaboration diagram for lambda_vector_t:</div>
 <div class="dyncontent">
 <div class="center"><img src="structlambda__vector__t__coll__graph.png" border="0" usemap="#lambda__vector__t_coll__map" alt="Collaboration graph"/></div>
 <map name="lambda__vector__t_coll__map" id="lambda__vector__t_coll__map">
-<area shape="rect" id="node2" href="structlambda__t.html" title="lambda_t" alt="" coords="26,105,102,131"/>
-<area shape="rect" id="node3" href="structlambda__range__t.html" title="lambda_range_t" alt="" coords="5,5,123,31"/>
-<area shape="rect" id="node4" href="structlambda__position__t.html" title="lambda_position_t" alt="" coords="126,105,256,131"/>
+<area shape="rect" id="node2" href="structlambda__t.html" title="{lambda_t\n||}" alt="" coords="156,349,232,423"/>
+<area shape="rect" id="node5" href="structlambda__range__t.html" title="{lambda_range_t\n||}" alt="" coords="242,153,359,227"/>
+<area shape="rect" id="node7" href="structlambda__position__t.html" title="{lambda_position_t\n||}" alt="" coords="331,251,460,324"/>
 </map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a397e14706973b039d0e77d2b14bc78a8"><td class="memItemLeft" ><a class="anchor" id="a397e14706973b039d0e77d2b14bc78a8"></a>
-union {</td></tr>
-<tr class="memitem:a2a970d7bf3cdb6af3ae527cf31443680"><td class="memItemLeft" >
-&#160;&#160;&#160;char *&#160;&#160;&#160;<b>chars</b></td></tr>
+Data Fields</h2></td></tr>
+<tr class="memitem:a397e14706973b039d0e77d2b14bc78a8"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:a2a970d7bf3cdb6af3ae527cf31443680"><td class="memItemLeft" >&#160;&#160;&#160;char *&#160;&#160;&#160;<a class="el" href="structlambda__vector__t.html#a8b6444a3779ed202b41ba24312c88715">chars</a></td></tr>
 <tr class="separator:a2a970d7bf3cdb6af3ae527cf31443680"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a009b1d6602fd3cab29674c8aa2b18866"><td class="memItemLeft" >
-&#160;&#160;&#160;<a class="el" href="structlambda__t.html">lambda_t</a> *&#160;&#160;&#160;<b>funcs</b></td></tr>
+<tr class="memitem:a009b1d6602fd3cab29674c8aa2b18866"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="structlambda__t.html">lambda_t</a> *&#160;&#160;&#160;<a class="el" href="structlambda__vector__t.html#a8983737e73c6ff1da18552519fe6137e">funcs</a></td></tr>
 <tr class="separator:a009b1d6602fd3cab29674c8aa2b18866"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25f51fca4c2772d6a2e84e8cdc60038d"><td class="memItemLeft" >
-&#160;&#160;&#160;<a class="el" href="structlambda__position__t.html">lambda_position_t</a> *&#160;&#160;&#160;<b>positions</b></td></tr>
+<tr class="memitem:a25f51fca4c2772d6a2e84e8cdc60038d"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="structlambda__position__t.html">lambda_position_t</a> *&#160;&#160;&#160;<a class="el" href="structlambda__vector__t.html#a6b5936a2c8ab11663d2c1f3dfbb64c27">positions</a></td></tr>
 <tr class="separator:a25f51fca4c2772d6a2e84e8cdc60038d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a397e14706973b039d0e77d2b14bc78a8"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:a397e14706973b039d0e77d2b14bc78a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af96d19015809f5563049412ef744ff4d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af96d19015809f5563049412ef744ff4d"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><b>size</b></td></tr>
+<tr class="memitem:af96d19015809f5563049412ef744ff4d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlambda__vector__t.html#af96d19015809f5563049412ef744ff4d">size</a></td></tr>
 <tr class="separator:af96d19015809f5563049412ef744ff4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71722868425f6c9fa2e491e5b0aeb64b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a71722868425f6c9fa2e491e5b0aeb64b"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><b>elements</b></td></tr>
+<tr class="memitem:a71722868425f6c9fa2e491e5b0aeb64b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlambda__vector__t.html#a71722868425f6c9fa2e491e5b0aeb64b">elements</a></td></tr>
 <tr class="separator:a71722868425f6c9fa2e491e5b0aeb64b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61f40b33efb84f0f1c6a803dff44ddff"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a61f40b33efb84f0f1c6a803dff44ddff"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><b>length</b></td></tr>
+<tr class="memitem:a61f40b33efb84f0f1c6a803dff44ddff"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlambda__vector__t.html#a61f40b33efb84f0f1c6a803dff44ddff">length</a></td></tr>
 <tr class="separator:a61f40b33efb84f0f1c6a803dff44ddff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Field Documentation</h2>
+<a class="anchor" id="a8b6444a3779ed202b41ba24312c88715"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* lambda_vector_t::chars</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="lambda-pp_8c.html#aec53d6ff2469e12a73569057233de1f1">lambda_vector_destroy()</a>, <a class="el" href="lambda-pp_8c.html#a75ed3a30b56c4d70b3c5741383c276cc">lambda_vector_init()</a>, <a class="el" href="lambda-pp_8c.html#a76d7db3b0c4ae6cf76b3cb87ca9d4beb">lambda_vector_push_char()</a>, <a class="el" href="lambda-pp_8c.html#a883ed96e82aa703cb8ea795ccd1f486a">lambda_vector_resize()</a>, and <a class="el" href="lambda-pp_8c.html#ac6dfdc6005619016d4f97f8a8badc981">parse()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8983737e73c6ff1da18552519fe6137e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structlambda__t.html">lambda_t</a>* lambda_vector_t::funcs</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="lambda-pp_8c.html#a82dec3ccb271de2be4acc885a6dd2ff3">generate()</a>, <a class="el" href="lambda-pp_8c.html#a3733e804f5d45766423b090edd6f4bac">generate_begin()</a>, <a class="el" href="lambda-pp_8c.html#a911d1f303628e34ea54d55d0b7b4ea9e">generate_code()</a>, <a class="el" href="lambda-pp_8c.html#a14f82449273b9b58e870ef5828992e31">generate_functions()</a>, <a class="el" href="lambda-pp_8c.html#a28a5939bc5c9775e368504951756147e">lambda_vector_create_lambda()</a>, <a class="el" href="lambda-pp_8c.html#aafa5ccb1545f9769786029eb73d1472c">next_prototype_position()</a>, and <a class="el" href="lambda-pp_8c.html#ac6dfdc6005619016d4f97f8a8badc981">parse()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6b5936a2c8ab11663d2c1f3dfbb64c27"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structlambda__position__t.html">lambda_position_t</a>* lambda_vector_t::positions</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="lambda-pp_8c.html#a82dec3ccb271de2be4acc885a6dd2ff3">generate()</a>, <a class="el" href="lambda-pp_8c.html#a911d1f303628e34ea54d55d0b7b4ea9e">generate_code()</a>, <a class="el" href="lambda-pp_8c.html#a14f82449273b9b58e870ef5828992e31">generate_functions()</a>, <a class="el" href="lambda-pp_8c.html#a48a9673ad6fb5b8653509f56ee52fb48">lambda_vector_push_position()</a>, and <a class="el" href="lambda-pp_8c.html#aafa5ccb1545f9769786029eb73d1472c">next_prototype_position()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a397e14706973b039d0e77d2b14bc78a8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">union { ... } </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af96d19015809f5563049412ef744ff4d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t lambda_vector_t::size</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="lambda-pp_8c.html#a75ed3a30b56c4d70b3c5741383c276cc">lambda_vector_init()</a>, and <a class="el" href="lambda-pp_8c.html#a883ed96e82aa703cb8ea795ccd1f486a">lambda_vector_resize()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a71722868425f6c9fa2e491e5b0aeb64b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t lambda_vector_t::elements</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="lambda-pp_8c.html#a911d1f303628e34ea54d55d0b7b4ea9e">generate_code()</a>, <a class="el" href="lambda-pp_8c.html#a14f82449273b9b58e870ef5828992e31">generate_functions()</a>, <a class="el" href="lambda-pp_8c.html#a28a5939bc5c9775e368504951756147e">lambda_vector_create_lambda()</a>, <a class="el" href="lambda-pp_8c.html#a75ed3a30b56c4d70b3c5741383c276cc">lambda_vector_init()</a>, <a class="el" href="lambda-pp_8c.html#a76d7db3b0c4ae6cf76b3cb87ca9d4beb">lambda_vector_push_char()</a>, <a class="el" href="lambda-pp_8c.html#a48a9673ad6fb5b8653509f56ee52fb48">lambda_vector_push_position()</a>, <a class="el" href="lambda-pp_8c.html#a883ed96e82aa703cb8ea795ccd1f486a">lambda_vector_resize()</a>, <a class="el" href="lambda-pp_8c.html#aafa5ccb1545f9769786029eb73d1472c">next_prototype_position()</a>, and <a class="el" href="lambda-pp_8c.html#ac6dfdc6005619016d4f97f8a8badc981">parse()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a61f40b33efb84f0f1c6a803dff44ddff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t lambda_vector_t::length</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="lambda-pp_8c.html#a75ed3a30b56c4d70b3c5741383c276cc">lambda_vector_init()</a>, and <a class="el" href="lambda-pp_8c.html#a883ed96e82aa703cb8ea795ccd1f486a">lambda_vector_resize()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>tools/lambda-pp.c</li>
+<li>tools/<a class="el" href="lambda-pp_8c.html">lambda-pp.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -156,7 +244,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>length</b></td></tr
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structlambda__vector__t.html">lambda_vector_t</a></li>
-    <li class="footer">Generated on Fri Nov 27 2015 17:59:28 for Libevhtp by
+    <li class="footer">Generated on Sat Nov 28 2015 03:40:30 for Libevhtp by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

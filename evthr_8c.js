@@ -1,5 +1,8 @@
 var evthr_8c =
 [
+    [ "evthr_cmd_t", "structevthr__cmd.html", "structevthr__cmd" ],
+    [ "evthr_pool_t", "structevthr__pool.html", "structevthr__pool" ],
+    [ "evthr_t", "structevthr.html", "structevthr" ],
     [ "_GNU_SOURCE", "evthr_8c.html#a369266c24eacffb87046522897a570d5", null ],
     [ "_evthr_read", "evthr_8c.html#ad79b3cdd603d7af871fc459097209709", null ],
     [ "evthr_pool_slist_t", "evthr_8c.html#a938a8ac6e50cfed1a57b4ae6b3e5c372", null ],

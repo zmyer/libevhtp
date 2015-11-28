@@ -47,7 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+      <li><a href="globals.html"><span>Globals</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -532,7 +532,7 @@ $(document).ready(function(){initNavTree('evhtp_8h_source.html','');});
 <div class="line"><a name="l00470"></a><span class="lineno"><a class="line" href="structevhtp__connection__s.html#a50c8ae21f72433a14bc5f766ffcf5821">  470</a></span>&#160;    evhtp_ssl_t * <a class="code" href="structevhtp__connection__s.html#a50c8ae21f72433a14bc5f766ffcf5821">ssl</a>;</div>
 <div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00472"></a><span class="lineno"><a class="line" href="structevhtp__connection__s.html#ab10532202f2187b34f4269d2a8c6f6b1">  472</a></span>&#160;    evhtp_hooks_t   * <a class="code" href="structevhtp__connection__s.html#ab10532202f2187b34f4269d2a8c6f6b1">hooks</a>;</div>
-<div class="line"><a name="l00473"></a><span class="lineno"><a class="line" href="structevhtp__connection__s.html#a74682b764ee9a0a29efaad5c2f7da13e">  473</a></span>&#160;    htparser        * <a class="code" href="structevhtp__connection__s.html#a74682b764ee9a0a29efaad5c2f7da13e">parser</a>;</div>
+<div class="line"><a name="l00473"></a><span class="lineno"><a class="line" href="structevhtp__connection__s.html#a74682b764ee9a0a29efaad5c2f7da13e">  473</a></span>&#160;    <a class="code" href="structhtparser.html">htparser</a>        * <a class="code" href="structevhtp__connection__s.html#a74682b764ee9a0a29efaad5c2f7da13e">parser</a>;</div>
 <div class="line"><a name="l00474"></a><span class="lineno"><a class="line" href="structevhtp__connection__s.html#acd2930fdcca9ee1c6917190fca5becc3">  474</a></span>&#160;    <a class="code" href="evhtp_8h.html#ad0c066ffb009d3286186a124d37a0c2d">event_t</a>         * <a class="code" href="structevhtp__connection__s.html#acd2930fdcca9ee1c6917190fca5becc3">resume_ev</a>;</div>
 <div class="line"><a name="l00475"></a><span class="lineno"><a class="line" href="structevhtp__connection__s.html#a256de6340adb59658d2e6223ffbd494e">  475</a></span>&#160;    <span class="keyword">struct </span>sockaddr * <a class="code" href="structevhtp__connection__s.html#a256de6340adb59658d2e6223ffbd494e">saddr</a>;</div>
 <div class="line"><a name="l00476"></a><span class="lineno"><a class="line" href="structevhtp__connection__s.html#a56df6edd782fa02880fbdca4f678a85b">  476</a></span>&#160;    <span class="keyword">struct </span>timeval    recv_timeo;          </div>
@@ -1150,6 +1150,7 @@ $(document).ready(function(){initNavTree('evhtp_8h_source.html','');});
 <div class="ttc" id="structevhtp__connection__s_html_a256de6340adb59658d2e6223ffbd494e"><div class="ttname"><a href="structevhtp__connection__s.html#a256de6340adb59658d2e6223ffbd494e">evhtp_connection_s::saddr</a></div><div class="ttdeci">struct sockaddr * saddr</div><div class="ttdef"><b>Definition:</b> evhtp.h:475</div></div>
 <div class="ttc" id="evhtp_8h_html_a5be08cd304ef7683b4196664c6413c62"><div class="ttname"><a href="evhtp_8h.html#a5be08cd304ef7683b4196664c6413c62">evhtp_request_pause</a></div><div class="ttdeci">EVHTP_EXPORT void evhtp_request_pause(evhtp_request_t *request)</div><div class="ttdoc">Wrapper around evhtp_connection_pause. </div><div class="ttdef"><b>Definition:</b> evhtp.c:2387</div></div>
 <div class="ttc" id="structevhtp__ssl__cfg__s_html_acd8773151d481a3b1cdd3f9bd5ef0a23"><div class="ttname"><a href="structevhtp__ssl__cfg__s.html#acd8773151d481a3b1cdd3f9bd5ef0a23">evhtp_ssl_cfg_s::capath</a></div><div class="ttdeci">char * capath</div><div class="ttdef"><b>Definition:</b> evhtp.h:538</div></div>
+<div class="ttc" id="structhtparser_html"><div class="ttname"><a href="structhtparser.html">htparser</a></div><div class="ttdef"><b>Definition:</b> htparse.c:110</div></div>
 <div class="ttc" id="structevhtp__path__s_html_a7fd1e8f552b80b21d9e5c7163fe873d3"><div class="ttname"><a href="structevhtp__path__s.html#a7fd1e8f552b80b21d9e5c7163fe873d3">evhtp_path_s::matched_soff</a></div><div class="ttdeci">unsigned int matched_soff</div><div class="ttdef"><b>Definition:</b> evhtp.h:424</div></div>
 <div class="ttc" id="structevhtp__ssl__cfg__s_html_a8a1ed2243702c387c0c7be2fe0afd1e0"><div class="ttname"><a href="structevhtp__ssl__cfg__s.html#a8a1ed2243702c387c0c7be2fe0afd1e0">evhtp_ssl_cfg_s::verify_depth</a></div><div class="ttdeci">int verify_depth</div><div class="ttdef"><b>Definition:</b> evhtp.h:545</div></div>
 <div class="ttc" id="evhtp_8h_html_a1ce3951bf6453ae5124f36ac6b831278"><div class="ttname"><a href="evhtp_8h.html#a1ce3951bf6453ae5124f36ac6b831278">evhtp_ssl_scache_get</a></div><div class="ttdeci">evhtp_ssl_sess_t *(* evhtp_ssl_scache_get)(evhtp_connection_t *connection, unsigned char *sid, int sid_len)</div><div class="ttdef"><b>Definition:</b> evhtp.h:197</div></div>
@@ -1194,7 +1195,7 @@ $(document).ready(function(){initNavTree('evhtp_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="evhtp_8h.html">evhtp.h</a></li>
-    <li class="footer">Generated on Fri Nov 27 2015 21:18:29 for Libevhtp by
+    <li class="footer">Generated on Sat Nov 28 2015 03:40:27 for Libevhtp by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

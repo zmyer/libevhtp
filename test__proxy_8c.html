@@ -47,7 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+      <li><a href="globals.html"><span>Globals</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -129,7 +129,7 @@ Include dependency graph for test_proxy.c:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4d9830c19a216b9983465862d0a3f58c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="test__proxy_8c.html#a4d9830c19a216b9983465862d0a3f58c">make_request</a> (<a class="el" href="evthr_8h.html#ac1a9bb265b995e58237889446894e944">evbase_t</a> *evbase, evthr_t *evthr, const char *const host, const short port, const char *const path, <a class="el" href="evhtp_8h.html#a39e4a3adac2cba0714b1f6c77311f868">evhtp_headers_t</a> *headers, <a class="el" href="evhtp_8h.html#a51d96777ed3664ca4d8e3dd256ae4251">evhtp_callback_cb</a> <a class="el" href="evthr_8c.html#aaeb82a619f6f2dba845cd9a862f33bfd">cb</a>, void *arg)</td></tr>
+<tr class="memitem:a4d9830c19a216b9983465862d0a3f58c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="test__proxy_8c.html#a4d9830c19a216b9983465862d0a3f58c">make_request</a> (<a class="el" href="evthr_8h.html#ac1a9bb265b995e58237889446894e944">evbase_t</a> *evbase, evthr_t *<a class="el" href="structevthr.html">evthr</a>, const char *const host, const short port, const char *const path, <a class="el" href="evhtp_8h.html#a39e4a3adac2cba0714b1f6c77311f868">evhtp_headers_t</a> *headers, <a class="el" href="evhtp_8h.html#a51d96777ed3664ca4d8e3dd256ae4251">evhtp_callback_cb</a> <a class="el" href="evthr_8c.html#aaeb82a619f6f2dba845cd9a862f33bfd">cb</a>, void *arg)</td></tr>
 <tr class="separator:a4d9830c19a216b9983465862d0a3f58c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cd873486d44ae1d755ca52302a54772"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="test__proxy_8c.html#a1cd873486d44ae1d755ca52302a54772">backend_cb</a> (evhtp_request_t *backend_req, void *arg)</td></tr>
 <tr class="separator:a1cd873486d44ae1d755ca52302a54772"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,7 +211,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    evhtp_request_t    * request;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    conn         = <a class="code" href="evhtp_8c.html#af55b764d88ac2a008b40488e37a968a6">evhtp_connection_new</a>(evbase, host, port);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    conn-&gt;thread = evthr;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    conn-&gt;thread = <a class="code" href="structevthr.html">evthr</a>;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    request      = <a class="code" href="evhtp_8c.html#a53d37420e3c752a21c9ac1d9616c9f38">evhtp_request_new</a>(<a class="code" href="evthr_8c.html#aaeb82a619f6f2dba845cd9a862f33bfd">cb</a>, arg);</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="evhtp_8h.html#a45e5dd8e1166577254d6da73f4cf9fd1">evhtp_headers_add_header</a>(request-&gt;headers_out,</div>
@@ -234,6 +234,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="evhtp_8c_html_af55b764d88ac2a008b40488e37a968a6"><div class="ttname"><a href="evhtp_8c.html#af55b764d88ac2a008b40488e37a968a6">evhtp_connection_new</a></div><div class="ttdeci">evhtp_connection_t * evhtp_connection_new(evbase_t *evbase, const char *addr, uint16_t port)</div><div class="ttdoc">allocate a new connection </div><div class="ttdef"><b>Definition:</b> evhtp.c:4288</div></div>
 <div class="ttc" id="evhtp_8c_html_a53d37420e3c752a21c9ac1d9616c9f38"><div class="ttname"><a href="evhtp_8c.html#a53d37420e3c752a21c9ac1d9616c9f38">evhtp_request_new</a></div><div class="ttdeci">evhtp_request_t * evhtp_request_new(evhtp_callback_cb cb, void *arg)</div><div class="ttdoc">allocate a new request </div><div class="ttdef"><b>Definition:</b> evhtp.c:4392</div></div>
 <div class="ttc" id="evthr_8c_html_aaeb82a619f6f2dba845cd9a862f33bfd"><div class="ttname"><a href="evthr_8c.html#aaeb82a619f6f2dba845cd9a862f33bfd">cb</a></div><div class="ttdeci">evthr_cb cb</div><div class="ttdef"><b>Definition:</b> evthr.c:43</div></div>
+<div class="ttc" id="structevthr_html"><div class="ttname"><a href="structevthr.html">evthr</a></div><div class="ttdef"><b>Definition:</b> evthr.c:45</div></div>
 <div class="ttc" id="evhtp_8c_html_af176ec82feb1686b64c3ebed450c784f"><div class="ttname"><a href="evhtp_8c.html#af176ec82feb1686b64c3ebed450c784f">evhtp_make_request</a></div><div class="ttdeci">int evhtp_make_request(evhtp_connection_t *c, evhtp_request_t *r, htp_method meth, const char *uri)</div><div class="ttdoc">make a client request </div><div class="ttdef"><b>Definition:</b> evhtp.c:4406</div></div>
 <div class="ttc" id="evhtp_8h_html_aaaf98d44a46653887d2ea2e29a4de6fb"><div class="ttname"><a href="evhtp_8h.html#aaaf98d44a46653887d2ea2e29a4de6fb">evhtp_headers_add_headers</a></div><div class="ttdeci">#define evhtp_headers_add_headers</div><div class="ttdef"><b>Definition:</b> evhtp.h:1208</div></div>
 <div class="ttc" id="evhtp_8h_html_a503b047c0137763e0adaf635b7c664a8"><div class="ttname"><a href="evhtp_8h.html#a503b047c0137763e0adaf635b7c664a8">evhtp_header_new</a></div><div class="ttdeci">EVHTP_EXPORT evhtp_header_t * evhtp_header_new(const char *key, const char *val, char kalloc, char valloc)</div><div class="ttdoc">creates a new evhtp_header_t key/val structure </div></div>
@@ -826,7 +827,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="test__proxy_8c.html">test_proxy.c</a></li>
-    <li class="footer">Generated on Fri Nov 27 2015 21:18:31 for Libevhtp by
+    <li class="footer">Generated on Sat Nov 28 2015 03:40:29 for Libevhtp by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

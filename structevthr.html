@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>Libevhtp: evthr Struct Reference</title>
+<title>Libevhtp: evthr_t Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -47,7 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -69,9 +69,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -105,56 +104,183 @@ $(document).ready(function(){initNavTree('structevthr.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="structevthr-members.html">List of all members</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
-<div class="title">evthr Struct Reference</div>  </div>
+<div class="title">evthr_t Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Collaboration diagram for evthr:</div>
+Collaboration diagram for evthr_t:</div>
 <div class="dyncontent">
-<div class="center"><img src="structevthr__coll__graph.png" border="0" usemap="#evthr_coll__map" alt="Collaboration graph"/></div>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="center"><img src="structevthr__coll__graph.png" border="0" usemap="#evthr__t_coll__map" alt="Collaboration graph"/></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a149f29b87138afdeae50c3a43e4c094a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a149f29b87138afdeae50c3a43e4c094a"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>rdr</b></td></tr>
-<tr class="separator:a149f29b87138afdeae50c3a43e4c094a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e4d71a2f6b787b2f629865aaf6001b0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3e4d71a2f6b787b2f629865aaf6001b0"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>wdr</b></td></tr>
-<tr class="separator:a3e4d71a2f6b787b2f629865aaf6001b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fc6f8aee7714c6f1415a2546217f31c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0fc6f8aee7714c6f1415a2546217f31c"></a>
-char&#160;</td><td class="memItemRight" valign="bottom"><b>err</b></td></tr>
-<tr class="separator:a0fc6f8aee7714c6f1415a2546217f31c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78fd94d1249ce034353b309efaa3759d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a78fd94d1249ce034353b309efaa3759d"></a>
-ev_t *&#160;</td><td class="memItemRight" valign="bottom"><b>event</b></td></tr>
-<tr class="separator:a78fd94d1249ce034353b309efaa3759d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a087a845451ad8691184c2634818bab0c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a087a845451ad8691184c2634818bab0c"></a>
-evbase_t *&#160;</td><td class="memItemRight" valign="bottom"><b>evbase</b></td></tr>
-<tr class="separator:a087a845451ad8691184c2634818bab0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30b222c90c14374f08d792aabfda14ac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a30b222c90c14374f08d792aabfda14ac"></a>
-pthread_mutex_t&#160;</td><td class="memItemRight" valign="bottom"><b>lock</b></td></tr>
-<tr class="separator:a30b222c90c14374f08d792aabfda14ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65a6114994c7fd5efdf4bc877c7fabca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a65a6114994c7fd5efdf4bc877c7fabca"></a>
-pthread_t *&#160;</td><td class="memItemRight" valign="bottom"><b>thr</b></td></tr>
-<tr class="separator:a65a6114994c7fd5efdf4bc877c7fabca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84e43d5e9c68d218b51235b481e10203"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a84e43d5e9c68d218b51235b481e10203"></a>
-evthr_init_cb&#160;</td><td class="memItemRight" valign="bottom"><b>init_cb</b></td></tr>
-<tr class="separator:a84e43d5e9c68d218b51235b481e10203"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b8a0f7cd565699e2763531ed01ff237"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1b8a0f7cd565699e2763531ed01ff237"></a>
-evthr_init_cb&#160;</td><td class="memItemRight" valign="bottom"><b>exit_cb</b></td></tr>
-<tr class="separator:a1b8a0f7cd565699e2763531ed01ff237"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a354f361daf02c13a615e5a02bce7e49a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a354f361daf02c13a615e5a02bce7e49a"></a>
-void *&#160;</td><td class="memItemRight" valign="bottom"><b>arg</b></td></tr>
-<tr class="separator:a354f361daf02c13a615e5a02bce7e49a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0883661b6238afc0eb4a877bb4c350fa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0883661b6238afc0eb4a877bb4c350fa"></a>
-void *&#160;</td><td class="memItemRight" valign="bottom"><b>aux</b></td></tr>
-<tr class="separator:a0883661b6238afc0eb4a877bb4c350fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Data Fields</h2></td></tr>
+<tr class="memitem:ada744e877327f161184becb5b47bfe54"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevthr.html#ada744e877327f161184becb5b47bfe54">rdr</a></td></tr>
+<tr class="separator:ada744e877327f161184becb5b47bfe54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab617f58dd4bccdaa1c30d9c50f17eb34"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevthr.html#ab617f58dd4bccdaa1c30d9c50f17eb34">wdr</a></td></tr>
+<tr class="separator:ab617f58dd4bccdaa1c30d9c50f17eb34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8db510dca91d5c39535402440aaad0e9"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevthr.html#a8db510dca91d5c39535402440aaad0e9">err</a></td></tr>
+<tr class="separator:a8db510dca91d5c39535402440aaad0e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad63d8e2a138a64945d40b5287b402a15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="evthr_8h.html#a178f68a8904021f10d4cbb822ed326f3">ev_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevthr.html#ad63d8e2a138a64945d40b5287b402a15">event</a></td></tr>
+<tr class="separator:ad63d8e2a138a64945d40b5287b402a15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2500747a136e625c27c800b5ebb4c871"><td class="memItemLeft" align="right" valign="top"><a class="el" href="evthr_8h.html#ac1a9bb265b995e58237889446894e944">evbase_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevthr.html#a2500747a136e625c27c800b5ebb4c871">evbase</a></td></tr>
+<tr class="separator:a2500747a136e625c27c800b5ebb4c871"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cdc37252330f410e9ded6a81bf83890"><td class="memItemLeft" align="right" valign="top">pthread_mutex_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevthr.html#a4cdc37252330f410e9ded6a81bf83890">lock</a></td></tr>
+<tr class="separator:a4cdc37252330f410e9ded6a81bf83890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9875d19ee6202fe0a271e1360e1d00ce"><td class="memItemLeft" align="right" valign="top">pthread_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevthr.html#a9875d19ee6202fe0a271e1360e1d00ce">thr</a></td></tr>
+<tr class="separator:a9875d19ee6202fe0a271e1360e1d00ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07e6e61cde55a5aa3dc861473b279cd0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="evthr_8h.html#ab8b64959af7208dcbece6a7100219701">evthr_init_cb</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevthr.html#a07e6e61cde55a5aa3dc861473b279cd0">init_cb</a></td></tr>
+<tr class="separator:a07e6e61cde55a5aa3dc861473b279cd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f866185f3bfbeaf050ab426e2ce1c57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="evthr_8h.html#ab8b64959af7208dcbece6a7100219701">evthr_init_cb</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevthr.html#a5f866185f3bfbeaf050ab426e2ce1c57">exit_cb</a></td></tr>
+<tr class="separator:a5f866185f3bfbeaf050ab426e2ce1c57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22ab54101b161e4fde60b99f2b91fe7b"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevthr.html#a22ab54101b161e4fde60b99f2b91fe7b">arg</a></td></tr>
+<tr class="separator:a22ab54101b161e4fde60b99f2b91fe7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0b3950ab48a1dc990ac39b1db9c2627"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevthr.html#aa0b3950ab48a1dc990ac39b1db9c2627">aux</a></td></tr>
+<tr class="separator:aa0b3950ab48a1dc990ac39b1db9c2627"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Field Documentation</h2>
+<a class="anchor" id="ada744e877327f161184becb5b47bfe54"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int evthr_t::rdr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab617f58dd4bccdaa1c30d9c50f17eb34"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int evthr_t::wdr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8db510dca91d5c39535402440aaad0e9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char evthr_t::err</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad63d8e2a138a64945d40b5287b402a15"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="evthr_8h.html#a178f68a8904021f10d4cbb822ed326f3">ev_t</a>* evthr_t::event</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2500747a136e625c27c800b5ebb4c871"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="evthr_8h.html#ac1a9bb265b995e58237889446894e944">evbase_t</a>* evthr_t::evbase</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4cdc37252330f410e9ded6a81bf83890"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">pthread_mutex_t evthr_t::lock</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9875d19ee6202fe0a271e1360e1d00ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">pthread_t* evthr_t::thr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="evthr_8h.html#a0349fcffea2ea94a8be2f23b1b4428fc">evthr_pool_stop()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a07e6e61cde55a5aa3dc861473b279cd0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="evthr_8h.html#ab8b64959af7208dcbece6a7100219701">evthr_init_cb</a> evthr_t::init_cb</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5f866185f3bfbeaf050ab426e2ce1c57"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="evthr_8h.html#ab8b64959af7208dcbece6a7100219701">evthr_init_cb</a> evthr_t::exit_cb</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a22ab54101b161e4fde60b99f2b91fe7b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* evthr_t::arg</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="evthr_8h.html#ae5dd31f2d8ea0638e803292181e9840d">evthr_defer()</a>, and <a class="el" href="evthr_8h.html#ae4d07fdb8fa1213e5925e25ee7f38983">evthr_pool_defer()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa0b3950ab48a1dc990ac39b1db9c2627"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* evthr_t::aux</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="evthr_8h.html#a90eebf6dd6489e86b738245ac690d838">evthr_set_aux()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>evthr.c</li>
+<li><a class="el" href="evthr_8c.html">evthr.c</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -162,7 +288,7 @@ void *&#160;</td><td class="memItemRight" valign="bottom"><b>aux</b></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structevthr.html">evthr</a></li>
-    <li class="footer">Generated on Fri Nov 27 2015 17:59:27 for Libevhtp by
+    <li class="footer">Generated on Sat Nov 28 2015 03:40:29 for Libevhtp by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

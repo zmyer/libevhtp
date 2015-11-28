@@ -47,7 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+      <li><a href="globals.html"><span>Globals</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('htparse_8h.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
+<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
@@ -142,7 +142,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <p><a href="htparse_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
+Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structhtparse__hooks.html">htparse_hooks</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -156,9 +156,9 @@ Typedefs</h2></td></tr>
 <tr class="separator:a482d5420cb74e792f20871d1e5ebc500"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a194b3a4d59640d4ca2d66662892068"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513">htpparse_error</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a8a194b3a4d59640d4ca2d66662892068">htpparse_error</a></td></tr>
 <tr class="separator:a8a194b3a4d59640d4ca2d66662892068"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a424d7a1e41f554fddd67cd5a4b34ead7"><td class="memItemLeft" align="right" valign="top">typedef int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a424d7a1e41f554fddd67cd5a4b34ead7">htparse_hook</a>) (htparser *)</td></tr>
+<tr class="memitem:a424d7a1e41f554fddd67cd5a4b34ead7"><td class="memItemLeft" align="right" valign="top">typedef int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a424d7a1e41f554fddd67cd5a4b34ead7">htparse_hook</a>) (<a class="el" href="structhtparser.html">htparser</a> *)</td></tr>
 <tr class="separator:a424d7a1e41f554fddd67cd5a4b34ead7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70d955147c9e8032c6f5bb39c17fa34b"><td class="memItemLeft" align="right" valign="top">typedef int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a70d955147c9e8032c6f5bb39c17fa34b">htparse_data_hook</a>) (htparser *, const char *, size_t)</td></tr>
+<tr class="memitem:a70d955147c9e8032c6f5bb39c17fa34b"><td class="memItemLeft" align="right" valign="top">typedef int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a70d955147c9e8032c6f5bb39c17fa34b">htparse_data_hook</a>) (<a class="el" href="structhtparser.html">htparser</a> *, const char *, size_t)</td></tr>
 <tr class="separator:a70d955147c9e8032c6f5bb39c17fa34b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -227,47 +227,47 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a367bad2c791cdd1f80660b25dbb808d5"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a367bad2c791cdd1f80660b25dbb808d5">htparser_run</a> (htparser *, <a class="el" href="structhtparse__hooks.html">htparse_hooks</a> *, const char *, size_t)</td></tr>
+<tr class="memitem:a367bad2c791cdd1f80660b25dbb808d5"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a367bad2c791cdd1f80660b25dbb808d5">htparser_run</a> (<a class="el" href="structhtparser.html">htparser</a> *, <a class="el" href="structhtparse__hooks.html">htparse_hooks</a> *, const char *, size_t)</td></tr>
 <tr class="separator:a367bad2c791cdd1f80660b25dbb808d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84cb48e2157bafb9f9a62ea9cd473394"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a84cb48e2157bafb9f9a62ea9cd473394">htparser_should_keep_alive</a> (htparser *p)</td></tr>
+<tr class="memitem:a84cb48e2157bafb9f9a62ea9cd473394"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a84cb48e2157bafb9f9a62ea9cd473394">htparser_should_keep_alive</a> (<a class="el" href="structhtparser.html">htparser</a> *p)</td></tr>
 <tr class="separator:a84cb48e2157bafb9f9a62ea9cd473394"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a625465ff8d9add8b9377e5a63428b4e5"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT <a class="el" href="htparse_8h.html#a4a4b5e17da23ccf7d039b58ccc78758a">htp_scheme</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a625465ff8d9add8b9377e5a63428b4e5">htparser_get_scheme</a> (htparser *)</td></tr>
+<tr class="memitem:a625465ff8d9add8b9377e5a63428b4e5"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT <a class="el" href="htparse_8h.html#a4a4b5e17da23ccf7d039b58ccc78758a">htp_scheme</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a625465ff8d9add8b9377e5a63428b4e5">htparser_get_scheme</a> (<a class="el" href="structhtparser.html">htparser</a> *)</td></tr>
 <tr class="separator:a625465ff8d9add8b9377e5a63428b4e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a282e7d883fbfa5424e6bc5d42c6e9214"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT <a class="el" href="htparse_8h.html#a737d9de0a6960b595f9ce283fd1c0edf">htp_method</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a282e7d883fbfa5424e6bc5d42c6e9214">htparser_get_method</a> (htparser *)</td></tr>
+<tr class="memitem:a282e7d883fbfa5424e6bc5d42c6e9214"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT <a class="el" href="htparse_8h.html#a737d9de0a6960b595f9ce283fd1c0edf">htp_method</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a282e7d883fbfa5424e6bc5d42c6e9214">htparser_get_method</a> (<a class="el" href="structhtparser.html">htparser</a> *)</td></tr>
 <tr class="separator:a282e7d883fbfa5424e6bc5d42c6e9214"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6c43abc706e76e42a3d317477f355be"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#ae6c43abc706e76e42a3d317477f355be">htparser_get_methodstr</a> (htparser *)</td></tr>
+<tr class="memitem:ae6c43abc706e76e42a3d317477f355be"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#ae6c43abc706e76e42a3d317477f355be">htparser_get_methodstr</a> (<a class="el" href="structhtparser.html">htparser</a> *)</td></tr>
 <tr class="separator:ae6c43abc706e76e42a3d317477f355be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aead93b50d5f1bf8921b3d82192efb258"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#aead93b50d5f1bf8921b3d82192efb258">htparser_get_methodstr_m</a> (<a class="el" href="htparse_8h.html#a737d9de0a6960b595f9ce283fd1c0edf">htp_method</a>)</td></tr>
 <tr class="separator:aead93b50d5f1bf8921b3d82192efb258"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a355ccf33abd21b313f02c5328651e6a3"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a355ccf33abd21b313f02c5328651e6a3">htparser_set_major</a> (htparser *, unsigned char)</td></tr>
+<tr class="memitem:a355ccf33abd21b313f02c5328651e6a3"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a355ccf33abd21b313f02c5328651e6a3">htparser_set_major</a> (<a class="el" href="structhtparser.html">htparser</a> *, unsigned char)</td></tr>
 <tr class="separator:a355ccf33abd21b313f02c5328651e6a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f8449426a38a250d46d8720678c5e43"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a0f8449426a38a250d46d8720678c5e43">htparser_set_minor</a> (htparser *, unsigned char)</td></tr>
+<tr class="memitem:a0f8449426a38a250d46d8720678c5e43"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a0f8449426a38a250d46d8720678c5e43">htparser_set_minor</a> (<a class="el" href="structhtparser.html">htparser</a> *, unsigned char)</td></tr>
 <tr class="separator:a0f8449426a38a250d46d8720678c5e43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a782b4a3ca14e05773c2ddab0458ec385"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a782b4a3ca14e05773c2ddab0458ec385">htparser_get_major</a> (htparser *)</td></tr>
+<tr class="memitem:a782b4a3ca14e05773c2ddab0458ec385"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a782b4a3ca14e05773c2ddab0458ec385">htparser_get_major</a> (<a class="el" href="structhtparser.html">htparser</a> *)</td></tr>
 <tr class="separator:a782b4a3ca14e05773c2ddab0458ec385"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38d08f59ad677d697ad33db1a85f8a4c"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a38d08f59ad677d697ad33db1a85f8a4c">htparser_get_minor</a> (htparser *)</td></tr>
+<tr class="memitem:a38d08f59ad677d697ad33db1a85f8a4c"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a38d08f59ad677d697ad33db1a85f8a4c">htparser_get_minor</a> (<a class="el" href="structhtparser.html">htparser</a> *)</td></tr>
 <tr class="separator:a38d08f59ad677d697ad33db1a85f8a4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e7b70559655bcdadc51cee448eca429"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a6e7b70559655bcdadc51cee448eca429">htparser_get_multipart</a> (htparser *)</td></tr>
+<tr class="memitem:a6e7b70559655bcdadc51cee448eca429"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a6e7b70559655bcdadc51cee448eca429">htparser_get_multipart</a> (<a class="el" href="structhtparser.html">htparser</a> *)</td></tr>
 <tr class="separator:a6e7b70559655bcdadc51cee448eca429"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d90f82f631864533bd8d33162e09ce2"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a5d90f82f631864533bd8d33162e09ce2">htparser_get_status</a> (htparser *)</td></tr>
+<tr class="memitem:a5d90f82f631864533bd8d33162e09ce2"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a5d90f82f631864533bd8d33162e09ce2">htparser_get_status</a> (<a class="el" href="structhtparser.html">htparser</a> *)</td></tr>
 <tr class="separator:a5d90f82f631864533bd8d33162e09ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affa56d9dae3af5a40dcf9ef789a6d87e"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#affa56d9dae3af5a40dcf9ef789a6d87e">htparser_get_content_length</a> (htparser *)</td></tr>
+<tr class="memitem:affa56d9dae3af5a40dcf9ef789a6d87e"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#affa56d9dae3af5a40dcf9ef789a6d87e">htparser_get_content_length</a> (<a class="el" href="structhtparser.html">htparser</a> *)</td></tr>
 <tr class="separator:affa56d9dae3af5a40dcf9ef789a6d87e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80f0e1adbc2a0d5ffcc89758e9f064e4"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a80f0e1adbc2a0d5ffcc89758e9f064e4">htparser_get_content_pending</a> (htparser *)</td></tr>
+<tr class="memitem:a80f0e1adbc2a0d5ffcc89758e9f064e4"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a80f0e1adbc2a0d5ffcc89758e9f064e4">htparser_get_content_pending</a> (<a class="el" href="structhtparser.html">htparser</a> *)</td></tr>
 <tr class="separator:a80f0e1adbc2a0d5ffcc89758e9f064e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e705038a1ae895117ec9706e7382109"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a0e705038a1ae895117ec9706e7382109">htparser_get_total_bytes_read</a> (htparser *)</td></tr>
+<tr class="memitem:a0e705038a1ae895117ec9706e7382109"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a0e705038a1ae895117ec9706e7382109">htparser_get_total_bytes_read</a> (<a class="el" href="structhtparser.html">htparser</a> *)</td></tr>
 <tr class="separator:a0e705038a1ae895117ec9706e7382109"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad32debb86d7401b6f50de1c3661de5a7"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513">htpparse_error</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#ad32debb86d7401b6f50de1c3661de5a7">htparser_get_error</a> (htparser *)</td></tr>
+<tr class="memitem:ad32debb86d7401b6f50de1c3661de5a7"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513">htpparse_error</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#ad32debb86d7401b6f50de1c3661de5a7">htparser_get_error</a> (<a class="el" href="structhtparser.html">htparser</a> *)</td></tr>
 <tr class="separator:ad32debb86d7401b6f50de1c3661de5a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af25249dbd827b43af9a8008be45ca887"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#af25249dbd827b43af9a8008be45ca887">htparser_get_strerror</a> (htparser *)</td></tr>
+<tr class="memitem:af25249dbd827b43af9a8008be45ca887"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#af25249dbd827b43af9a8008be45ca887">htparser_get_strerror</a> (<a class="el" href="structhtparser.html">htparser</a> *)</td></tr>
 <tr class="separator:af25249dbd827b43af9a8008be45ca887"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c2fa8ca3d76fc615e970e1c2c68b10b"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a1c2fa8ca3d76fc615e970e1c2c68b10b">htparser_get_userdata</a> (htparser *)</td></tr>
+<tr class="memitem:a1c2fa8ca3d76fc615e970e1c2c68b10b"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a1c2fa8ca3d76fc615e970e1c2c68b10b">htparser_get_userdata</a> (<a class="el" href="structhtparser.html">htparser</a> *)</td></tr>
 <tr class="separator:a1c2fa8ca3d76fc615e970e1c2c68b10b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63b6f0ee9454161a722128483cb13cb3"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a63b6f0ee9454161a722128483cb13cb3">htparser_set_userdata</a> (htparser *, void *)</td></tr>
+<tr class="memitem:a63b6f0ee9454161a722128483cb13cb3"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a63b6f0ee9454161a722128483cb13cb3">htparser_set_userdata</a> (<a class="el" href="structhtparser.html">htparser</a> *, void *)</td></tr>
 <tr class="separator:a63b6f0ee9454161a722128483cb13cb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cfcfa4793cdc2069a2092a1f4877be9"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a4cfcfa4793cdc2069a2092a1f4877be9">htparser_init</a> (htparser *, <a class="el" href="htparse_8h.html#a135ca807754d9ab6a2dfb6ac91a217a5">htp_type</a>)</td></tr>
+<tr class="memitem:a4cfcfa4793cdc2069a2092a1f4877be9"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a4cfcfa4793cdc2069a2092a1f4877be9">htparser_init</a> (<a class="el" href="structhtparser.html">htparser</a> *, <a class="el" href="htparse_8h.html#a135ca807754d9ab6a2dfb6ac91a217a5">htp_type</a>)</td></tr>
 <tr class="separator:a4cfcfa4793cdc2069a2092a1f4877be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0be5b9e0ee645f7fea907f2ce8ee4c2e"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT htparser *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a0be5b9e0ee645f7fea907f2ce8ee4c2e">htparser_new</a> (void)</td></tr>
+<tr class="memitem:a0be5b9e0ee645f7fea907f2ce8ee4c2e"><td class="memItemLeft" align="right" valign="top">EVHTP_EXPORT <a class="el" href="structhtparser.html">htparser</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="htparse_8h.html#a0be5b9e0ee645f7fea907f2ce8ee4c2e">htparser_new</a> (void)</td></tr>
 <tr class="separator:a0be5b9e0ee645f7fea907f2ce8ee4c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -324,7 +324,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int(*  htparse_hook) (htparser *)</td>
+          <td class="memname">typedef int(*  htparse_hook) (<a class="el" href="structhtparser.html">htparser</a> *)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -336,7 +336,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int(*  htparse_data_hook) (htparser *, const char *, size_t)</td>
+          <td class="memname">typedef int(*  htparse_data_hook) (<a class="el" href="structhtparser.html">htparser</a> *, const char *, size_t)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -572,7 +572,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">EVHTP_EXPORT size_t htparser_run </td>
           <td>(</td>
-          <td class="paramtype">htparser *&#160;</td>
+          <td class="paramtype"><a class="el" href="structhtparser.html">htparser</a> *&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -601,7 +601,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="htparse_8c.html#ac05152cab4f49db81e5d9a9bbfd3ffc2">_MIN_READ</a>, <a class="el" href="htparse_8c.html#a0ba2536067a530009c8e3bb2d77ea63c">_str3_cmp</a>, <a class="el" href="htparse_8c.html#a3e8398ec0900e957b92a2518615092ec">_str4cmp</a>, <a class="el" href="htparse_8c.html#a175b568ea0f47b14e1aa53ca494ab219">_str5cmp</a>, <a class="el" href="htparse_8c.html#a4aa1700a05823d15d3310fd2c61688da">_str6cmp</a>, <a class="el" href="htparse_8c.html#ab4207f02d7c26d027ef2a9a2aba68f1e">_str8cmp</a>, <a class="el" href="htparse_8c.html#a0ef899083032a04c495e6c0ec48ba8d8">_str9cmp</a>, <a class="el" href="htparse_8c.html#a876ce77f3c672c7162658151e648389e">CR</a>, <a class="el" href="htparse_8c.html#a0c0487234662faab8e8dd2b271ab63c8aba155106f660bccc7fa3e20e1748b98d">eval_hdr_val_connection</a>, <a class="el" href="htparse_8c.html#a0c0487234662faab8e8dd2b271ab63c8a60903c6806c3d8595b310a8a6b3f7b32">eval_hdr_val_content_length</a>, <a class="el" href="htparse_8c.html#a0c0487234662faab8e8dd2b271ab63c8a37efcf74bd9fecd3b6bd7219c7ee99e9">eval_hdr_val_content_type</a>, <a class="el" href="htparse_8c.html#a0c0487234662faab8e8dd2b271ab63c8afd29f794d6f56d24b75752f307f191ec">eval_hdr_val_hostname</a>, <a class="el" href="htparse_8c.html#a0c0487234662faab8e8dd2b271ab63c8acdd72e86ab299ca5afaff5a762315c86">eval_hdr_val_none</a>, <a class="el" href="htparse_8c.html#a0c0487234662faab8e8dd2b271ab63c8a9ea6081a566249964768588b90d80fc1">eval_hdr_val_proxy_connection</a>, <a class="el" href="htparse_8c.html#a0c0487234662faab8e8dd2b271ab63c8a0cb9591a21581b682007f2403544267a">eval_hdr_val_transfer_encoding</a>, <a class="el" href="evhtp-internal_8h.html#a1c7eb8cd4bffec4c846b082c7783699f">evhtp_likely</a>, <a class="el" href="evhtp-internal_8h.html#ae7aa70ee9350e7db0b825b794cc68387">evhtp_unlikely</a>, <a class="el" href="htparse_8c.html#a2f924cee0d1ff942fd92d781879df83c">get_method()</a>, <a class="el" href="htparse_8h.html#a737d9de0a6960b595f9ce283fd1c0edfa48aee2616073da20bd7d1d0682fae08e">htp_method_CONNECT</a>, <a class="el" href="htparse_8h.html#a737d9de0a6960b595f9ce283fd1c0edfaf6b69f546b5697b00f9a5538a79b6a37">htp_method_UNKNOWN</a>, <a class="el" href="htparse_8h.html#a4a4b5e17da23ccf7d039b58ccc78758aa191dbe9eee845fe7adedecf5b2a1d89d">htp_scheme_ftp</a>, <a class="el" href="htparse_8h.html#a4a4b5e17da23ccf7d039b58ccc78758aa684bafe10fa5c26acbb0204146a8398c">htp_scheme_http</a>, <a class="el" href="htparse_8h.html#a4a4b5e17da23ccf7d039b58ccc78758aa60541eb5f12040e1f80b3235e98f470b">htp_scheme_https</a>, <a class="el" href="htparse_8h.html#a4a4b5e17da23ccf7d039b58ccc78758aaf2223e4d92298e3cd75d30ecbcfd4f6f">htp_scheme_nfs</a>, <a class="el" href="htparse_8h.html#a4a4b5e17da23ccf7d039b58ccc78758aa7f5ecade1dd218f54ed87c16af5999c5">htp_scheme_unknown</a>, <a class="el" href="htparse_8h.html#a135ca807754d9ab6a2dfb6ac91a217a5aec3852f4581a452f70bf4fca00fa3612">htp_type_request</a>, <a class="el" href="htparse_8h.html#a135ca807754d9ab6a2dfb6ac91a217a5a7a15bc7bf31e1f34aeb3da8fed48cf25">htp_type_response</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513ab4f1b6728647479f86bd88384d6f9fdd">htparse_error_generic</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a4980a3d879c87f947e0401cb8d6bb34b">htparse_error_inval_chunk</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a55c0bdd97ba8e609c5d36902a8488783">htparse_error_inval_chunk_sz</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a50a98cee83f0086c84f25cdc27b47fe3">htparse_error_inval_hdr</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513af5547bc9e4648d7e9a4c95d6480496e1">htparse_error_inval_method</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a898568ace8a582b474725153a8e33bae">htparse_error_inval_proto</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a163a3c67c667f50d00b01a684386929b">htparse_error_inval_reqline</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a9e5553f55d7bd657302c51c7c2a0e070">htparse_error_inval_schema</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513ab9ca3d083e5a783fe4eaa6a8dc4b0025">htparse_error_inval_state</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a05188a6e498f0bec468f308e86dad0b3">htparse_error_inval_ver</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a0877da12cd92d4b01b078db2f1667e4c">htparse_error_none</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513afd5377da30e55abd9175ec5d3108e74a">htparse_error_status</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a1be011d81952fa61f9455dcaa5077fe8">htparse_error_too_big</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a65e56c6543e396fd2587d1e9c50a07f5">htparse_error_user</a>, <a class="el" href="htparse_8c.html#a91f06e2606fca128c430dd7a007a404c">htparse_log_debug</a>, <a class="el" href="htparse_8c.html#aa905ee8d3cead3af162d637a3a33c397">is_host_char()</a>, <a class="el" href="htparse_8c.html#a350c9d6cb81908d59427ee96844d1a9c">LF</a>, <a class="el" href="htparse_8c.html#a4f4f0adbebc0dc0f720b6ec61320c7b7a991a7eca43c85311792544b60753dfdb">parser_flag_chunked</a>, <a class="el" href="htparse_8c.html#a4f4f0adbebc0dc0f720b6ec61320c7b7a8f0e31cd4e92e47e43433531ccdfd3d7">parser_flag_connection_close</a>, <a class="el" href="htparse_8c.html#a4f4f0adbebc0dc0f720b6ec61320c7b7ac999413caca6bc397f9a292f918d0a1f">parser_flag_connection_keep_alive</a>, <a class="el" href="htparse_8c.html#a4f4f0adbebc0dc0f720b6ec61320c7b7a661bfda747bf7a3fed613b6c3eb06028">parser_flag_trailing</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9ae49428b948e91eac57dda24481ae6cb9">s_after_slash_in_uri</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a87d01842ccb80e19840c2773d3c04549">s_almost_done</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a5ed9c0b1fb019662894531ce1d5783a9">s_body_read</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a61b6d095d34041a6a2df108e0eb91017">s_check_uri</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a1dfa1c7e958daff320dcca379e1891f2">s_chunk_data</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9aff85ea02669f8cf3bae62121928668c0">s_chunk_data_almost_done</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a159666494992773deef3d091d61efa64">s_chunk_data_done</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a63c8547a6c351def0a6d1d1529c90aad">s_chunk_size</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a16494186a1ec7a1e140af1b4eaa09d20">s_chunk_size_almost_done</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9af9d6a67a8cad297aa880c91180699409">s_chunk_size_start</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a98630aac20c045bc0192a5733cd57396">s_done</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9ae6fd2b5b67dba201647a5f22dd3c7bb1">s_first_major_digit</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9aeee8b5c8bfc584f91bfd17b7c33937f1">s_first_minor_digit</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9ab08e5bb84930674ecfbd09b5aaab0c25">s_hdrline_almost_done</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a187a73773e9b9c40d05a84ac74977f4d">s_hdrline_done</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a57d4df3ee4671998223fdb86cdf1141b">s_hdrline_hdr_almost_done</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9af01b96ba565c69ecfe83c86fc64dea2e">s_hdrline_hdr_done</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a6468dd4996ac118aa2a29909055a6da5">s_hdrline_hdr_key</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a9385d60ff6c6dca59bcdafbf8ecf4ad5">s_hdrline_hdr_space_before_val</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a28941d3238b32b8c35ecc71ad087bf2b">s_hdrline_hdr_val</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9acb30e8c102897e36dc9a793cd28ad531">s_hdrline_start</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a5d11fbfad768e79ea11dee6b38f00a33">s_host</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9aedc93cfc7700bcbffcd3fb5626ac2edc">s_host_done</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a4ae2f2496cd0c3a68284ac1150bac2a4">s_host_ipv6</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a40ddefb5747d737ecce0cdc1d1cf961b">s_http_09</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9abefe7d580d5aa9fb4c1b598a3292fe4c">s_http_H</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a49d801e019446ebf9aa5f664445765c6">s_http_HT</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a9881ac0aec15d79424169dbc9c1c0d13">s_http_HTT</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a6212dfbee6b48c3f52d19115ecf58857">s_http_HTTP</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a9463e921387dc37fb8b194a461d78f6a">s_major_digit</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a5d85b9dc834ae9b92d8ede925df4b0c8">s_method</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9ae775e255b394237b8702658ace8da007">s_minor_digit</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9ae209484d8138964083a5ffb425bf2f1a">s_port</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9aca43df7783481f4e387a23f4b5f655a7">s_schema</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a685f3a456cd1c80f3e5e7ca4eade359d">s_schema_slash</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a4fe795e57f9a328a01b4aa6a06a844ca">s_schema_slash_slash</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a61a36ae2e1e42bf3f7b4eee0bafeccb5">s_space_after_status</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a691a7576f9204527f66942d682b5ae1a">s_spaces_after_digit</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9abf437953717e0c95d8e5bee70507fbcc">s_spaces_before_uri</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9ab4f3ff686110f672aa856d97f73c8d21">s_start</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a79fe719ae8744864c1620ac66bc35e06">s_status</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a25b5a1b4d9325962b81cb70664380cb1">s_status_text</a>, and <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9aefa11f76c3daf2f7f941b6145995a48d">s_uri</a>.</p>
+<p>References <a class="el" href="htparse_8c.html#ac05152cab4f49db81e5d9a9bbfd3ffc2">_MIN_READ</a>, <a class="el" href="htparse_8c.html#a0ba2536067a530009c8e3bb2d77ea63c">_str3_cmp</a>, <a class="el" href="htparse_8c.html#a3e8398ec0900e957b92a2518615092ec">_str4cmp</a>, <a class="el" href="htparse_8c.html#a175b568ea0f47b14e1aa53ca494ab219">_str5cmp</a>, <a class="el" href="htparse_8c.html#a4aa1700a05823d15d3310fd2c61688da">_str6cmp</a>, <a class="el" href="htparse_8c.html#ab4207f02d7c26d027ef2a9a2aba68f1e">_str8cmp</a>, <a class="el" href="htparse_8c.html#a0ef899083032a04c495e6c0ec48ba8d8">_str9cmp</a>, <a class="el" href="structhtparser.html#a4255fa912b0082af0e8249fa3c7253e3">htparser::args_offset</a>, <a class="el" href="structhtparser.html#a5e8ee1aa10fce32cae412c3470ed4576">htparser::buf</a>, <a class="el" href="structhtparser.html#a947bc98af7015295a1f41c8b3f2f5940">htparser::buf_idx</a>, <a class="el" href="structhtparser.html#af3819bf4ff1218df9cff9431cdd58dcb">htparser::bytes_read</a>, <a class="el" href="structhtparser.html#a4aeac73883a778f4d7ddf2631fdbe309">htparser::content_len</a>, <a class="el" href="htparse_8c.html#a876ce77f3c672c7162658151e648389e">CR</a>, <a class="el" href="structhtparser.html#a0ca449928980844c8aa01e2bcc36a16b">htparser::error</a>, <a class="el" href="htparse_8c.html#a0c0487234662faab8e8dd2b271ab63c8aba155106f660bccc7fa3e20e1748b98d">eval_hdr_val_connection</a>, <a class="el" href="htparse_8c.html#a0c0487234662faab8e8dd2b271ab63c8a60903c6806c3d8595b310a8a6b3f7b32">eval_hdr_val_content_length</a>, <a class="el" href="htparse_8c.html#a0c0487234662faab8e8dd2b271ab63c8a37efcf74bd9fecd3b6bd7219c7ee99e9">eval_hdr_val_content_type</a>, <a class="el" href="htparse_8c.html#a0c0487234662faab8e8dd2b271ab63c8afd29f794d6f56d24b75752f307f191ec">eval_hdr_val_hostname</a>, <a class="el" href="htparse_8c.html#a0c0487234662faab8e8dd2b271ab63c8acdd72e86ab299ca5afaff5a762315c86">eval_hdr_val_none</a>, <a class="el" href="htparse_8c.html#a0c0487234662faab8e8dd2b271ab63c8a9ea6081a566249964768588b90d80fc1">eval_hdr_val_proxy_connection</a>, <a class="el" href="htparse_8c.html#a0c0487234662faab8e8dd2b271ab63c8a0cb9591a21581b682007f2403544267a">eval_hdr_val_transfer_encoding</a>, <a class="el" href="evhtp-internal_8h.html#a1c7eb8cd4bffec4c846b082c7783699f">evhtp_likely</a>, <a class="el" href="evhtp-internal_8h.html#ae7aa70ee9350e7db0b825b794cc68387">evhtp_unlikely</a>, <a class="el" href="structhtparser.html#a5cfaef47540998b8d4b1f3500421af88">htparser::flags</a>, <a class="el" href="htparse_8c.html#a2f924cee0d1ff942fd92d781879df83c">get_method()</a>, <a class="el" href="structhtparser.html#adb886f55a8c8812f37776c1234372ee1">htparser::heval</a>, <a class="el" href="structhtparser.html#af946ad23787cf09cb2c3e41fd9c43d95">htparser::host_offset</a>, <a class="el" href="htparse_8h.html#a737d9de0a6960b595f9ce283fd1c0edfa48aee2616073da20bd7d1d0682fae08e">htp_method_CONNECT</a>, <a class="el" href="htparse_8h.html#a737d9de0a6960b595f9ce283fd1c0edfaf6b69f546b5697b00f9a5538a79b6a37">htp_method_UNKNOWN</a>, <a class="el" href="htparse_8h.html#a4a4b5e17da23ccf7d039b58ccc78758aa191dbe9eee845fe7adedecf5b2a1d89d">htp_scheme_ftp</a>, <a class="el" href="htparse_8h.html#a4a4b5e17da23ccf7d039b58ccc78758aa684bafe10fa5c26acbb0204146a8398c">htp_scheme_http</a>, <a class="el" href="htparse_8h.html#a4a4b5e17da23ccf7d039b58ccc78758aa60541eb5f12040e1f80b3235e98f470b">htp_scheme_https</a>, <a class="el" href="htparse_8h.html#a4a4b5e17da23ccf7d039b58ccc78758aaf2223e4d92298e3cd75d30ecbcfd4f6f">htp_scheme_nfs</a>, <a class="el" href="htparse_8h.html#a4a4b5e17da23ccf7d039b58ccc78758aa7f5ecade1dd218f54ed87c16af5999c5">htp_scheme_unknown</a>, <a class="el" href="htparse_8h.html#a135ca807754d9ab6a2dfb6ac91a217a5aec3852f4581a452f70bf4fca00fa3612">htp_type_request</a>, <a class="el" href="htparse_8h.html#a135ca807754d9ab6a2dfb6ac91a217a5a7a15bc7bf31e1f34aeb3da8fed48cf25">htp_type_response</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513ab4f1b6728647479f86bd88384d6f9fdd">htparse_error_generic</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a4980a3d879c87f947e0401cb8d6bb34b">htparse_error_inval_chunk</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a55c0bdd97ba8e609c5d36902a8488783">htparse_error_inval_chunk_sz</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a50a98cee83f0086c84f25cdc27b47fe3">htparse_error_inval_hdr</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513af5547bc9e4648d7e9a4c95d6480496e1">htparse_error_inval_method</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a898568ace8a582b474725153a8e33bae">htparse_error_inval_proto</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a163a3c67c667f50d00b01a684386929b">htparse_error_inval_reqline</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a9e5553f55d7bd657302c51c7c2a0e070">htparse_error_inval_schema</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513ab9ca3d083e5a783fe4eaa6a8dc4b0025">htparse_error_inval_state</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a05188a6e498f0bec468f308e86dad0b3">htparse_error_inval_ver</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a0877da12cd92d4b01b078db2f1667e4c">htparse_error_none</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513afd5377da30e55abd9175ec5d3108e74a">htparse_error_status</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a1be011d81952fa61f9455dcaa5077fe8">htparse_error_too_big</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a65e56c6543e396fd2587d1e9c50a07f5">htparse_error_user</a>, <a class="el" href="htparse_8c.html#a91f06e2606fca128c430dd7a007a404c">htparse_log_debug</a>, <a class="el" href="htparse_8c.html#aa905ee8d3cead3af162d637a3a33c397">is_host_char()</a>, <a class="el" href="htparse_8c.html#a350c9d6cb81908d59427ee96844d1a9c">LF</a>, <a class="el" href="structhtparser.html#a7da701a4f43cb87fad9b70b707cd5411">htparser::major</a>, <a class="el" href="structhtparser.html#a69c1dc2624d9c86895411c05eef25fd1">htparser::method</a>, <a class="el" href="structhtparser.html#a826d21afd3e0fb47fb46e09ff034061e">htparser::minor</a>, <a class="el" href="structhtparser.html#a0ed2507f3b251fa373ecd55e4020d791">htparser::multipart</a>, <a class="el" href="structhtparser.html#aff229b3984045dca6f947bb25b4686bf">htparser::orig_content_len</a>, <a class="el" href="htparse_8c.html#a4f4f0adbebc0dc0f720b6ec61320c7b7a991a7eca43c85311792544b60753dfdb">parser_flag_chunked</a>, <a class="el" href="htparse_8c.html#a4f4f0adbebc0dc0f720b6ec61320c7b7a8f0e31cd4e92e47e43433531ccdfd3d7">parser_flag_connection_close</a>, <a class="el" href="htparse_8c.html#a4f4f0adbebc0dc0f720b6ec61320c7b7ac999413caca6bc397f9a292f918d0a1f">parser_flag_connection_keep_alive</a>, <a class="el" href="htparse_8c.html#a4f4f0adbebc0dc0f720b6ec61320c7b7a661bfda747bf7a3fed613b6c3eb06028">parser_flag_trailing</a>, <a class="el" href="structhtparser.html#a3f7fd85ab8e9d4ae8c34159a81f2d9f5">htparser::path_offset</a>, <a class="el" href="structhtparser.html#aa9676f7273d0389e0b1d2031e023fd9f">htparser::port_offset</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9ae49428b948e91eac57dda24481ae6cb9">s_after_slash_in_uri</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a87d01842ccb80e19840c2773d3c04549">s_almost_done</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a5ed9c0b1fb019662894531ce1d5783a9">s_body_read</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a61b6d095d34041a6a2df108e0eb91017">s_check_uri</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a1dfa1c7e958daff320dcca379e1891f2">s_chunk_data</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9aff85ea02669f8cf3bae62121928668c0">s_chunk_data_almost_done</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a159666494992773deef3d091d61efa64">s_chunk_data_done</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a63c8547a6c351def0a6d1d1529c90aad">s_chunk_size</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a16494186a1ec7a1e140af1b4eaa09d20">s_chunk_size_almost_done</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9af9d6a67a8cad297aa880c91180699409">s_chunk_size_start</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a98630aac20c045bc0192a5733cd57396">s_done</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9ae6fd2b5b67dba201647a5f22dd3c7bb1">s_first_major_digit</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9aeee8b5c8bfc584f91bfd17b7c33937f1">s_first_minor_digit</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9ab08e5bb84930674ecfbd09b5aaab0c25">s_hdrline_almost_done</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a187a73773e9b9c40d05a84ac74977f4d">s_hdrline_done</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a57d4df3ee4671998223fdb86cdf1141b">s_hdrline_hdr_almost_done</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9af01b96ba565c69ecfe83c86fc64dea2e">s_hdrline_hdr_done</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a6468dd4996ac118aa2a29909055a6da5">s_hdrline_hdr_key</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a9385d60ff6c6dca59bcdafbf8ecf4ad5">s_hdrline_hdr_space_before_val</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a28941d3238b32b8c35ecc71ad087bf2b">s_hdrline_hdr_val</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9acb30e8c102897e36dc9a793cd28ad531">s_hdrline_start</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a5d11fbfad768e79ea11dee6b38f00a33">s_host</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9aedc93cfc7700bcbffcd3fb5626ac2edc">s_host_done</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a4ae2f2496cd0c3a68284ac1150bac2a4">s_host_ipv6</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a40ddefb5747d737ecce0cdc1d1cf961b">s_http_09</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9abefe7d580d5aa9fb4c1b598a3292fe4c">s_http_H</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a49d801e019446ebf9aa5f664445765c6">s_http_HT</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a9881ac0aec15d79424169dbc9c1c0d13">s_http_HTT</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a6212dfbee6b48c3f52d19115ecf58857">s_http_HTTP</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a9463e921387dc37fb8b194a461d78f6a">s_major_digit</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a5d85b9dc834ae9b92d8ede925df4b0c8">s_method</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9ae775e255b394237b8702658ace8da007">s_minor_digit</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9ae209484d8138964083a5ffb425bf2f1a">s_port</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9aca43df7783481f4e387a23f4b5f655a7">s_schema</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a685f3a456cd1c80f3e5e7ca4eade359d">s_schema_slash</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a4fe795e57f9a328a01b4aa6a06a844ca">s_schema_slash_slash</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a61a36ae2e1e42bf3f7b4eee0bafeccb5">s_space_after_status</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a691a7576f9204527f66942d682b5ae1a">s_spaces_after_digit</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9abf437953717e0c95d8e5bee70507fbcc">s_spaces_before_uri</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9ab4f3ff686110f672aa856d97f73c8d21">s_start</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a79fe719ae8744864c1620ac66bc35e06">s_status</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9a25b5a1b4d9325962b81cb70664380cb1">s_status_text</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9aefa11f76c3daf2f7f941b6145995a48d">s_uri</a>, <a class="el" href="structhtparser.html#a0744b6636c26378e55686784ad01791a">htparser::scheme</a>, <a class="el" href="structhtparser.html#ad5678b4df4cb20c188c2ab4a7cc72cfc">htparser::scheme_offset</a>, <a class="el" href="structhtparser.html#a634f82068f874086530e98e8e67fa5d5">htparser::state</a>, <a class="el" href="structhtparser.html#a4cffe289c483485363d3f4ab7fdb3ad6">htparser::status</a>, <a class="el" href="structhtparser.html#a6ef482f91163ead4bfacb8fa8612c995">htparser::status_count</a>, <a class="el" href="structhtparser.html#ad05981c2ed8d6d2319838b7e8fafea6f">htparser::total_bytes_read</a>, and <a class="el" href="structhtparser.html#a60dbd87e7bae06fcb03779acf9e56d73">htparser::type</a>.</p>
 
 <p>Referenced by <a class="el" href="evhtp_8c.html#ae4c1691af1bf2b75cec8d8dce75b0dcb">_evhtp_connection_readcb()</a>, and <a class="el" href="test__htparse_8c.html#a34bfd00088e7d991270cefee38b14d77">_run_test()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;                                                                                 {</div>
@@ -2176,25 +2176,25 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">EVHTP_EXPORT int htparser_should_keep_alive </td>
           <td>(</td>
-          <td class="paramtype">htparser *&#160;</td>
+          <td class="paramtype"><a class="el" href="structhtparser.html">htparser</a> *&#160;</td>
           <td class="paramname"><em>p</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="htparse_8c.html#a4f4f0adbebc0dc0f720b6ec61320c7b7a8f0e31cd4e92e47e43433531ccdfd3d7">parser_flag_connection_close</a>, and <a class="el" href="htparse_8c.html#a4f4f0adbebc0dc0f720b6ec61320c7b7ac999413caca6bc397f9a292f918d0a1f">parser_flag_connection_keep_alive</a>.</p>
+<p>References <a class="el" href="structhtparser.html#a5cfaef47540998b8d4b1f3500421af88">htparser::flags</a>, <a class="el" href="structhtparser.html#a7da701a4f43cb87fad9b70b707cd5411">htparser::major</a>, <a class="el" href="structhtparser.html#a826d21afd3e0fb47fb46e09ff034061e">htparser::minor</a>, <a class="el" href="htparse_8c.html#a4f4f0adbebc0dc0f720b6ec61320c7b7a8f0e31cd4e92e47e43433531ccdfd3d7">parser_flag_connection_close</a>, and <a class="el" href="htparse_8c.html#a4f4f0adbebc0dc0f720b6ec61320c7b7ac999413caca6bc397f9a292f918d0a1f">parser_flag_connection_keep_alive</a>.</p>
 
 <p>Referenced by <a class="el" href="evhtp_8c.html#af0fd9193de0851f71633c8d534d8e95c">_evhtp_request_parser_headers()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;                                         {</div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;    <span class="keywordflow">if</span> (p-&gt;major &gt; 0 &amp;&amp; p-&gt;minor &gt; 0) {</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;        <span class="keywordflow">if</span> (p-&gt;flags &amp; <a class="code" href="htparse_8c.html#a4f4f0adbebc0dc0f720b6ec61320c7b7a8f0e31cd4e92e47e43433531ccdfd3d7">parser_flag_connection_close</a>) {</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;    <span class="keywordflow">if</span> (p-&gt;<a class="code" href="structhtparser.html#a7da701a4f43cb87fad9b70b707cd5411">major</a> &gt; 0 &amp;&amp; p-&gt;<a class="code" href="structhtparser.html#a826d21afd3e0fb47fb46e09ff034061e">minor</a> &gt; 0) {</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;        <span class="keywordflow">if</span> (p-&gt;<a class="code" href="structhtparser.html#a5cfaef47540998b8d4b1f3500421af88">flags</a> &amp; <a class="code" href="htparse_8c.html#a4f4f0adbebc0dc0f720b6ec61320c7b7a8f0e31cd4e92e47e43433531ccdfd3d7">parser_flag_connection_close</a>) {</div>
 <div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;            <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;        } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;            <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;        }</div>
 <div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;        <span class="keywordflow">if</span> (p-&gt;flags &amp; <a class="code" href="htparse_8c.html#a4f4f0adbebc0dc0f720b6ec61320c7b7ac999413caca6bc397f9a292f918d0a1f">parser_flag_connection_keep_alive</a>) {</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;        <span class="keywordflow">if</span> (p-&gt;<a class="code" href="structhtparser.html#a5cfaef47540998b8d4b1f3500421af88">flags</a> &amp; <a class="code" href="htparse_8c.html#a4f4f0adbebc0dc0f720b6ec61320c7b7ac999413caca6bc397f9a292f918d0a1f">parser_flag_connection_keep_alive</a>) {</div>
 <div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;            <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;        } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;            <span class="keywordflow">return</span> 0;</div>
@@ -2203,8 +2203,11 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;</div>
 <div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;}</div>
+<div class="ttc" id="structhtparser_html_a7da701a4f43cb87fad9b70b707cd5411"><div class="ttname"><a href="structhtparser.html#a7da701a4f43cb87fad9b70b707cd5411">htparser::major</a></div><div class="ttdeci">unsigned char major</div><div class="ttdef"><b>Definition:</b> htparse.c:121</div></div>
 <div class="ttc" id="htparse_8c_html_a4f4f0adbebc0dc0f720b6ec61320c7b7a8f0e31cd4e92e47e43433531ccdfd3d7"><div class="ttname"><a href="htparse_8c.html#a4f4f0adbebc0dc0f720b6ec61320c7b7a8f0e31cd4e92e47e43433531ccdfd3d7">parser_flag_connection_close</a></div><div class="ttdef"><b>Definition:</b> htparse.c:55</div></div>
 <div class="ttc" id="htparse_8c_html_a4f4f0adbebc0dc0f720b6ec61320c7b7ac999413caca6bc397f9a292f918d0a1f"><div class="ttname"><a href="htparse_8c.html#a4f4f0adbebc0dc0f720b6ec61320c7b7ac999413caca6bc397f9a292f918d0a1f">parser_flag_connection_keep_alive</a></div><div class="ttdef"><b>Definition:</b> htparse.c:54</div></div>
+<div class="ttc" id="structhtparser_html_a5cfaef47540998b8d4b1f3500421af88"><div class="ttname"><a href="structhtparser.html#a5cfaef47540998b8d4b1f3500421af88">htparser::flags</a></div><div class="ttdeci">parser_flags flags</div><div class="ttdef"><b>Definition:</b> htparse.c:113</div></div>
+<div class="ttc" id="structhtparser_html_a826d21afd3e0fb47fb46e09ff034061e"><div class="ttname"><a href="structhtparser.html#a826d21afd3e0fb47fb46e09ff034061e">htparser::minor</a></div><div class="ttdeci">unsigned char minor</div><div class="ttdef"><b>Definition:</b> htparse.c:122</div></div>
 </div><!-- fragment -->
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -2225,12 +2228,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">EVHTP_EXPORT <a class="el" href="htparse_8h.html#a4a4b5e17da23ccf7d039b58ccc78758a">htp_scheme</a> htparser_get_scheme </td>
           <td>(</td>
-          <td class="paramtype">htparser *&#160;</td>
+          <td class="paramtype"><a class="el" href="structhtparser.html">htparser</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>References <a class="el" href="structhtparser.html#a0744b6636c26378e55686784ad01791a">htparser::scheme</a>.</p>
 
 <p>Referenced by <a class="el" href="evhtp_8c.html#a1bc3142129054e8291294dac4a4b09bc">_evhtp_request_parser_path()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;                                  {</div>
@@ -2256,12 +2261,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">EVHTP_EXPORT <a class="el" href="htparse_8h.html#a737d9de0a6960b595f9ce283fd1c0edf">htp_method</a> htparser_get_method </td>
           <td>(</td>
-          <td class="paramtype">htparser *&#160;</td>
+          <td class="paramtype"><a class="el" href="structhtparser.html">htparser</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>References <a class="el" href="structhtparser.html#a69c1dc2624d9c86895411c05eef25fd1">htparser::method</a>.</p>
 
 <p>Referenced by <a class="el" href="evhtp_8c.html#a1bc3142129054e8291294dac4a4b09bc">_evhtp_request_parser_path()</a>, <a class="el" href="test__htparse_8c.html#a11ede780bb826d17433a7598ed1e719a">_method()</a>, and <a class="el" href="evhtp_8h.html#a73dff0e1b8f5c254d821cc6d16c71938">evhtp_request_get_method()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;                                  {</div>
@@ -2292,14 +2299,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">EVHTP_EXPORT const char* htparser_get_methodstr </td>
           <td>(</td>
-          <td class="paramtype">htparser *&#160;</td>
+          <td class="paramtype"><a class="el" href="structhtparser.html">htparser</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="htparse_8c.html#aa8f04ed0e3d06484c9338068751cb0b5">htparser_get_methodstr_m()</a>.</p>
+<p>References <a class="el" href="htparse_8c.html#aa8f04ed0e3d06484c9338068751cb0b5">htparser_get_methodstr_m()</a>, and <a class="el" href="structhtparser.html#a69c1dc2624d9c86895411c05eef25fd1">htparser::method</a>.</p>
 <div class="fragment"><div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;                                     {</div>
 <div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="htparse_8c.html#aa8f04ed0e3d06484c9338068751cb0b5">htparser_get_methodstr_m</a>(p-&gt;method);</div>
 <div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;}</div>
@@ -2368,7 +2375,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">EVHTP_EXPORT void htparser_set_major </td>
           <td>(</td>
-          <td class="paramtype">htparser *&#160;</td>
+          <td class="paramtype"><a class="el" href="structhtparser.html">htparser</a> *&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -2384,6 +2391,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>References <a class="el" href="structhtparser.html#a7da701a4f43cb87fad9b70b707cd5411">htparser::major</a>.</p>
 
 <p>Referenced by <a class="el" href="evhtp_8c.html#a0fd9982ade86ed23ee41eadb33b0e3c1">_evhtp_create_reply()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;                                                      {</div>
@@ -2439,7 +2448,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">EVHTP_EXPORT void htparser_set_minor </td>
           <td>(</td>
-          <td class="paramtype">htparser *&#160;</td>
+          <td class="paramtype"><a class="el" href="structhtparser.html">htparser</a> *&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -2455,6 +2464,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>References <a class="el" href="structhtparser.html#a826d21afd3e0fb47fb46e09ff034061e">htparser::minor</a>.</p>
 
 <p>Referenced by <a class="el" href="evhtp_8c.html#a0fd9982ade86ed23ee41eadb33b0e3c1">_evhtp_create_reply()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;                                                      {</div>
@@ -2510,12 +2521,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">EVHTP_EXPORT unsigned char htparser_get_major </td>
           <td>(</td>
-          <td class="paramtype">htparser *&#160;</td>
+          <td class="paramtype"><a class="el" href="structhtparser.html">htparser</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>References <a class="el" href="structhtparser.html#a7da701a4f43cb87fad9b70b707cd5411">htparser::major</a>.</p>
 
 <p>Referenced by <a class="el" href="evhtp_8c.html#a0fd9982ade86ed23ee41eadb33b0e3c1">_evhtp_create_reply()</a>, and <a class="el" href="evhtp_8c.html#af0fd9193de0851f71633c8d534d8e95c">_evhtp_request_parser_headers()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;                                 {</div>
@@ -2572,12 +2585,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">EVHTP_EXPORT unsigned char htparser_get_minor </td>
           <td>(</td>
-          <td class="paramtype">htparser *&#160;</td>
+          <td class="paramtype"><a class="el" href="structhtparser.html">htparser</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>References <a class="el" href="structhtparser.html#a826d21afd3e0fb47fb46e09ff034061e">htparser::minor</a>.</p>
 
 <p>Referenced by <a class="el" href="evhtp_8c.html#a0fd9982ade86ed23ee41eadb33b0e3c1">_evhtp_create_reply()</a>, and <a class="el" href="evhtp_8c.html#af0fd9193de0851f71633c8d534d8e95c">_evhtp_request_parser_headers()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;                                 {</div>
@@ -2634,12 +2649,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">EVHTP_EXPORT unsigned char htparser_get_multipart </td>
           <td>(</td>
-          <td class="paramtype">htparser *&#160;</td>
+          <td class="paramtype"><a class="el" href="structhtparser.html">htparser</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>References <a class="el" href="structhtparser.html#a0ed2507f3b251fa373ecd55e4020d791">htparser::multipart</a>.</p>
 
 <p>Referenced by <a class="el" href="evhtp_8c.html#a0fd9982ade86ed23ee41eadb33b0e3c1">_evhtp_create_reply()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;                                     {</div>
@@ -2695,12 +2712,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">EVHTP_EXPORT unsigned int htparser_get_status </td>
           <td>(</td>
-          <td class="paramtype">htparser *&#160;</td>
+          <td class="paramtype"><a class="el" href="structhtparser.html">htparser</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>References <a class="el" href="structhtparser.html#a4cffe289c483485363d3f4ab7fdb3ad6">htparser::status</a>.</p>
 
 <p>Referenced by <a class="el" href="evhtp_8h.html#ae1a1f1df5631aa6f38ea0017fa85dd60">evhtp_request_status()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;                                  {</div>
@@ -2726,12 +2745,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">EVHTP_EXPORT uint64_t htparser_get_content_length </td>
           <td>(</td>
-          <td class="paramtype">htparser *&#160;</td>
+          <td class="paramtype"><a class="el" href="structhtparser.html">htparser</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>References <a class="el" href="structhtparser.html#aff229b3984045dca6f947bb25b4686bf">htparser::orig_content_len</a>.</p>
 
 <p>Referenced by <a class="el" href="evhtp_8c.html#aa8d661194ad85e97ad4f7abadf92169b">_evhtp_request_parser_chunk_new()</a>, and <a class="el" href="test__htparse_8c.html#aad7cffc60fac404d0466a9763d43dc33">_new_chunk()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;                                          {</div>
@@ -2758,12 +2779,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">EVHTP_EXPORT uint64_t htparser_get_content_pending </td>
           <td>(</td>
-          <td class="paramtype">htparser *&#160;</td>
+          <td class="paramtype"><a class="el" href="structhtparser.html">htparser</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>References <a class="el" href="structhtparser.html#a4aeac73883a778f4d7ddf2631fdbe309">htparser::content_len</a>.</p>
 <div class="fragment"><div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;                                           {</div>
 <div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;    <span class="keywordflow">return</span> p-&gt;content_len;</div>
 <div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;}</div>
@@ -2777,12 +2800,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">EVHTP_EXPORT uint64_t htparser_get_total_bytes_read </td>
           <td>(</td>
-          <td class="paramtype">htparser *&#160;</td>
+          <td class="paramtype"><a class="el" href="structhtparser.html">htparser</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>References <a class="el" href="structhtparser.html#ad05981c2ed8d6d2319838b7e8fafea6f">htparser::total_bytes_read</a>.</p>
 <div class="fragment"><div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;                                            {</div>
 <div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;    <span class="keywordflow">return</span> p-&gt;total_bytes_read;</div>
 <div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;}</div>
@@ -2796,12 +2821,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">EVHTP_EXPORT <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513">htpparse_error</a> htparser_get_error </td>
           <td>(</td>
-          <td class="paramtype">htparser *&#160;</td>
+          <td class="paramtype"><a class="el" href="structhtparser.html">htparser</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>References <a class="el" href="structhtparser.html#a0ca449928980844c8aa01e2bcc36a16b">htparser::error</a>.</p>
 
 <p>Referenced by <a class="el" href="evhtp_8c.html#ae4c1691af1bf2b75cec8d8dce75b0dcb">_evhtp_connection_readcb()</a>, and <a class="el" href="htparse_8h.html#af25249dbd827b43af9a8008be45ca887">htparser_get_strerror()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;                                 {</div>
@@ -2847,7 +2874,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">EVHTP_EXPORT const char* htparser_get_strerror </td>
           <td>(</td>
-          <td class="paramtype">htparser *&#160;</td>
+          <td class="paramtype"><a class="el" href="structhtparser.html">htparser</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2901,12 +2928,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">EVHTP_EXPORT void* htparser_get_userdata </td>
           <td>(</td>
-          <td class="paramtype">htparser *&#160;</td>
+          <td class="paramtype"><a class="el" href="structhtparser.html">htparser</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>References <a class="el" href="structhtparser.html#a28ad0b840baf1b7048ac2d2382edc1fe">htparser::userdata</a>.</p>
 
 <p>Referenced by <a class="el" href="test__htparse_8c.html#aba67cef58b917e412b01e9873d2129e7">_args()</a>, <a class="el" href="test__htparse_8c.html#a67165766fa16b5886bc562d129bd20af">_body()</a>, <a class="el" href="test__htparse_8c.html#a3168f9623fc29059729acdd0b41af5b8">_chunk_complete()</a>, <a class="el" href="test__htparse_8c.html#a5a1ebb2572cb9cab8aa434e7579896d8">_chunks_complete()</a>, <a class="el" href="evhtp_8c.html#a9b2efd8988cf111433eb8f7aff520368">_evhtp_request_parser_args()</a>, <a class="el" href="evhtp_8c.html#ae068a0fbec8deab8f5aece4f38540aa5">_evhtp_request_parser_body()</a>, <a class="el" href="evhtp_8c.html#a568d0ca38c2b6f16d2ba7827026b6be8">_evhtp_request_parser_chunk_fini()</a>, <a class="el" href="evhtp_8c.html#aa8d661194ad85e97ad4f7abadf92169b">_evhtp_request_parser_chunk_new()</a>, <a class="el" href="evhtp_8c.html#aeb4b98d334e176bfa9714c3946f926ab">_evhtp_request_parser_chunks_fini()</a>, <a class="el" href="evhtp_8c.html#af1358f87bd161ec7956eb40785a4c94f">_evhtp_request_parser_fini()</a>, <a class="el" href="evhtp_8c.html#a74bf569aed627659f9c2da4d2917f94e">_evhtp_request_parser_header_key()</a>, <a class="el" href="evhtp_8c.html#ace9d3c03d8a93653ee8ba0dd023c19b1">_evhtp_request_parser_header_val()</a>, <a class="el" href="evhtp_8c.html#af0fd9193de0851f71633c8d534d8e95c">_evhtp_request_parser_headers()</a>, <a class="el" href="evhtp_8c.html#a56768a6bcd7a8c97bd4b3b6c529efbcb">_evhtp_request_parser_headers_start()</a>, <a class="el" href="evhtp_8c.html#a26419bc2ba2f4abc957340625913cf9e">_evhtp_request_parser_host()</a>, <a class="el" href="evhtp_8c.html#a7a5911c393e982ef1eb5ac9bfe52f1d7">_evhtp_request_parser_hostname()</a>, <a class="el" href="evhtp_8c.html#a1bc3142129054e8291294dac4a4b09bc">_evhtp_request_parser_path()</a>, <a class="el" href="evhtp_8c.html#a9ece3cb6c1c02a04f4367f91bb64bfba">_evhtp_request_parser_port()</a>, <a class="el" href="evhtp_8c.html#a58663d586f44301ab317c8dd5b4be3e6">_evhtp_request_parser_start()</a>, <a class="el" href="test__htparse_8c.html#ac9c1a199d5ea3500f6c80e0cac76af22">_hdr_key()</a>, <a class="el" href="test__htparse_8c.html#a651fd91896d37b4e537c7dcbcd27c626">_hdr_val()</a>, <a class="el" href="test__htparse_8c.html#a894e459c1f6df2a47a59faa570c1b189">_hdrs_begin()</a>, <a class="el" href="test__htparse_8c.html#a376d40abd6f319159af3dc9869b974c0">_hdrs_complete()</a>, <a class="el" href="test__htparse_8c.html#a6bbca8906f3e37798425e4fec9c23542">_host()</a>, <a class="el" href="test__htparse_8c.html#ac5f32b96ad792f77e1edcfa61c84e43e">_hostname()</a>, <a class="el" href="test__htparse_8c.html#a11ede780bb826d17433a7598ed1e719a">_method()</a>, <a class="el" href="test__htparse_8c.html#af1ba74caf0fab7e6445b34f036d2efd1">_msg_begin()</a>, <a class="el" href="test__htparse_8c.html#a5db0d11d53f165bdc4d587becd09b4cc">_msg_complete()</a>, <a class="el" href="test__htparse_8c.html#aad7cffc60fac404d0466a9763d43dc33">_new_chunk()</a>, <a class="el" href="test__htparse_8c.html#aa2c1a7c6116d516df9f37c7799ecc47d">_path()</a>, <a class="el" href="test__htparse_8c.html#a6faad2fb06a490553ac061028dd00b07">_port()</a>, <a class="el" href="test__htparse_8c.html#ac48628905780ae0400cbdf133a4eae1f">_scheme()</a>, and <a class="el" href="test__htparse_8c.html#a7c1b9ff3e874bf3e7ef8672fff9cd2af">_uri()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;                                    {</div>
@@ -2964,7 +2993,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">EVHTP_EXPORT void htparser_set_userdata </td>
           <td>(</td>
-          <td class="paramtype">htparser *&#160;</td>
+          <td class="paramtype"><a class="el" href="structhtparser.html">htparser</a> *&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -2980,6 +3009,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>References <a class="el" href="structhtparser.html#a28ad0b840baf1b7048ac2d2382edc1fe">htparser::userdata</a>.</p>
 
 <p>Referenced by <a class="el" href="evhtp_8c.html#a236b25db880260ea7ade4dbaa3ff8c05">_evhtp_connection_new()</a>, <a class="el" href="evhtp_8c.html#a342f7eb5f4aade7153b003c18ba0c865">_evhtp_connection_writecb()</a>, and <a class="el" href="test__htparse_8c.html#a34bfd00088e7d991270cefee38b14d77">_run_test()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;                                               {</div>
@@ -3023,7 +3054,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">EVHTP_EXPORT void htparser_init </td>
           <td>(</td>
-          <td class="paramtype">htparser *&#160;</td>
+          <td class="paramtype"><a class="el" href="structhtparser.html">htparser</a> *&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -3040,12 +3071,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="htparse_8h.html#a737d9de0a6960b595f9ce283fd1c0edfaf6b69f546b5697b00f9a5538a79b6a37">htp_method_UNKNOWN</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a0877da12cd92d4b01b078db2f1667e4c">htparse_error_none</a>, and <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9ab4f3ff686110f672aa856d97f73c8d21">s_start</a>.</p>
+<p>References <a class="el" href="structhtparser.html#a5e8ee1aa10fce32cae412c3470ed4576">htparser::buf</a>, <a class="el" href="structhtparser.html#a0ca449928980844c8aa01e2bcc36a16b">htparser::error</a>, <a class="el" href="htparse_8h.html#a737d9de0a6960b595f9ce283fd1c0edfaf6b69f546b5697b00f9a5538a79b6a37">htp_method_UNKNOWN</a>, <a class="el" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a0877da12cd92d4b01b078db2f1667e4c">htparse_error_none</a>, <a class="el" href="structhtparser.html#a69c1dc2624d9c86895411c05eef25fd1">htparser::method</a>, <a class="el" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9ab4f3ff686110f672aa856d97f73c8d21">s_start</a>, <a class="el" href="structhtparser.html#a634f82068f874086530e98e8e67fa5d5">htparser::state</a>, and <a class="el" href="structhtparser.html#a60dbd87e7bae06fcb03779acf9e56d73">htparser::type</a>.</p>
 
 <p>Referenced by <a class="el" href="evhtp_8c.html#a236b25db880260ea7ade4dbaa3ff8c05">_evhtp_connection_new()</a>, <a class="el" href="evhtp_8c.html#a342f7eb5f4aade7153b003c18ba0c865">_evhtp_connection_writecb()</a>, and <a class="el" href="test__htparse_8c.html#a34bfd00088e7d991270cefee38b14d77">_run_test()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;                                           {</div>
 <div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;    <span class="comment">/* Do not memset entire string buffer. */</span></div>
-<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;    memset(p, 0, offsetof(htparser, buf));</div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;    memset(p, 0, offsetof(<a class="code" href="structhtparser.html">htparser</a>, buf));</div>
 <div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;    p-&gt;buf[0] = <span class="charliteral">&#39;\0&#39;</span>;</div>
 <div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;    p-&gt;state  = <a class="code" href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9ab4f3ff686110f672aa856d97f73c8d21">s_start</a>;</div>
 <div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;    p-&gt;error  = <a class="code" href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a0877da12cd92d4b01b078db2f1667e4c">htparse_error_none</a>;</div>
@@ -3054,6 +3085,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;}</div>
 <div class="ttc" id="htparse_8c_html_ab0ce6a33765cfb1c3ceb2f811cc03ce9ab4f3ff686110f672aa856d97f73c8d21"><div class="ttname"><a href="htparse_8c.html#ab0ce6a33765cfb1c3ceb2f811cc03ce9ab4f3ff686110f672aa856d97f73c8d21">s_start</a></div><div class="ttdef"><b>Definition:</b> htparse.c:60</div></div>
 <div class="ttc" id="htparse_8h_html_a07a0eb5e9fd09d29d92031d613cae513a0877da12cd92d4b01b078db2f1667e4c"><div class="ttname"><a href="htparse_8h.html#a07a0eb5e9fd09d29d92031d613cae513a0877da12cd92d4b01b078db2f1667e4c">htparse_error_none</a></div><div class="ttdef"><b>Definition:</b> htparse.h:47</div></div>
+<div class="ttc" id="structhtparser_html"><div class="ttname"><a href="structhtparser.html">htparser</a></div><div class="ttdef"><b>Definition:</b> htparse.c:110</div></div>
 <div class="ttc" id="htparse_8h_html_a737d9de0a6960b595f9ce283fd1c0edfaf6b69f546b5697b00f9a5538a79b6a37"><div class="ttname"><a href="htparse_8h.html#a737d9de0a6960b595f9ce283fd1c0edfaf6b69f546b5697b00f9a5538a79b6a37">htp_method_UNKNOWN</a></div><div class="ttdef"><b>Definition:</b> htparse.h:43</div></div>
 </div><!-- fragment -->
 <p><div class="dynheader">
@@ -3091,7 +3123,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">EVHTP_EXPORT htparser* htparser_new </td>
+          <td class="memname">EVHTP_EXPORT <a class="el" href="structhtparser.html">htparser</a>* htparser_new </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -3102,8 +3134,9 @@ Here is the caller graph for this function:</div>
 
 <p>Referenced by <a class="el" href="evhtp_8c.html#a236b25db880260ea7ade4dbaa3ff8c05">_evhtp_connection_new()</a>, and <a class="el" href="test__htparse_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;                   {</div>
-<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;    <span class="keywordflow">return</span> malloc(<span class="keyword">sizeof</span>(htparser));</div>
+<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;    <span class="keywordflow">return</span> malloc(<span class="keyword">sizeof</span>(<a class="code" href="structhtparser.html">htparser</a>));</div>
 <div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;}</div>
+<div class="ttc" id="structhtparser_html"><div class="ttname"><a href="structhtparser.html">htparser</a></div><div class="ttdef"><b>Definition:</b> htparse.c:110</div></div>
 </div><!-- fragment -->
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -3136,7 +3169,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="htparse_8h.html">htparse.h</a></li>
-    <li class="footer">Generated on Fri Nov 27 2015 21:18:31 for Libevhtp by
+    <li class="footer">Generated on Sat Nov 28 2015 03:40:29 for Libevhtp by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

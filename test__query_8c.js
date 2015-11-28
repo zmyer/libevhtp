@@ -1,5 +1,7 @@
 var test__query_8c =
 [
+    [ "test", "structtest.html", "structtest" ],
+    [ "expected", "structtest_1_1expected.html", "structtest_1_1expected" ],
     [ "ARRAY_SIZE", "test__query_8c.html#a4f42663ccce60d4baae3664cc845a705", null ],
     [ "PARSE_QUERY_TEST", "test__query_8c.html#a211662bcfcb1fb11d327b27d2234744c", null ],
     [ "test_cmp", "test__query_8c.html#aad569dc83dcf3aeb0be2dfb814fb9764", null ],
