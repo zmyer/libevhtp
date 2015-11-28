@@ -1,0 +1,7 @@
+<map id="evhtp_connection_new_dns" name="evhtp_connection_new_dns">
+<area shape="rect" id="node2" href="$evhtp_8h.html#a4bcd9dcde401bd1e6f98fe5fe83e82aa" title="allocate a new connection " alt="" coords="240,31,398,56"/>
+<area shape="rect" id="node3" href="$test__client_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="474,5,524,31"/>
+<area shape="rect" id="node4" href="$test__proxy_8c.html#a4d9830c19a216b9983465862d0a3f58c" title="make_request" alt="" coords="446,55,552,80"/>
+<area shape="rect" id="node5" href="$test__proxy_8c.html#ae6d15c0e22799b0d202ba7bb6f9c9a8f" title="frontend_cb" alt="" coords="600,55,691,80"/>
+<area shape="rect" id="node6" href="$test__proxy_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="739,55,790,80"/>
+</map>

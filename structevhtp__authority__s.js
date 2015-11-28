@@ -1,7 +1,7 @@
 var structevhtp__authority__s =
 [
-    [ "hostname", "structevhtp__authority__s.html#a5626dcef94a1172a88bef28c1d68d108", null ],
-    [ "password", "structevhtp__authority__s.html#a023de4eb8d0b36c39d7b9dd17b7cec4f", null ],
-    [ "port", "structevhtp__authority__s.html#a27c3d7127f951f071b144d5bc390d68c", null ],
-    [ "username", "structevhtp__authority__s.html#acd20c36a4734b58201f2bae08de3000c", null ]
+    [ "username", "structevhtp__authority__s.html#aa4d4493f1ae62247956fd43ccf5b44b8", null ],
+    [ "password", "structevhtp__authority__s.html#a11de57b3015b2c1c199693f35a93c98a", null ],
+    [ "hostname", "structevhtp__authority__s.html#a5af6808164e66a6fe41fdd46b3b6b712", null ],
+    [ "port", "structevhtp__authority__s.html#a37c0f7925f1771a0565d45fc25811dbb", null ]
 ];

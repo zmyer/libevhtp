@@ -1,0 +1,8 @@
+<map id="htparser_get_method" name="htparser_get_method">
+<area shape="rect" id="node2" href="$evhtp_8c.html#a1bc3142129054e8291294dac4a4b09bc" title="_evhtp_request_parser_path" alt="" coords="201,5,393,31"/>
+<area shape="rect" id="node3" href="$test__htparse_8c.html#a11ede780bb826d17433a7598ed1e719a" title="_method" alt="" coords="261,55,334,80"/>
+<area shape="rect" id="node4" href="$evhtp_8h.html#a73dff0e1b8f5c254d821cc6d16c71938" title="returns the htp_method enum version of the request method. " alt="" coords="205,104,389,129"/>
+<area shape="rect" id="node5" href="$test_8c.html#a37b1a88e774ebadc3ef8ac3c1ad868b7" title="print_path" alt="" coords="441,104,522,129"/>
+<area shape="rect" id="node6" href="$test_8c.html#a736975be8d17ececa756c90ac21475aa" title="set_my_connection_handlers" alt="" coords="570,104,765,129"/>
+<area shape="rect" id="node7" href="$test_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="813,104,863,129"/>
+</map>

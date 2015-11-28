@@ -1,0 +1,4 @@
+<map id="resume_request_timer" name="resume_request_timer">
+<area shape="rect" id="node2" href="$evhtp_8c.html#a3f537cfe43afe795f575e4080d8a4f69" title="Wrapper around evhtp_connection_resume. " alt="" coords="208,5,366,31"/>
+<area shape="rect" id="node3" href="$evhtp_8c.html#ac62f0e64aca4fca3648b67042a6c3646" title="resumes a connection (enables reading) and activates resume event. " alt="" coords="414,5,592,31"/>
+</map>

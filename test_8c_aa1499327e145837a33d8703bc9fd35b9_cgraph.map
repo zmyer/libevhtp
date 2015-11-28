@@ -1,0 +1,11 @@
+<map id="test_ownership" name="test_ownership">
+<area shape="rect" id="node2" href="$test_8c.html#a0ac372a7ece0a7461f67993897854a84" title="_owned_eventcb" alt="" coords="205,5,327,31"/>
+<area shape="rect" id="node3" href="$test_8c.html#adebf5bcfed51c2b3417b5382b129ed8f" title="_owned_readcb" alt="" coords="208,55,324,80"/>
+<area shape="rect" id="node4" href="$evhtp_8c.html#a2cc81187783bdb226a6b9eb713b6f92c" title="let a user take ownership of the underlying bufferevent and free all other underlying resources..." alt="" coords="187,104,345,143"/>
+<area shape="rect" id="node10" href="$evhtp_8c.html#ad90238a469b4289cf16c2aacc4763d4c" title="returns the underlying evhtp_connection_t structure from a request " alt="" coords="164,167,368,192"/>
+<area shape="rect" id="node5" href="$evhtp_8c.html#af0e521e1beb5c171441af8c7170d83b9" title="returns the underlying connections bufferevent " alt="" coords="416,61,597,87"/>
+<area shape="rect" id="node6" href="$evhtp_8c.html#a2c8c91b701335abb53b5d30b610397b9" title="Sets the connections underlying bufferevent. " alt="" coords="416,111,596,136"/>
+<area shape="rect" id="node7" href="$evhtp_8c.html#acc7b0a146b61f2bc1214cfbdfecf97d0" title="removes all hooks. " alt="" coords="428,160,585,185"/>
+<area shape="rect" id="node8" href="$evhtp_8c.html#add23cd875300ec267ce8a0fb6a26e365" title="remove a specific hook from being called. " alt="" coords="645,160,775,185"/>
+<area shape="rect" id="node9" href="$evhtp_8c.html#a30bc311c68a5c463d106766ab9250e0e" title="sets a callback hook for either a connection or a path/regex . " alt="" coords="823,160,939,185"/>
+</map>

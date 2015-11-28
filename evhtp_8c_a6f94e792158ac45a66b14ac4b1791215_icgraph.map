@@ -1,0 +1,5 @@
+<map id="evhtp_accept_socket" name="evhtp_accept_socket">
+<area shape="rect" id="node2" href="$evhtp_8h.html#a9df8b5f5d1c042aa96bf0a9a1c241665" title="bind to an already allocated sockaddr. " alt="" coords="200,5,348,31"/>
+<area shape="rect" id="node3" href="$evhtp_8h.html#a72a5938d55bebe4271ad6b9b134a4979" title="bind to a socket, optionally with specific protocol support formatting. The addr can be defined as on..." alt="" coords="396,5,529,31"/>
+<area shape="rect" id="node4" href="$test_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="577,5,627,31"/>
+</map>

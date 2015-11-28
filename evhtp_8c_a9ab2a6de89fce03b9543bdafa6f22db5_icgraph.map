@@ -1,0 +1,59 @@
+<map id="_evhtp_path_free" name="_evhtp_path_free">
+<area shape="rect" id="node2" href="$evhtp_8c.html#a4b730b06fe6a0093afb2f4f391e5455e" title="frees an overlay URI structure " alt="" coords="178,353,292,379"/>
+<area shape="rect" id="node3" href="$evhtp_8c.html#ac1b09ba3d872e8a0b93a60805996dae7" title="frees all data in an evhtp_request_t along with calling finished hooks " alt="" coords="340,259,484,284"/>
+<area shape="rect" id="node54" href="$evhtp_8c.html#ad88e62da3b491cfbe334a82f5151dc90" title="create an overlay URI structure " alt="" coords="355,448,470,473"/>
+<area shape="rect" id="node4" href="$evhtp_8c.html#abe671757ebcda7572cb17316d3df3301" title="Creates a new evhtp_request_t. " alt="" coords="538,171,683,196"/>
+<area shape="rect" id="node5" href="$evhtp_8c.html#a58663d586f44301ab317c8dd5b4be3e6" title="_evhtp_request_parser\l_start" alt="" coords="753,5,911,44"/>
+<area shape="rect" id="node11" href="$evhtp_8c.html#a342f7eb5f4aade7153b003c18ba0c865" title="_evhtp_connection_writecb" alt="" coords="984,373,1167,399"/>
+<area shape="rect" id="node23" href="$evhtp_8h.html#a457c275878124e961a282c3f0b1fa741" title="free&#39;s all connection related resources, this will also call your request fini hook and request fini ..." alt="" coords="532,347,688,372"/>
+<area shape="rect" id="node53" href="$evhtp_8h.html#a301531cf91934f5eae2e62c727eba551" title="evhtp_request_free" alt="" coords="542,69,678,95"/>
+<area shape="rect" id="node6" href="$evhtp_8h.html#ac56c49e27823ae64c4a69fc951629988" title="allocate a new request " alt="" coords="1703,69,1841,95"/>
+<area shape="rect" id="node7" href="$test__client_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1939,69,1989,95"/>
+<area shape="rect" id="node8" href="$test__proxy_8c.html#a4d9830c19a216b9983465862d0a3f58c" title="make_request" alt="" coords="1911,119,2017,144"/>
+<area shape="rect" id="node9" href="$test__proxy_8c.html#ae6d15c0e22799b0d202ba7bb6f9c9a8f" title="frontend_cb" alt="" coords="2544,124,2636,149"/>
+<area shape="rect" id="node10" href="$test__proxy_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="2712,124,2763,149"/>
+<area shape="rect" id="node12" href="$evhtp_8c.html#ac1b32dde3c8e0e4ecf7d2350dda47be7" title="_evhtp_connection_eventcb" alt="" coords="1223,271,1411,296"/>
+<area shape="rect" id="node13" href="$evhtp_8c.html#a87cc91fb2145c9e78765bfcf6e9ab89e" title="_evhtp_connection_accept" alt="" coords="1462,321,1642,347"/>
+<area shape="rect" id="node20" href="$evhtp_8h.html#a85703228efbeb1eb62f0485088d21ffb" title="allocate a new connection " alt="" coords="1459,120,1645,145"/>
+<area shape="rect" id="node22" href="$evhtp_8h.html#a999a10dbd51528e3435c8a8f8b03ce4f" title="evhtp_connection_ssl_new" alt="" coords="1461,271,1643,296"/>
+<area shape="rect" id="node14" href="$evhtp_8c.html#aa66c50a9faa2ae92643cae6d3aa8298e" title="_evhtp_run_in_thread" alt="" coords="1697,321,1848,347"/>
+<area shape="rect" id="node15" href="$evhtp_8c.html#a01058d2a190e93744fcd8b38d3eec6c5" title="_evhtp_accept_cb" alt="" coords="1899,260,2029,285"/>
+<area shape="rect" id="node16" href="$evhtp_8h.html#a8bc42cc848d9992f9a07bfeaa605b6b6" title="create the listener plus setup various options with an already&#45;bound socket. " alt="" coords="2083,249,2230,275"/>
+<area shape="rect" id="node17" href="$evhtp_8h.html#a9df8b5f5d1c042aa96bf0a9a1c241665" title="bind to an already allocated sockaddr. " alt="" coords="2302,248,2450,273"/>
+<area shape="rect" id="node18" href="$evhtp_8h.html#a72a5938d55bebe4271ad6b9b134a4979" title="bind to a socket, optionally with specific protocol support formatting. The addr can be defined as on..." alt="" coords="2523,248,2656,273"/>
+<area shape="rect" id="node19" href="$test_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="2712,624,2763,649"/>
+<area shape="rect" id="node21" href="$evhtp_8h.html#a4bcd9dcde401bd1e6f98fe5fe83e82aa" title="allocate a new connection " alt="" coords="1693,119,1851,144"/>
+<area shape="rect" id="node24" href="$evhtp_8c.html#ab451e48a9a9e498641bd754a96c17776" title="_evhtp_connection_resumecb" alt="" coords="976,423,1175,448"/>
+<area shape="rect" id="node25" href="$evhtp_8c.html#ae4c1691af1bf2b75cec8d8dce75b0dcb" title="_evhtp_connection_readcb" alt="" coords="742,321,923,347"/>
+<area shape="rect" id="node26" href="$evhtp_8h.html#a6a8240b3d219e66a41bb6718c8ebdcf3" title="evhtp_send_reply_start" alt="" coords="2077,999,2237,1024"/>
+<area shape="rect" id="node31" href="$evhtp_8h.html#a0515585c66f8383360eae93f5c426022" title="generates all the right information for a reply to be sent to the client " alt="" coords="2093,544,2220,569"/>
+<area shape="rect" id="node27" href="$evhtp_8h.html#af958f59fa3dd0e449e252f001485bc07" title="start a chunked response. If data already exists on the output buffer, this will be converted to the ..." alt="" coords="2291,1048,2461,1087"/>
+<area shape="rect" id="node29" href="$test__basic_8c.html#ae9ee91a68ffd2b4870858f3cdc0e9543" title="issue161cb" alt="" coords="2331,999,2420,1024"/>
+<area shape="rect" id="node28" href="$test_8c.html#a4d449d2fdc7176dc2d1acd4fc0d6a047" title="test_chunking" alt="" coords="2538,1040,2641,1065"/>
+<area shape="rect" id="node30" href="$test__basic_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="2565,963,2615,988"/>
+<area shape="rect" id="node32" href="$evhtp_8c.html#a4f47eea3160e177e5fb74f0ded7c4b73" title="_evhtp_default_request_cb" alt="" coords="2285,544,2467,569"/>
+<area shape="rect" id="node34" href="$test_8c.html#a614a06b7ab7ba6b949620514b213eb1a" title="test_pause_cb" alt="" coords="2536,599,2644,624"/>
+<area shape="rect" id="node35" href="$test_8c.html#a5fc27c6c5930f4d970a929ea0df49124" title="test_regex" alt="" coords="2548,648,2631,673"/>
+<area shape="rect" id="node36" href="$test_8c.html#a883454744d978dae6eda792bc124c83a" title="dynamic_cb" alt="" coords="2330,747,2422,772"/>
+<area shape="rect" id="node37" href="$test_8c.html#abcceecb37a4b7366fc990b84ceb952c9" title="create_callback" alt="" coords="2533,697,2647,723"/>
+<area shape="rect" id="node38" href="$test_8c.html#ad493f63646b9859f6e1c8f7f1ca77bde" title="test_foo_cb" alt="" coords="2545,753,2635,779"/>
+<area shape="rect" id="node39" href="$test_8c.html#aaffdd065111cb33393cc26ce85f206a7" title="test_500_cb" alt="" coords="2543,816,2637,841"/>
+<area shape="rect" id="node40" href="$test_8c.html#ac9080332c2897cc134dc27d2b62858dc" title="test_max_body" alt="" coords="2534,892,2646,917"/>
+<area shape="rect" id="node41" href="$test_8c.html#a5c3a691d7df14787d5c5e40f6bd30419" title="test_bar_cb" alt="" coords="2330,396,2421,421"/>
+<area shape="rect" id="node42" href="$test_8c.html#a30306ebad7bee75607f3614078a4ef96" title="test_glob_cb" alt="" coords="2327,445,2424,471"/>
+<area shape="rect" id="node43" href="$test_8c.html#a043e371e92938207e2d02363c5f0e65c" title="test_default_cb" alt="" coords="2320,495,2432,520"/>
+<area shape="rect" id="node44" href="$test__basic_8c.html#a8bbdb0dcfef7e89742613ed5f426309c" title="testcb" alt="" coords="2347,949,2404,975"/>
+<area shape="rect" id="node45" href="$test__perf_8c.html#a13d12a78f407ed9554ca2a13a32fc88c" title="response_cb" alt="" coords="2327,297,2425,323"/>
+<area shape="rect" id="node47" href="$test__proxy_8c.html#a1cd873486d44ae1d755ca52302a54772" title="backend_cb" alt="" coords="2329,149,2422,175"/>
+<area shape="rect" id="node48" href="$thread__design_8c.html#a7f594f6b4acdbd916912fe04c3c9969c" title="redis_get_srcport_cb" alt="" coords="2303,199,2449,224"/>
+<area shape="rect" id="node51" href="$v6__v4_8c.html#a189d196157532ac8f5a5a8160e80110e" title="_req_cb" alt="" coords="2341,347,2411,372"/>
+<area shape="rect" id="node33" href="$evhtp_8h.html#aa4b16ecda5fa6b60c003d98198fa37a1" title="creates a new evhtp_t instance " alt="" coords="2547,549,2633,575"/>
+<area shape="rect" id="node46" href="$test__perf_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="2565,297,2615,323"/>
+<area shape="rect" id="node49" href="$thread__design_8c.html#aa88a386872b2e9ed3cdf2d099d20b22d" title="app_process_request" alt="" coords="2515,199,2664,224"/>
+<area shape="rect" id="node50" href="$thread__design_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="2712,199,2763,224"/>
+<area shape="rect" id="node52" href="$v6__v4_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="2565,347,2615,372"/>
+<area shape="rect" id="node55" href="$evhtp_8c.html#af832b4d1b020068a6a7d306f552351c7" title="_evhtp_require_uri" alt="" coords="544,700,676,725"/>
+<area shape="rect" id="node56" href="$evhtp_8c.html#a26419bc2ba2f4abc957340625913cf9e" title="_evhtp_request_parser_host" alt="" coords="737,676,928,701"/>
+<area shape="rect" id="node57" href="$evhtp_8c.html#a9ece3cb6c1c02a04f4367f91bb64bfba" title="_evhtp_request_parser_port" alt="" coords="738,725,927,751"/>
+<area shape="rect" id="node58" href="$evhtp_8c.html#a1bc3142129054e8291294dac4a4b09bc" title="_evhtp_request_parser_path" alt="" coords="736,775,928,800"/>
+</map>

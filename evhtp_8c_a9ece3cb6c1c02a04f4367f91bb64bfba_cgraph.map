@@ -1,0 +1,9 @@
+<map id="_evhtp_request_parser_port" name="_evhtp_request_parser_port">
+<area shape="rect" id="node2" href="$evhtp_8c.html#af832b4d1b020068a6a7d306f552351c7" title="_evhtp_require_uri" alt="" coords="254,31,386,56"/>
+<area shape="rect" id="node8" href="$htparse_8c.html#a198735013c60fc3d106f7f3dff72c1a4" title="htparser_get_userdata" alt="" coords="242,80,398,105"/>
+<area shape="rect" id="node3" href="$evhtp_8c.html#ad88e62da3b491cfbe334a82f5151dc90" title="create an overlay URI structure " alt="" coords="446,31,561,56"/>
+<area shape="rect" id="node4" href="$evhtp_8c.html#aac6a18a97cedd8e567dd521649b1c126" title="create an authority structure " alt="" coords="609,5,761,31"/>
+<area shape="rect" id="node5" href="$evhtp_8c.html#a4b730b06fe6a0093afb2f4f391e5455e" title="frees an overlay URI structure " alt="" coords="628,55,742,80"/>
+<area shape="rect" id="node6" href="$evhtp_8c.html#a9ab2a6de89fce03b9543bdafa6f22db5" title="_evhtp_path_free" alt="" coords="822,29,947,55"/>
+<area shape="rect" id="node7" href="$evhtp_8c.html#a2dfd994fb181a6efaf2c87716b05cd50" title="frees an authority structure " alt="" coords="809,79,959,104"/>
+</map>

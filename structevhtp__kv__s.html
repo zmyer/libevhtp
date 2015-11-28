@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>Libevhtp: evhtp_kv_s Struct Reference</title>
+<title>Libevhtp: evhtp_kv_t Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -70,7 +70,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -109,7 +108,7 @@ $(document).ready(function(){initNavTree('structevhtp__kv__s.html','');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structevhtp__kv__s-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">evhtp_kv_s Struct Reference</div>  </div>
+<div class="title">evhtp_kv_t Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -117,62 +116,125 @@ $(document).ready(function(){initNavTree('structevhtp__kv__s.html','');});
  <a href="structevhtp__kv__s.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="evhtp_8h_source.html">evhtp.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for evhtp_kv_t:</div>
+<div class="dyncontent">
+<div class="center"><img src="structevhtp__kv__s__coll__graph.png" border="0" usemap="#evhtp__kv__t_coll__map" alt="Collaboration graph"/></div>
+<map name="evhtp__kv__t_coll__map" id="evhtp__kv__t_coll__map">
+</map>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab56240fb2432af9b74ab53d00a13441b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab56240fb2432af9b74ab53d00a13441b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>TAILQ_ENTRY</b> (<a class="el" href="structevhtp__kv__s.html">evhtp_kv_s</a>) next</td></tr>
-<tr class="separator:ab56240fb2432af9b74ab53d00a13441b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f564c2b8f758835d8c38e4868ba9ec2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__kv__s.html#a7f564c2b8f758835d8c38e4868ba9ec2">TAILQ_ENTRY</a> (<a class="el" href="structevhtp__kv__s.html">evhtp_kv_s</a>) next</td></tr>
+<tr class="separator:a7f564c2b8f758835d8c38e4868ba9ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a2cfe71237e50c271714cbd0d205017dd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2cfe71237e50c271714cbd0d205017dd"></a>
-char *&#160;</td><td class="memItemRight" valign="bottom"><b>key</b></td></tr>
-<tr class="separator:a2cfe71237e50c271714cbd0d205017dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac729d446c9f8a9d11377561b4f656432"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac729d446c9f8a9d11377561b4f656432"></a>
-char *&#160;</td><td class="memItemRight" valign="bottom"><b>val</b></td></tr>
-<tr class="separator:ac729d446c9f8a9d11377561b4f656432"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f0236d39ded2e30c4df838ad05f4608"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0f0236d39ded2e30c4df838ad05f4608"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><b>klen</b></td></tr>
-<tr class="separator:a0f0236d39ded2e30c4df838ad05f4608"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6b3531d8e00cf1afed80f73995f6f34"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6b3531d8e00cf1afed80f73995f6f34"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><b>vlen</b></td></tr>
-<tr class="separator:ad6b3531d8e00cf1afed80f73995f6f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaba696c95e68ca1c3a86509b8a03b6ca"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__kv__s.html#aaba696c95e68ca1c3a86509b8a03b6ca">k_heaped</a></td></tr>
-<tr class="separator:aaba696c95e68ca1c3a86509b8a03b6ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6f5d75b064be1fe3a492229d657e8dc"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__kv__s.html#aa6f5d75b064be1fe3a492229d657e8dc">v_heaped</a></td></tr>
-<tr class="separator:aa6f5d75b064be1fe3a492229d657e8dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f393320dda6f9c17e07ff28876de503"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__kv__s.html#a1f393320dda6f9c17e07ff28876de503">key</a></td></tr>
+<tr class="separator:a1f393320dda6f9c17e07ff28876de503"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d2c2e6481397ac90d190bc6aeac0b04"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__kv__s.html#a2d2c2e6481397ac90d190bc6aeac0b04">val</a></td></tr>
+<tr class="separator:a2d2c2e6481397ac90d190bc6aeac0b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a718407baa1207c5eba88bac2e41b2f41"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__kv__s.html#a718407baa1207c5eba88bac2e41b2f41">klen</a></td></tr>
+<tr class="separator:a718407baa1207c5eba88bac2e41b2f41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ad5289e8c38c488e10dba18d2e27186"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__kv__s.html#a1ad5289e8c38c488e10dba18d2e27186">vlen</a></td></tr>
+<tr class="separator:a1ad5289e8c38c488e10dba18d2e27186"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a157d6681f6e18878f7bd29cc5742ba65"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__kv__s.html#a157d6681f6e18878f7bd29cc5742ba65">k_heaped</a></td></tr>
+<tr class="separator:a157d6681f6e18878f7bd29cc5742ba65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59719f6e4f5bfc83eadfbac4146bd495"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__kv__s.html#a59719f6e4f5bfc83eadfbac4146bd495">v_heaped</a></td></tr>
+<tr class="separator:a59719f6e4f5bfc83eadfbac4146bd495"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>a generic key/value structure </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="aaba696c95e68ca1c3a86509b8a03b6ca"></a>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a7f564c2b8f758835d8c38e4868ba9ec2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">char evhtp_kv_s::k_heaped</td>
+          <td class="memname">evhtp_kv_t::TAILQ_ENTRY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structevhtp__kv__s.html">evhtp_kv_s</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a1f393320dda6f9c17e07ff28876de503"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* evhtp_kv_t::key</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2d2c2e6481397ac90d190bc6aeac0b04"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* evhtp_kv_t::val</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a718407baa1207c5eba88bac2e41b2f41"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t evhtp_kv_t::klen</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1ad5289e8c38c488e10dba18d2e27186"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t evhtp_kv_t::vlen</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a157d6681f6e18878f7bd29cc5742ba65"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char evhtp_kv_t::k_heaped</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>set to 1 if the key can be free()'d </p>
 
-<p>Referenced by <a class="el" href="evhtp_8h.html#a9405f0e71d5a7af0b11eb0c0ba220794">evhtp_kv_free()</a>, <a class="el" href="evhtp_8h.html#af4ee662cbc3b5687bb413b73cdd7f8e8">evhtp_kv_new()</a>, and <a class="el" href="evhtp_8h.html#aa9b6927ea51772e70374b23a8349fb05">evhtp_kvs_add_kvs()</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="aa6f5d75b064be1fe3a492229d657e8dc"></a>
+<a class="anchor" id="a59719f6e4f5bfc83eadfbac4146bd495"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">char evhtp_kv_s::v_heaped</td>
+          <td class="memname">char evhtp_kv_t::v_heaped</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>set to 1 if the val can be free()'d </p>
-
-<p>Referenced by <a class="el" href="evhtp_8h.html#a9405f0e71d5a7af0b11eb0c0ba220794">evhtp_kv_free()</a>, <a class="el" href="evhtp_8h.html#af4ee662cbc3b5687bb413b73cdd7f8e8">evhtp_kv_new()</a>, and <a class="el" href="evhtp_8h.html#aa9b6927ea51772e70374b23a8349fb05">evhtp_kvs_add_kvs()</a>.</p>
 
 </div>
 </div>
@@ -185,7 +247,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>vlen</b></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structevhtp__kv__s.html">evhtp_kv_s</a></li>
-    <li class="footer">Generated on Fri Nov 27 2015 17:59:27 for Libevhtp by
+    <li class="footer">Generated on Fri Nov 27 2015 18:37:36 for Libevhtp by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

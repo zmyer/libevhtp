@@ -1,0 +1,100 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$evhtp_8c.html#a25b40b813f8a36cc383915b6ed3ec0ce" title="bind to a socket, optionally with specific protocol support formatting. The addr can be defined as on..." alt="" coords="111,764,244,789"/>
+<area shape="rect" id="node43" href="$evhtp_8c.html#a113ba6cd8ed817ac5e1988e8147c9358" title="evhtp_free" alt="" coords="135,1249,219,1274"/>
+<area shape="rect" id="node50" href="$evhtp_8c.html#a97bbe491064943a8d5e0d3e7a937209b" title="creates a new evhtp_t instance " alt="" coords="134,893,220,918"/>
+<area shape="rect" id="node71" href="$evhtp_8c.html#ad5bb4aac3d544eb8a102c530b3b45fba" title="sets a callback to be executed on a specific path " alt="" coords="127,1129,228,1154"/>
+<area shape="rect" id="node75" href="$evhtp_8c.html#ac4b2942f737cbd702277aa19f2d6538a" title="stops the listening socket. " alt="" coords="104,1348,251,1373"/>
+<area shape="rect" id="node76" href="$evhtp_8c.html#abadb1db7b98cd01c9856ebe55efe77b3" title="Enable thread&#45;pool support for an evhtp_t context. Connectios are distributed across &#39;nthreads&#39;..." alt="" coords="110,1298,245,1324"/>
+<area shape="rect" id="node93" href="$test__basic_8c.html#ae9ee91a68ffd2b4870858f3cdc0e9543" title="issue161cb" alt="" coords="346,1036,434,1061"/>
+<area shape="rect" id="node99" href="$test__basic_8c.html#a8bbdb0dcfef7e89742613ed5f426309c" title="testcb" alt="" coords="149,1009,206,1034"/>
+<area shape="rect" id="node3" href="$evhtp_8c.html#a49e7d9a4b613ac689aeffbc6fcd8fbbe" title="bind to an already allocated sockaddr. " alt="" coords="316,684,464,709"/>
+<area shape="rect" id="node4" href="$evhtp_8c.html#a6f94e792158ac45a66b14ac4b1791215" title="create the listener plus setup various options with an already&#45;bound socket. " alt="" coords="553,612,700,637"/>
+<area shape="rect" id="node5" href="$evhtp_8c.html#a01058d2a190e93744fcd8b38d3eec6c5" title="_evhtp_accept_cb" alt="" coords="809,453,939,478"/>
+<area shape="rect" id="node39" href="$evhtp_8c.html#a39edfccc12d96740f98f808a6e180eb7" title="_evhtp_ssl_servername" alt="" coords="792,612,955,637"/>
+<area shape="rect" id="node6" href="$evhtp_8c.html#a87cc91fb2145c9e78765bfcf6e9ab89e" title="_evhtp_connection_accept" alt="" coords="1260,304,1440,329"/>
+<area shape="rect" id="node11" href="$evhtp_8c.html#ad8e05f912c12705d93c0a1aec125544a" title="free&#39;s all connection related resources, this will also call your request fini hook and request fini ..." alt="" coords="2248,436,2404,461"/>
+<area shape="rect" id="node32" href="$evhtp_8c.html#a236b25db880260ea7ade4dbaa3ff8c05" title="_evhtp_connection_new" alt="" coords="1740,102,1905,128"/>
+<area shape="rect" id="node34" href="$evhtp_8c.html#aa66c50a9faa2ae92643cae6d3aa8298e" title="_evhtp_run_in_thread" alt="" coords="1042,402,1193,428"/>
+<area shape="rect" id="node35" href="$evhtp_8c.html#aff54db2288eb11a543e3a41398bce612" title="_evhtp_run_post_accept" alt="" coords="1266,454,1433,480"/>
+<area shape="rect" id="node37" href="$evthr_8c.html#ac097120e7644833b8b86891525464414" title="evthr_pool_defer" alt="" coords="1057,504,1178,529"/>
+<area shape="rect" id="node7" href="$evhtp_8c.html#ac1b32dde3c8e0e4ecf7d2350dda47be7" title="_evhtp_connection_eventcb" alt="" coords="1488,221,1675,246"/>
+<area shape="rect" id="node10" href="$evhtp_8c.html#ae4c1691af1bf2b75cec8d8dce75b0dcb" title="_evhtp_connection_readcb" alt="" coords="1982,233,2164,258"/>
+<area shape="rect" id="node25" href="$evhtp_8c.html#a342f7eb5f4aade7153b003c18ba0c865" title="_evhtp_connection_writecb" alt="" coords="1731,177,1914,202"/>
+<area shape="rect" id="node29" href="$evhtp_8c.html#ab451e48a9a9e498641bd754a96c17776" title="_evhtp_connection_resumecb" alt="" coords="1723,436,1922,461"/>
+<area shape="rect" id="node30" href="$evhtp_8c.html#a587a3e810f454348eefee92b969cb4f5" title="_evhtp_run_pre_accept" alt="" coords="1501,270,1662,296"/>
+<area shape="rect" id="node31" href="$evhtp_8c.html#a1b44fa89d6169ee0877f7ec9032dd765" title="sets a connection&#45;specific read/write timeout which overrides the global read/write settings..." alt="" coords="1506,372,1657,410"/>
+<area shape="rect" id="node8" href="$evhtp_8c.html#a08ef8f373dcbe288a099fea5199eb284" title="runs the user&#45;defined hook when a connection error occurs " alt="" coords="2224,10,2429,36"/>
+<area shape="rect" id="node9" href="$evhtp_8c.html#a90e79ac28720a5a188d8d32a8bc7e609" title="runs the user&#45;defined hook when a connection error occurs " alt="" coords="2507,10,2640,36"/>
+<area shape="rect" id="node18" href="$evhtp_8c.html#ac62f0e64aca4fca3648b67042a6c3646" title="resumes a connection (enables reading) and activates resume event. " alt="" coords="2237,134,2415,160"/>
+<area shape="rect" id="node19" href="$evhtp_8c.html#ab35aec3adb697918e24b8ff966afe235" title="Wrapper around evhtp_connection_pause. " alt="" coords="2251,85,2401,110"/>
+<area shape="rect" id="node21" href="$htparse_8c.html#a0da49907226999ce1439190bf7fd59c4" title="htparser_get_error" alt="" coords="2260,233,2392,258"/>
+<area shape="rect" id="node22" href="$htparse_8c.html#a21ab699be5ec818c1118f1c6f4d7b757" title="htparser_run" alt="" coords="2278,184,2375,209"/>
+<area shape="rect" id="node12" href="$evhtp_8c.html#ae405ab595637e4078a9a01821d3df580" title="runs the user&#45;definedhook called just prior to a connection being closed " alt="" coords="2477,436,2671,461"/>
+<area shape="rect" id="node13" href="$evhtp_8c.html#ac1b09ba3d872e8a0b93a60805996dae7" title="frees all data in an evhtp_request_t along with calling finished hooks " alt="" coords="2502,336,2646,361"/>
+<area shape="rect" id="node14" href="$evhtp_8c.html#ab82576a33f5888bec124961eaa86a9c0" title="runs the user&#45;defined hook called just prior to a request been free()&#39;d " alt="" coords="2719,310,2893,336"/>
+<area shape="rect" id="node15" href="$evhtp_8c.html#a4b730b06fe6a0093afb2f4f391e5455e" title="frees an overlay URI structure " alt="" coords="2749,360,2863,385"/>
+<area shape="rect" id="node16" href="$evhtp_8c.html#a2dfd994fb181a6efaf2c87716b05cd50" title="frees an authority structure " alt="" coords="2941,334,3091,360"/>
+<area shape="rect" id="node17" href="$evhtp_8c.html#a9ab2a6de89fce03b9543bdafa6f22db5" title="_evhtp_path_free" alt="" coords="2953,384,3078,409"/>
+<area shape="rect" id="node20" href="$evhtp_8c.html#a411f8bd2a68359f2bfb457961f94db97" title="pauses a connection (disables reading) " alt="" coords="2489,85,2659,110"/>
+<area shape="rect" id="node23" href="$htparse_8c.html#a2f924cee0d1ff942fd92d781879df83c" title="get_method" alt="" coords="2528,209,2620,234"/>
+<area shape="rect" id="node24" href="$htparse_8c.html#aa905ee8d3cead3af162d637a3a33c397" title="is_host_char" alt="" coords="2525,160,2622,185"/>
+<area shape="rect" id="node26" href="$evhtp_8c.html#a0fbb88d736802c86bd265560ec15ef18" title="_evhtp_connection_write_hook" alt="" coords="1970,184,2176,209"/>
+<area shape="rect" id="node27" href="$htparse_8c.html#a7b3e7f5cfd9e769f829bc8d51a200be2" title="htparser_init" alt="" coords="2026,85,2120,110"/>
+<area shape="rect" id="node28" href="$htparse_8c.html#af22e3761f1ccd029b26c0bcecf8af2f8" title="htparser_set_userdata" alt="" coords="1996,134,2150,160"/>
+<area shape="rect" id="node33" href="$htparse_8c.html#af88fadfbaf9eaa8081e3495c6cdcdcdb" title="htparser_new" alt="" coords="2022,36,2124,61"/>
+<area shape="rect" id="node36" href="$evthr_8c.html#a46dff6afc6d6722688fd09c74add2ddd" title="evthr_get_base" alt="" coords="1293,353,1406,378"/>
+<area shape="rect" id="node38" href="$evthr_8c.html#a3f09961614cd3efb20100bc540adc78e" title="evthr_defer" alt="" coords="1305,504,1394,529"/>
+<area shape="rect" id="node40" href="$evhtp_8c.html#aff58378efaf8e86c36ae46c09cb9f67f" title="_evhtp_request_find\l_vhost" alt="" coords="1047,605,1189,644"/>
+<area shape="rect" id="node41" href="$evhtp_8c.html#af5dee122ed5d734715a41e6b7464904c" title="glob/wildcard type pattern matching. " alt="" coords="1281,612,1419,637"/>
+<area shape="rect" id="node42" href="$evhtp_8c.html#af5cdf9c1d6a11ccdb2e2abb498d7195f" title="_evhtp_glob_match2" alt="" coords="1509,612,1654,637"/>
+<area shape="rect" id="node44" href="$evhtp_8c.html#a4f5f66e5e371d0d34cc439b96b3a4862" title="evhtp_callbacks_free" alt="" coords="317,1249,463,1274"/>
+<area shape="rect" id="node46" href="$evthr_8c.html#a4ef64d9c2456f217908abf0166d0a8a5" title="evthr_pool_free" alt="" coords="1061,1465,1175,1490"/>
+<area shape="rect" id="node48" href="$evthr_8c.html#afcb0f7fd6293a1051167157eeddf47d7" title="evthr_pool_stop" alt="" coords="332,1298,448,1324"/>
+<area shape="rect" id="node45" href="$evhtp_8c.html#aa18103f43b36858a97e1eef80b0e4044" title="frees information associated with a ainflwx callback. " alt="" coords="557,1241,696,1266"/>
+<area shape="rect" id="node47" href="$evthr_8c.html#a975c0504858edc68ca316a3efc9dde88" title="evthr_free" alt="" coords="1541,1465,1622,1490"/>
+<area shape="rect" id="node49" href="$evthr_8c.html#a3e59f1e4310133cd27bceeee9398854a" title="evthr_stop" alt="" coords="585,1298,668,1324"/>
+<area shape="rect" id="node51" href="$evhtp_8c.html#a4f47eea3160e177e5fb74f0ded7c4b73" title="_evhtp_default_request_cb" alt="" coords="299,812,481,837"/>
+<area shape="rect" id="node70" href="$evhtp_8c.html#a39a5c7910a382f902c896b25854b742d" title="sets a callback which is called if no other callbacks are matched " alt="" coords="329,893,451,918"/>
+<area shape="rect" id="node52" href="$evhtp_8h.html#a503b047c0137763e0adaf635b7c664a8" title="creates a new evhtp_header_t key/val structure " alt="" coords="1050,668,1185,693"/>
+<area shape="rect" id="node53" href="$evhtp_8h.html#a45e5dd8e1166577254d6da73f4cf9fd1" title="adds an evhtp_header_t to the end of the evhtp_headers_t tailq " alt="" coords="1024,717,1212,742"/>
+<area shape="rect" id="node54" href="$evhtp_8c.html#a207355af4b2d3e5211c4df0bbb8d195d" title="generates all the right information for a reply to be sent to the client " alt="" coords="563,850,690,876"/>
+<area shape="rect" id="node55" href="$evhtp_8c.html#a0fd9982ade86ed23ee41eadb33b0e3c1" title="_evhtp_create_reply" alt="" coords="803,928,945,953"/>
+<area shape="rect" id="node68" href="$evhtp_8c.html#af0e521e1beb5c171441af8c7170d83b9" title="returns the underlying connections bufferevent " alt="" coords="783,768,964,793"/>
+<area shape="rect" id="node69" href="$evhtp_8c.html#ad90238a469b4289cf16c2aacc4763d4c" title="returns the underlying evhtp_connection_t structure from a request " alt="" coords="772,977,976,1002"/>
+<area shape="rect" id="node56" href="$evhtp_8c.html#a25a957881c47ce6d3e8b6119d664e9b7" title="_evhtp_create_headers" alt="" coords="1037,818,1198,844"/>
+<area shape="rect" id="node57" href="$evhtp_8h.html#a8b553a92dea8df3d2a0eb987a8b2cd39" title="finds the value of a key in a evhtp_headers_t structure " alt="" coords="1052,868,1184,893"/>
+<area shape="rect" id="node58" href="$evhtp__numtoa_8c.html#aef81286f525f97a5f761964f50599a63" title="based on the system architecture, convert a size_t number to a string. " alt="" coords="1045,969,1190,994"/>
+<area shape="rect" id="node59" href="$evhtp__numtoa_8c.html#a8cc234df8a9409d796e9fa426273c218" title="converts uint32_t value to string " alt="" coords="1278,920,1421,945"/>
+<area shape="rect" id="node62" href="$htparse_8c.html#ab34fb33769128cc477a6f9a5c0e2bc63" title="htparser_get_major" alt="" coords="1049,1068,1186,1093"/>
+<area shape="rect" id="node63" href="$htparse_8c.html#a70e8640f33ccec623fa8e1bdae8c693d" title="htparser_get_minor" alt="" coords="1049,1117,1186,1142"/>
+<area shape="rect" id="node64" href="$htparse_8c.html#ad931068e981eb54e6fc99ad7c62f104a" title="htparser_get_multipart" alt="" coords="1040,1166,1195,1192"/>
+<area shape="rect" id="node65" href="$htparse_8c.html#a40511e662043f9255ec3ef7376966c31" title="htparser_set_major" alt="" coords="1050,1216,1186,1241"/>
+<area shape="rect" id="node66" href="$htparse_8c.html#ab2ee1f6fd7456337e2e483bab9973413" title="htparser_set_minor" alt="" coords="1050,1265,1186,1290"/>
+<area shape="rect" id="node67" href="$evhtp_8c.html#ad41c784fc766dd3497fe564a88d7cb1f" title="status_code_to_str" alt="" coords="1051,1018,1185,1044"/>
+<area shape="rect" id="node61" href="$evhtp__numtoa_8c.html#a1dae3968a0cdd6586c0ebacf415e929e" title="convert uint64_t value to a string " alt="" coords="1278,969,1421,994"/>
+<area shape="rect" id="node60" href="$evhtp__numtoa_8c.html#ac884408acf9fb0963fcfcb572bb96fa4" title="strreverse" alt="" coords="1541,945,1622,970"/>
+<area shape="rect" id="node72" href="$evhtp_8c.html#a8d96790f46d2c063c5a2dd09ca0573a5" title="creates a new evhtp_callback_t structure. " alt="" coords="319,1085,461,1110"/>
+<area shape="rect" id="node74" href="$evhtp_8c.html#a36a4df86347439381efba472dbdd72e2" title="Adds a evhtp_callback_t to the evhtp_callbacks_t list. " alt="" coords="317,1186,463,1225"/>
+<area shape="rect" id="node73" href="$evhtp_8c.html#acc338650342f065a4c64b40a9fed90be" title="a weak hash function " alt="" coords="558,1184,695,1209"/>
+<area shape="rect" id="node77" href="$evhtp_8c.html#a63a90ce1a8d024ab6ecf79055d0aaeac" title="_evhtp_use_threads" alt="" coords="319,1490,461,1516"/>
+<area shape="rect" id="node78" href="$evhtp_8c.html#a4d1f9d020c5b0dbc930f3b2dc4cb9c44" title="_evhtp_thread_exit" alt="" coords="559,1614,694,1640"/>
+<area shape="rect" id="node79" href="$evhtp_8c.html#a8cd75d11eacdb8224357e400c1b2f607" title="_evhtp_thread_init" alt="" coords="561,1417,692,1442"/>
+<area shape="rect" id="node80" href="$evhtp_8c.html#a50dcb68a596352bf44b90e507f5f4a04" title="evhtp_ssl_use_threads" alt="" coords="547,1466,706,1492"/>
+<area shape="rect" id="node83" href="$evthr_8c.html#afbf9e15cc637731b1bdae6c9f77f202f" title="evthr_pool_start" alt="" coords="568,1516,685,1541"/>
+<area shape="rect" id="node87" href="$evthr_8c.html#ae5094de037a6f5475154ad68374dfcfd" title="evthr_pool_wexit_new" alt="" coords="550,1565,703,1590"/>
+<area shape="rect" id="node81" href="$evhtp_8c.html#a7faf23f0dbc80766bca0af285a89751a" title="_evhtp_ssl_get_thread_id" alt="" coords="787,1466,961,1492"/>
+<area shape="rect" id="node82" href="$evhtp_8c.html#ab20a3f60ebc232a46f4462f2ff3c17b4" title="_evhtp_ssl_thread_lock" alt="" coords="793,1417,954,1442"/>
+<area shape="rect" id="node84" href="$evthr_8c.html#a08fc36209f69a6bf58581c395ca22df0" title="evthr_start" alt="" coords="832,1516,916,1541"/>
+<area shape="rect" id="node85" href="$evthr_8c.html#a1023638ec5624538829a1e95b58960b5" title="_evthr_loop" alt="" coords="1072,1516,1163,1541"/>
+<area shape="rect" id="node86" href="$evthr_8c.html#a7ca698fd31b3842cf9336146d9b55d03" title="_evthr_read_cmd" alt="" coords="1287,1516,1412,1541"/>
+<area shape="rect" id="node88" href="$evthr_8c.html#a33070c7bdd9224ffec651c0dc34a8c6b" title="_evthr_pool_new" alt="" coords="812,1565,935,1590"/>
+<area shape="rect" id="node89" href="$evthr_8c.html#a45db8d47201add94f3d05768d47ae987" title="evthr_wexit_new" alt="" coords="1057,1565,1178,1590"/>
+<area shape="rect" id="node90" href="$evthr_8c.html#ae16815aef6a84311c807965d7dfa4268" title="_evthr_new" alt="" coords="1305,1565,1395,1590"/>
+<area shape="rect" id="node91" href="$evthr_8c.html#aebcc1d7184db421684a620758855de62" title="evthr_set_exitcb" alt="" coords="1522,1540,1641,1565"/>
+<area shape="rect" id="node92" href="$evthr_8c.html#a8d171de75e5fd539ce14ba7e41793568" title="evthr_set_initcb" alt="" coords="1524,1589,1639,1614"/>
+<area shape="rect" id="node94" href="$evhtp_8c.html#aa9af8575b3f16dc094e540c123a6e0bc" title="evhtp_request_get_proto" alt="" coords="542,1036,711,1061"/>
+<area shape="rect" id="node95" href="$evhtp_8c.html#af07640b18e33dae06b20d1c32ed81579" title="evhtp_request_set_keepalive" alt="" coords="529,1085,724,1110"/>
+<area shape="rect" id="node96" href="$evhtp_8c.html#a6bf7db125fda2c96491d2ebde9d40611" title="evhtp_send_reply_body" alt="" coords="545,1134,708,1160"/>
+<area shape="rect" id="node97" href="$evhtp_8c.html#a233d1f64458e5f71658d7bc64c80d569" title="evhtp_send_reply_end" alt="" coords="548,986,705,1012"/>
+<area shape="rect" id="node98" href="$evhtp_8c.html#a616801e5dd5e515f78f3b430910b22da" title="evhtp_send_reply_start" alt="" coords="547,937,706,962"/>
+</map>

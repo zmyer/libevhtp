@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>Libevhtp: evhtp_request_s Struct Reference</title>
+<title>Libevhtp: evhtp_request_t Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -70,7 +70,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -109,7 +108,7 @@ $(document).ready(function(){initNavTree('structevhtp__request__s.html','');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structevhtp__request__s-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">evhtp_request_s Struct Reference</div>  </div>
+<div class="title">evhtp_request_t Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -118,237 +117,83 @@ $(document).ready(function(){initNavTree('structevhtp__request__s.html','');});
 
 <p><code>#include &lt;<a class="el" href="evhtp_8h_source.html">evhtp.h</a>&gt;</code></p>
 <div class="dynheader">
-Collaboration diagram for evhtp_request_s:</div>
+Collaboration diagram for evhtp_request_t:</div>
 <div class="dyncontent">
-<div class="center"><img src="structevhtp__request__s__coll__graph.png" border="0" usemap="#evhtp__request__s_coll__map" alt="Collaboration graph"/></div>
-<map name="evhtp__request__s_coll__map" id="evhtp__request__s_coll__map">
-<area shape="rect" id="node2" href="structevhtp__hooks__s.html" title="evhtp_hooks_s" alt="" coords="436,399,547,425"/>
-<area shape="rect" id="node3" href="structevhtp__connection__s.html" title="evhtp_connection_s" alt="" coords="238,527,378,552"/>
-<area shape="rect" id="node9" href="structevhtp__defaults__s.html" title="evhtp_defaults_s" alt="" coords="137,627,259,652"/>
-<area shape="rect" id="node7" href="structevhtp__ssl__cfg__s.html" title="evhtp_ssl_cfg_s" alt="" coords="241,841,358,867"/>
-<area shape="rect" id="node4" href="structhtparser.html" title="htparser" alt="" coords="342,399,412,425"/>
-<area shape="rect" id="node5" href="structevthr.html" title="evthr" alt="" coords="25,399,76,425"/>
-<area shape="rect" id="node6" href="structevhtp__s.html" title="main structure containing all configuration information " alt="" coords="164,734,232,759"/>
-<area shape="rect" id="node8" href="structevthr__pool.html" title="evthr_pool" alt="" coords="30,627,114,652"/>
-<area shape="rect" id="node10" href="structevhtp__uri__s.html" title="a generic container representing an entire URI strucutre " alt="" coords="265,92,356,117"/>
-<area shape="rect" id="node11" href="structevhtp__authority__s.html" title="structure which represents authority information in a URI " alt="" coords="179,5,306,31"/>
-<area shape="rect" id="node12" href="structevhtp__path__s.html" title="structure which represents a URI path and or file " alt="" coords="329,5,430,31"/>
+<div class="center"><img src="structevhtp__request__s__coll__graph.png" border="0" usemap="#evhtp__request__t_coll__map" alt="Collaboration graph"/></div>
+<map name="evhtp__request__t_coll__map" id="evhtp__request__t_coll__map">
 </map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a11c994e21574cf62027af7acba09cb9e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a11c994e21574cf62027af7acba09cb9e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>TAILQ_ENTRY</b> (<a class="el" href="structevhtp__request__s.html">evhtp_request_s</a>) next</td></tr>
-<tr class="separator:a11c994e21574cf62027af7acba09cb9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9e97c6239c468577d488882261a5b07"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#ac9e97c6239c468577d488882261a5b07">TAILQ_ENTRY</a> (<a class="el" href="structevhtp__request__s.html">evhtp_request_s</a>) next</td></tr>
+<tr class="separator:ac9e97c6239c468577d488882261a5b07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a5cfa6699831ae7fc9ed533bc82686bf9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structevhtp__s.html">evhtp_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#a5cfa6699831ae7fc9ed533bc82686bf9">htp</a></td></tr>
-<tr class="separator:a5cfa6699831ae7fc9ed533bc82686bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af28e9e1b2a13915061e2f8bbf18f0161"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structevhtp__connection__s.html">evhtp_connection_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#af28e9e1b2a13915061e2f8bbf18f0161">conn</a></td></tr>
-<tr class="separator:af28e9e1b2a13915061e2f8bbf18f0161"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a177552c14d9be515812f11617731bc1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structevhtp__hooks__s.html">evhtp_hooks_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#a177552c14d9be515812f11617731bc1c">hooks</a></td></tr>
-<tr class="separator:a177552c14d9be515812f11617731bc1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a141d96d51a744152cbcc79726b1ee6f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structevhtp__uri__s.html">evhtp_uri_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#a141d96d51a744152cbcc79726b1ee6f8">uri</a></td></tr>
-<tr class="separator:a141d96d51a744152cbcc79726b1ee6f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a897b11dd5381a0d4143f390c12c7adb0"><td class="memItemLeft" align="right" valign="top">evbuf_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#a897b11dd5381a0d4143f390c12c7adb0">buffer_in</a></td></tr>
-<tr class="separator:a897b11dd5381a0d4143f390c12c7adb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b48e2039c55471060427bc98af6d41b"><td class="memItemLeft" align="right" valign="top">evbuf_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#a6b48e2039c55471060427bc98af6d41b">buffer_out</a></td></tr>
-<tr class="separator:a6b48e2039c55471060427bc98af6d41b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0001e9eee4402304ff76d0f7cccb4d2f"><td class="memItemLeft" align="right" valign="top">evhtp_headers_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#a0001e9eee4402304ff76d0f7cccb4d2f">headers_in</a></td></tr>
-<tr class="separator:a0001e9eee4402304ff76d0f7cccb4d2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7513fb19241c0516efd1ca2695e63d3d"><td class="memItemLeft" align="right" valign="top">evhtp_headers_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#a7513fb19241c0516efd1ca2695e63d3d">headers_out</a></td></tr>
-<tr class="separator:a7513fb19241c0516efd1ca2695e63d3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46faf0fb6ded9f750249affbe98ac5d5"><td class="memItemLeft" align="right" valign="top">evhtp_proto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#a46faf0fb6ded9f750249affbe98ac5d5">proto</a></td></tr>
-<tr class="separator:a46faf0fb6ded9f750249affbe98ac5d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a510b48e5fc916813a4e1269e4eac8628"><td class="memItemLeft" align="right" valign="top">htp_method&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#a510b48e5fc916813a4e1269e4eac8628">method</a></td></tr>
-<tr class="separator:a510b48e5fc916813a4e1269e4eac8628"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac25f5caf6e6f5af79d1d04c7bdffc469"><td class="memItemLeft" align="right" valign="top">evhtp_res&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#ac25f5caf6e6f5af79d1d04c7bdffc469">status</a></td></tr>
-<tr class="separator:ac25f5caf6e6f5af79d1d04c7bdffc469"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae117dc84ac318adee8cf92f9dd77d249"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#ae117dc84ac318adee8cf92f9dd77d249">keepalive</a>: 1</td></tr>
-<tr class="separator:ae117dc84ac318adee8cf92f9dd77d249"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1926f2d4247440fb383a643b6b1daac"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#ac1926f2d4247440fb383a643b6b1daac">finished</a>: 1</td></tr>
-<tr class="separator:ac1926f2d4247440fb383a643b6b1daac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8424283316300f9dc427c6458ce669c"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#aa8424283316300f9dc427c6458ce669c">chunked</a>: 1</td></tr>
-<tr class="separator:aa8424283316300f9dc427c6458ce669c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7db6210cd849fbfbaab96ea96f71910"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#ac7db6210cd849fbfbaab96ea96f71910">error</a>: 1</td></tr>
-<tr class="separator:ac7db6210cd849fbfbaab96ea96f71910"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4aa8cd38d38d63bf4d9d004c8a77b9d3"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#a4aa8cd38d38d63bf4d9d004c8a77b9d3">pad</a>: 4</td></tr>
-<tr class="separator:a4aa8cd38d38d63bf4d9d004c8a77b9d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3d70db615c813f445ed52926753c68a"><td class="memItemLeft" align="right" valign="top">evhtp_callback_cb&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#aa3d70db615c813f445ed52926753c68a">cb</a></td></tr>
-<tr class="separator:aa3d70db615c813f445ed52926753c68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa243d4c5498578dffe09cba029aefcbd"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#aa243d4c5498578dffe09cba029aefcbd">cbarg</a></td></tr>
-<tr class="separator:aa243d4c5498578dffe09cba029aefcbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fedce3ebe990b1d5199cc817e01277f"><td class="memItemLeft" align="right" valign="top">evhtp_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#a9fedce3ebe990b1d5199cc817e01277f">htp</a></td></tr>
+<tr class="separator:a9fedce3ebe990b1d5199cc817e01277f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9d4c5543abd6ebf45a847373af34faf"><td class="memItemLeft" align="right" valign="top">evhtp_connection_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#ab9d4c5543abd6ebf45a847373af34faf">conn</a></td></tr>
+<tr class="separator:ab9d4c5543abd6ebf45a847373af34faf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae74c640e63b2e4de2b6a60f4afb6364"><td class="memItemLeft" align="right" valign="top">evhtp_hooks_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#aae74c640e63b2e4de2b6a60f4afb6364">hooks</a></td></tr>
+<tr class="separator:aae74c640e63b2e4de2b6a60f4afb6364"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a477735dd83b621e786462680ebced4"><td class="memItemLeft" align="right" valign="top">evhtp_uri_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#a3a477735dd83b621e786462680ebced4">uri</a></td></tr>
+<tr class="separator:a3a477735dd83b621e786462680ebced4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a808e6ad093e5c51ab26d25a57b13378f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="evhtp_8h.html#a7c30b85cd8bba6ebbfe58c3fc81139c8">evbuf_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#a808e6ad093e5c51ab26d25a57b13378f">buffer_in</a></td></tr>
+<tr class="separator:a808e6ad093e5c51ab26d25a57b13378f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8e97a50f3aa966b557dc52e78f946a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="evhtp_8h.html#a7c30b85cd8bba6ebbfe58c3fc81139c8">evbuf_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#ad8e97a50f3aa966b557dc52e78f946a0">buffer_out</a></td></tr>
+<tr class="separator:ad8e97a50f3aa966b557dc52e78f946a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86570838240dc43d69d6b5e4f4068cd5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="evhtp_8h.html#a39e4a3adac2cba0714b1f6c77311f868">evhtp_headers_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#a86570838240dc43d69d6b5e4f4068cd5">headers_in</a></td></tr>
+<tr class="separator:a86570838240dc43d69d6b5e4f4068cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f7a6178770243d493099531dcca8a6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="evhtp_8h.html#a39e4a3adac2cba0714b1f6c77311f868">evhtp_headers_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#a5f7a6178770243d493099531dcca8a6d">headers_out</a></td></tr>
+<tr class="separator:a5f7a6178770243d493099531dcca8a6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1dfaa667d08c27b23fa3e78606593d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="evhtp_8h.html#ac3df0cb2556f57ad0bc8bb44ae126da5">evhtp_proto</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#ac1dfaa667d08c27b23fa3e78606593d8">proto</a></td></tr>
+<tr class="separator:ac1dfaa667d08c27b23fa3e78606593d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fac674014b5f054f667a6b8052332fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="htparse_8h.html#a737d9de0a6960b595f9ce283fd1c0edf">htp_method</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#a3fac674014b5f054f667a6b8052332fd">method</a></td></tr>
+<tr class="separator:a3fac674014b5f054f667a6b8052332fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab643f31279e9692ceafcf8620bc675c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="evhtp_8h.html#ac6ada2a29bcb7a7ddcfdcabc0d37022a">evhtp_res</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#ab643f31279e9692ceafcf8620bc675c2">status</a></td></tr>
+<tr class="separator:ab643f31279e9692ceafcf8620bc675c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6786de3c519ab80dc39d17cf26defb8"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#ae6786de3c519ab80dc39d17cf26defb8">keepalive</a>: 1</td></tr>
+<tr class="separator:ae6786de3c519ab80dc39d17cf26defb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7bd97bcb417fc5b7a9a0ebb76a3011b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#ab7bd97bcb417fc5b7a9a0ebb76a3011b">finished</a>: 1</td></tr>
+<tr class="separator:ab7bd97bcb417fc5b7a9a0ebb76a3011b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71db6a2761a44c7777f7614cd2980f71"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#a71db6a2761a44c7777f7614cd2980f71">chunked</a>: 1</td></tr>
+<tr class="separator:a71db6a2761a44c7777f7614cd2980f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aa5c1a190ca84bc52f89ce88c80baac"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#a5aa5c1a190ca84bc52f89ce88c80baac">error</a>: 1</td></tr>
+<tr class="separator:a5aa5c1a190ca84bc52f89ce88c80baac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a570c518a52b040a52689d34209105332"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#a570c518a52b040a52689d34209105332">pad</a>: 4</td></tr>
+<tr class="separator:a570c518a52b040a52689d34209105332"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d865c6d1c25fb85990d301ccf00c8e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="evhtp_8h.html#a51d96777ed3664ca4d8e3dd256ae4251">evhtp_callback_cb</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#a2d865c6d1c25fb85990d301ccf00c8e8">cb</a></td></tr>
+<tr class="separator:a2d865c6d1c25fb85990d301ccf00c8e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24df857a0bb615b35a464d0c6f9730d3"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__request__s.html#a24df857a0bb615b35a464d0c6f9730d3">cbarg</a></td></tr>
+<tr class="separator:a24df857a0bb615b35a464d0c6f9730d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>a structure containing all information for a http request. </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a897b11dd5381a0d4143f390c12c7adb0"></a>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ac9e97c6239c468577d488882261a5b07"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">evbuf_t* evhtp_request_s::buffer_in</td>
+          <td class="memname">evhtp_request_t::TAILQ_ENTRY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structevhtp__request__s.html">evhtp_request_s</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>buffer containing data from client </p>
 
 </div>
 </div>
-<a class="anchor" id="a6b48e2039c55471060427bc98af6d41b"></a>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a9fedce3ebe990b1d5199cc817e01277f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">evbuf_t* evhtp_request_s::buffer_out</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>buffer containing data to client </p>
-
-<p>Referenced by <a class="el" href="evhtp_8h.html#a0c44adc7432e7b4efdf0b750cd24e4ca">evhtp_make_request()</a>, and <a class="el" href="evhtp_8h.html#af958f59fa3dd0e449e252f001485bc07">evhtp_send_reply_chunk_start()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa3d70db615c813f445ed52926753c68a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">evhtp_callback_cb evhtp_request_s::cb</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>the function to call when fully processed </p>
-
-<p>Referenced by <a class="el" href="evhtp_8h.html#ac56c49e27823ae64c4a69fc951629988">evhtp_request_new()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa243d4c5498578dffe09cba029aefcbd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void* evhtp_request_s::cbarg</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>argument which is passed to the cb function </p>
-
-<p>Referenced by <a class="el" href="evhtp_8h.html#ac56c49e27823ae64c4a69fc951629988">evhtp_request_new()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa8424283316300f9dc427c6458ce669c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t evhtp_request_s::chunked</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>set to 1 if the request is chunked </p>
-
-<p>Referenced by <a class="el" href="evhtp_8h.html#a734237a7407d4764fde6785b65a3a482">evhtp_send_reply_chunk()</a>, <a class="el" href="evhtp_8h.html#add0e0e6584dd89a474660fe6e0e3051f">evhtp_send_reply_chunk_end()</a>, and <a class="el" href="evhtp_8h.html#af958f59fa3dd0e449e252f001485bc07">evhtp_send_reply_chunk_start()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af28e9e1b2a13915061e2f8bbf18f0161"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structevhtp__connection__s.html">evhtp_connection_t</a>* evhtp_request_s::conn</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>the associated connection </p>
-
-<p>Referenced by <a class="el" href="evhtp_8h.html#a0c44adc7432e7b4efdf0b750cd24e4ca">evhtp_make_request()</a>, <a class="el" href="evhtp_8h.html#a433daafc19baa3b17bf6f23f148c4a06">evhtp_request_get_bev()</a>, <a class="el" href="evhtp_8h.html#a083d7d161ae2139b52fbba2ff07caf88">evhtp_request_get_connection()</a>, <a class="el" href="evhtp_8h.html#a73dff0e1b8f5c254d821cc6d16c71938">evhtp_request_get_method()</a>, <a class="el" href="evhtp_8h.html#a5be08cd304ef7683b4196664c6413c62">evhtp_request_pause()</a>, <a class="el" href="evhtp_8h.html#a83bac4918b696598f2f97b23e95e9fee">evhtp_request_resume()</a>, <a class="el" href="evhtp_8h.html#ad1f053203de927caaf1b48427fb20d6d">evhtp_request_set_bev()</a>, <a class="el" href="evhtp_8h.html#a3e59462fdaa4d4935fe2a6f05c20ea0c">evhtp_request_set_max_body_size()</a>, <a class="el" href="evhtp_8h.html#a0515585c66f8383360eae93f5c426022">evhtp_send_reply()</a>, and <a class="el" href="evhtp_8h.html#a734237a7407d4764fde6785b65a3a482">evhtp_send_reply_chunk()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ac7db6210cd849fbfbaab96ea96f71910"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t evhtp_request_s::error</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>set if any sort of error has occurred. </p>
-
-</div>
-</div>
-<a class="anchor" id="ac1926f2d4247440fb383a643b6b1daac"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t evhtp_request_s::finished</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>set to 1 if the request is fully processed </p>
-
-<p>Referenced by <a class="el" href="evhtp_8h.html#a0515585c66f8383360eae93f5c426022">evhtp_send_reply()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0001e9eee4402304ff76d0f7cccb4d2f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">evhtp_headers_t* evhtp_request_s::headers_in</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>headers from client </p>
-
-</div>
-</div>
-<a class="anchor" id="a7513fb19241c0516efd1ca2695e63d3d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">evhtp_headers_t* evhtp_request_s::headers_out</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>headers to client </p>
-
-<p>Referenced by <a class="el" href="evhtp_8h.html#a0c44adc7432e7b4efdf0b750cd24e4ca">evhtp_make_request()</a>, and <a class="el" href="evhtp_8h.html#af958f59fa3dd0e449e252f001485bc07">evhtp_send_reply_chunk_start()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a177552c14d9be515812f11617731bc1c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structevhtp__hooks__s.html">evhtp_hooks_t</a>* evhtp_request_s::hooks</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>request specific hooks </p>
-
-<p>Referenced by <a class="el" href="evhtp_8h.html#aaeae63d6b7507bd38ded471c61b60c21">evhtp_connection_take_ownership()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5cfa6699831ae7fc9ed533bc82686bf9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structevhtp__s.html">evhtp_t</a>* evhtp_request_s::htp</td>
+          <td class="memname">evhtp_t* evhtp_request_t::htp</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -356,12 +201,142 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae117dc84ac318adee8cf92f9dd77d249"></a>
+<a class="anchor" id="ab9d4c5543abd6ebf45a847373af34faf"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t evhtp_request_s::keepalive</td>
+          <td class="memname">evhtp_connection_t* evhtp_request_t::conn</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the associated connection </p>
+
+</div>
+</div>
+<a class="anchor" id="aae74c640e63b2e4de2b6a60f4afb6364"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">evhtp_hooks_t* evhtp_request_t::hooks</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>request specific hooks </p>
+
+</div>
+</div>
+<a class="anchor" id="a3a477735dd83b621e786462680ebced4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">evhtp_uri_t* evhtp_request_t::uri</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>request URI information </p>
+
+</div>
+</div>
+<a class="anchor" id="a808e6ad093e5c51ab26d25a57b13378f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="evhtp_8h.html#a7c30b85cd8bba6ebbfe58c3fc81139c8">evbuf_t</a>* evhtp_request_t::buffer_in</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>buffer containing data from client </p>
+
+</div>
+</div>
+<a class="anchor" id="ad8e97a50f3aa966b557dc52e78f946a0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="evhtp_8h.html#a7c30b85cd8bba6ebbfe58c3fc81139c8">evbuf_t</a>* evhtp_request_t::buffer_out</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>buffer containing data to client </p>
+
+</div>
+</div>
+<a class="anchor" id="a86570838240dc43d69d6b5e4f4068cd5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="evhtp_8h.html#a39e4a3adac2cba0714b1f6c77311f868">evhtp_headers_t</a>* evhtp_request_t::headers_in</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>headers from client </p>
+
+</div>
+</div>
+<a class="anchor" id="a5f7a6178770243d493099531dcca8a6d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="evhtp_8h.html#a39e4a3adac2cba0714b1f6c77311f868">evhtp_headers_t</a>* evhtp_request_t::headers_out</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>headers to client </p>
+
+</div>
+</div>
+<a class="anchor" id="ac1dfaa667d08c27b23fa3e78606593d8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="evhtp_8h.html#ac3df0cb2556f57ad0bc8bb44ae126da5">evhtp_proto</a> evhtp_request_t::proto</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>HTTP protocol used </p>
+
+</div>
+</div>
+<a class="anchor" id="a3fac674014b5f054f667a6b8052332fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="htparse_8h.html#a737d9de0a6960b595f9ce283fd1c0edf">htp_method</a> evhtp_request_t::method</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>HTTP method used </p>
+
+</div>
+</div>
+<a class="anchor" id="ab643f31279e9692ceafcf8620bc675c2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="evhtp_8h.html#ac6ada2a29bcb7a7ddcfdcabc0d37022a">evhtp_res</a> evhtp_request_t::status</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The HTTP response code or other error conditions </p>
+
+</div>
+</div>
+<a class="anchor" id="ae6786de3c519ab80dc39d17cf26defb8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t evhtp_request_t::keepalive</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -369,27 +344,51 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a510b48e5fc916813a4e1269e4eac8628"></a>
+<a class="anchor" id="ab7bd97bcb417fc5b7a9a0ebb76a3011b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">htp_method evhtp_request_s::method</td>
+          <td class="memname">uint8_t evhtp_request_t::finished</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>HTTP method used </p>
-
-<p>Referenced by <a class="el" href="evhtp_8h.html#af958f59fa3dd0e449e252f001485bc07">evhtp_send_reply_chunk_start()</a>.</p>
+<p>set to 1 if the request is fully processed </p>
 
 </div>
 </div>
-<a class="anchor" id="a4aa8cd38d38d63bf4d9d004c8a77b9d3"></a>
+<a class="anchor" id="a71db6a2761a44c7777f7614cd2980f71"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t evhtp_request_s::pad</td>
+          <td class="memname">uint8_t evhtp_request_t::chunked</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set to 1 if the request is chunked </p>
+
+</div>
+</div>
+<a class="anchor" id="a5aa5c1a190ca84bc52f89ce88c80baac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t evhtp_request_t::error</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set if any sort of error has occurred. </p>
+
+</div>
+</div>
+<a class="anchor" id="a570c518a52b040a52689d34209105332"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t evhtp_request_t::pad</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -397,46 +396,29 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a46faf0fb6ded9f750249affbe98ac5d5"></a>
+<a class="anchor" id="a2d865c6d1c25fb85990d301ccf00c8e8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">evhtp_proto evhtp_request_s::proto</td>
+          <td class="memname"><a class="el" href="evhtp_8h.html#a51d96777ed3664ca4d8e3dd256ae4251">evhtp_callback_cb</a> evhtp_request_t::cb</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>HTTP protocol used </p>
-
-<p>Referenced by <a class="el" href="evhtp_8h.html#a0c44adc7432e7b4efdf0b750cd24e4ca">evhtp_make_request()</a>, <a class="el" href="evhtp_8h.html#ac56c49e27823ae64c4a69fc951629988">evhtp_request_new()</a>, and <a class="el" href="evhtp_8h.html#af958f59fa3dd0e449e252f001485bc07">evhtp_send_reply_chunk_start()</a>.</p>
+<p>the function to call when fully processed </p>
 
 </div>
 </div>
-<a class="anchor" id="ac25f5caf6e6f5af79d1d04c7bdffc469"></a>
+<a class="anchor" id="a24df857a0bb615b35a464d0c6f9730d3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">evhtp_res evhtp_request_s::status</td>
+          <td class="memname">void* evhtp_request_t::cbarg</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The HTTP response code or other error conditions </p>
-
-<p>Referenced by <a class="el" href="evhtp_8h.html#a5be08cd304ef7683b4196664c6413c62">evhtp_request_pause()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a141d96d51a744152cbcc79726b1ee6f8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structevhtp__uri__s.html">evhtp_uri_t</a>* evhtp_request_s::uri</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>request URI information </p>
+<p>argument which is passed to the cb function </p>
 
 </div>
 </div>
@@ -449,7 +431,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structevhtp__request__s.html">evhtp_request_s</a></li>
-    <li class="footer">Generated on Fri Nov 27 2015 17:59:27 for Libevhtp by
+    <li class="footer">Generated on Fri Nov 27 2015 18:37:36 for Libevhtp by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

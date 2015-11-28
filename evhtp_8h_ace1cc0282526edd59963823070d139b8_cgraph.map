@@ -1,0 +1,5 @@
+<map id="evhtp_ssl_init" name="evhtp_ssl_init">
+<area shape="rect" id="node2" href="$evhtp_8c.html#a7b3d073d6a31eb4e51feb0340d04f477" title="_evhtp_ssl_add_scache_ent" alt="" coords="162,5,353,31"/>
+<area shape="rect" id="node3" href="$evhtp_8c.html#aa73fc84760a220fe99eaa8d01bd9858c" title="_evhtp_ssl_delete_scache_ent" alt="" coords="155,55,360,80"/>
+<area shape="rect" id="node4" href="$evhtp_8c.html#aa2e2b017a83e75d46ca4fe41cbce5a10" title="_evhtp_ssl_get_scache_ent" alt="" coords="164,104,351,129"/>
+</map>

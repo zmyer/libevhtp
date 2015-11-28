@@ -1,0 +1,7 @@
+<map id="evhtp_connection_set_bev" name="evhtp_connection_set_bev">
+<area shape="rect" id="node2" href="$evhtp_8h.html#aaeae63d6b7507bd38ded471c61b60c21" title="let a user take ownership of the underlying bufferevent and free all other underlying resources..." alt="" coords="234,33,393,72"/>
+<area shape="rect" id="node6" href="$evhtp_8h.html#ad1f053203de927caaf1b48427fb20d6d" title="sets the underlying bufferevent for a evhtp_request " alt="" coords="233,96,393,121"/>
+<area shape="rect" id="node3" href="$evhtp_8c.html#a7786c33ef513c67c92330a50bbfda838" title="evhtp_request_take\l_ownership" alt="" coords="441,5,580,44"/>
+<area shape="rect" id="node4" href="$test_8c.html#aa1499327e145837a33d8703bc9fd35b9" title="test_ownership" alt="" coords="455,68,566,93"/>
+<area shape="rect" id="node5" href="$test_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="628,68,678,93"/>
+</map>

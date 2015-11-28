@@ -107,7 +107,7 @@ $(document).ready(function(){initNavTree('evhtp-internal_8h_source.html','');});
 <div class="title">evhtp-internal.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef __EVHTP_INTERNAL_H__</span></div>
+<a href="evhtp-internal_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef __EVHTP_INTERNAL_H__</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define __EVHTP_INTERNAL_H__</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
@@ -119,24 +119,24 @@ $(document).ready(function(){initNavTree('evhtp-internal_8h_source.html','');});
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#       define evhtp_likely(x)         __builtin_expect(!!(x), 1)</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#       define evhtp_unlikely(x)       __builtin_expect(!!(x), 0)</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#       define evhtp_likely(x)         (x)</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#       define evhtp_unlikely(x)       (x)</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="evhtp-internal_8h.html#a1c7eb8cd4bffec4c846b082c7783699f">   13</a></span>&#160;<span class="preprocessor">#       define evhtp_likely(x)         (x)</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="evhtp-internal_8h.html#ae7aa70ee9350e7db0b825b794cc68387">   14</a></span>&#160;<span class="preprocessor">#       define evhtp_unlikely(x)       (x)</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef TAILQ_FOREACH_SAFE</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#define TAILQ_FOREACH_SAFE(var, head, field, tvar)        \</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="evhtp-internal_8h.html#a6a36cc8868ae46d6db5ef3888636bb94">   18</a></span>&#160;<span class="preprocessor">#define TAILQ_FOREACH_SAFE(var, head, field, tvar)        \</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">    for ((var) = TAILQ_FIRST((head));                     \</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">         (var) &amp;&amp; ((tvar) = TAILQ_NEXT((var), field), 1); \</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">         (var) = (tvar))</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#define evhtp_safe_free(_var, _freefn) do { \</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="evhtp-internal_8h.html#a7f7e11e0d60d9cab3cdf695ac65d1396">   24</a></span>&#160;<span class="preprocessor">#define evhtp_safe_free(_var, _freefn) do { \</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">        _freefn((_var));                    \</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">        (_var) = NULL;                      \</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">}  while (0)</span></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#define evhtp_assert(x)                                               \</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="evhtp-internal_8h.html#a1235523d03345277fd49785d1f0c9165">   30</a></span>&#160;<span class="preprocessor">#define evhtp_assert(x)                                               \</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">    do {                                                              \</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">        if (evhtp_unlikely(!(x))) {                                   \</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">            fprintf(stderr, &quot;Assertion failed: %s (%s:%s:%d)\n&quot;, # x, \</span></div>
@@ -146,7 +146,7 @@ $(document).ready(function(){initNavTree('evhtp-internal_8h_source.html','');});
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">        }                                                             \</span></div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">    } while (0)</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#define evhtp_alloc_assert(x)                             \</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="evhtp-internal_8h.html#a6ac33bef168b7160c07af25eda01e26e">   40</a></span>&#160;<span class="preprocessor">#define evhtp_alloc_assert(x)                             \</span></div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">    do {                                                  \</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">        if (evhtp_unlikely(!x)) {                         \</span></div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">            fprintf(stderr, &quot;Out of memory (%s:%s:%d)\n&quot;, \</span></div>
@@ -156,7 +156,7 @@ $(document).ready(function(){initNavTree('evhtp-internal_8h_source.html','');});
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">        }                                                 \</span></div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">    } while (0)</span></div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#define evhtp_assert_fmt(x, fmt, ...)                                    \</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="evhtp-internal_8h.html#a030d8e0f75ec63ecf3a2a441046d1e00">   50</a></span>&#160;<span class="preprocessor">#define evhtp_assert_fmt(x, fmt, ...)                                    \</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">    do {                                                                 \</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">        if (evhtp_unlikely(!(x))) {                                      \</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">            fprintf(stderr, &quot;Assertion failed: %s (%s:%s:%d) &quot; fmt &quot;\n&quot;, \</span></div>
@@ -166,7 +166,7 @@ $(document).ready(function(){initNavTree('evhtp-internal_8h_source.html','');});
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">        }                                                                \</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">    } while (0)</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#define evhtp_errno_assert(x)                       \</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="evhtp-internal_8h.html#a20091ec8bf32b449e1c24d16bc93760e">   60</a></span>&#160;<span class="preprocessor">#define evhtp_errno_assert(x)                       \</span></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">    do {                                            \</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">        if (evhtp_unlikely(!(x))) {                 \</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">            fprintf(stderr, &quot;%s [%d] (%s:%s:%d)\n&quot;, \</span></div>
@@ -188,8 +188,8 @@ $(document).ready(function(){initNavTree('evhtp-internal_8h_source.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>evhtp-internal.h</b></li>
-    <li class="footer">Generated on Fri Nov 27 2015 17:59:27 for Libevhtp by
+    <li class="navelem"><a class="el" href="evhtp-internal_8h.html">evhtp-internal.h</a></li>
+    <li class="footer">Generated on Fri Nov 27 2015 18:37:33 for Libevhtp by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

@@ -1,0 +1,16 @@
+<map id="htparser_new" name="htparser_new">
+<area shape="rect" id="node2" href="$evhtp_8c.html#a236b25db880260ea7ade4dbaa3ff8c05" title="_evhtp_connection_new" alt="" coords="155,55,321,80"/>
+<area shape="rect" id="node15" href="$test__htparse_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="213,104,263,129"/>
+<area shape="rect" id="node3" href="$evhtp_8c.html#a01058d2a190e93744fcd8b38d3eec6c5" title="_evhtp_accept_cb" alt="" coords="397,5,527,31"/>
+<area shape="rect" id="node8" href="$evhtp_8h.html#a85703228efbeb1eb62f0485088d21ffb" title="allocate a new connection " alt="" coords="369,55,555,80"/>
+<area shape="rect" id="node14" href="$evhtp_8h.html#a999a10dbd51528e3435c8a8f8b03ce4f" title="evhtp_connection_ssl_new" alt="" coords="371,104,553,129"/>
+<area shape="rect" id="node4" href="$evhtp_8h.html#a8bc42cc848d9992f9a07bfeaa605b6b6" title="create the listener plus setup various options with an already&#45;bound socket. " alt="" coords="609,5,755,31"/>
+<area shape="rect" id="node5" href="$evhtp_8h.html#a9df8b5f5d1c042aa96bf0a9a1c241665" title="bind to an already allocated sockaddr. " alt="" coords="809,5,957,31"/>
+<area shape="rect" id="node6" href="$evhtp_8h.html#a72a5938d55bebe4271ad6b9b134a4979" title="bind to a socket, optionally with specific protocol support formatting. The addr can be defined as on..." alt="" coords="1005,5,1138,31"/>
+<area shape="rect" id="node7" href="$test_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1186,5,1236,31"/>
+<area shape="rect" id="node9" href="$evhtp_8h.html#a4bcd9dcde401bd1e6f98fe5fe83e82aa" title="allocate a new connection " alt="" coords="603,55,761,80"/>
+<area shape="rect" id="node10" href="$test__client_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="858,55,908,80"/>
+<area shape="rect" id="node11" href="$test__proxy_8c.html#a4d9830c19a216b9983465862d0a3f58c" title="make_request" alt="" coords="830,104,936,129"/>
+<area shape="rect" id="node12" href="$test__proxy_8c.html#ae6d15c0e22799b0d202ba7bb6f9c9a8f" title="frontend_cb" alt="" coords="1025,104,1117,129"/>
+<area shape="rect" id="node13" href="$test__proxy_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1186,104,1236,129"/>
+</map>

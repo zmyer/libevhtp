@@ -1,0 +1,6 @@
+<map id="evthr_set_aux" name="evthr_set_aux">
+<area shape="rect" id="node2" href="$thread__design_8c.html#a7850b605551f990f0887eba05a2b09a6" title="app_init_thread" alt="" coords="158,5,272,31"/>
+<area shape="rect" id="node4" href="$test__proxy_8c.html#ae236dad0ef446c6fcd2c202bb4b0b4a8" title="init_thread_cb" alt="" coords="163,55,268,80"/>
+<area shape="rect" id="node3" href="$thread__design_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="320,5,370,31"/>
+<area shape="rect" id="node5" href="$test__proxy_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="320,55,370,80"/>
+</map>

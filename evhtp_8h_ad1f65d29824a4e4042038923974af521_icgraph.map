@@ -1,0 +1,7 @@
+<map id="evhtp_callback_new" name="evhtp_callback_new">
+<area shape="rect" id="node2" href="$evhtp_8h.html#a222ef833d119773eb61c67b86f61b79c" title="sets a callback to be executed on a specific path " alt="" coords="215,56,316,81"/>
+<area shape="rect" id="node5" href="$evhtp_8h.html#a64bcfafb74ca11c0a883f85b23cb851f" title="sets a callback to to be executed on simple glob/wildcard patterns this is useful if the app does not..." alt="" coords="384,107,517,132"/>
+<area shape="rect" id="node6" href="$evhtp_8h.html#a216d332e29268212de7bd30eebbce083" title="sets a callback to be executed based on a regex pattern " alt="" coords="195,157,336,183"/>
+<area shape="rect" id="node3" href="$test_8c.html#abcceecb37a4b7366fc990b84ceb952c9" title="create_callback" alt="" coords="394,5,508,31"/>
+<area shape="rect" id="node4" href="$test_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="565,81,616,107"/>
+</map>

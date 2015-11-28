@@ -1,0 +1,8 @@
+<map id="evhtp_connection_free" name="evhtp_connection_free">
+<area shape="rect" id="node2" href="$evhtp_8c.html#ae405ab595637e4078a9a01821d3df580" title="runs the user&#45;definedhook called just prior to a connection being closed " alt="" coords="210,5,404,31"/>
+<area shape="rect" id="node3" href="$evhtp_8c.html#ac1b09ba3d872e8a0b93a60805996dae7" title="frees all data in an evhtp_request_t along with calling finished hooks " alt="" coords="235,55,378,80"/>
+<area shape="rect" id="node4" href="$evhtp_8c.html#ab82576a33f5888bec124961eaa86a9c0" title="runs the user&#45;defined hook called just prior to a request been free()&#39;d " alt="" coords="452,29,626,55"/>
+<area shape="rect" id="node5" href="$evhtp_8c.html#a4b730b06fe6a0093afb2f4f391e5455e" title="frees an overlay URI structure " alt="" coords="482,79,596,104"/>
+<area shape="rect" id="node6" href="$evhtp_8c.html#a2dfd994fb181a6efaf2c87716b05cd50" title="frees an authority structure " alt="" coords="674,53,824,79"/>
+<area shape="rect" id="node7" href="$evhtp_8c.html#a9ab2a6de89fce03b9543bdafa6f22db5" title="_evhtp_path_free" alt="" coords="686,103,811,128"/>
+</map>

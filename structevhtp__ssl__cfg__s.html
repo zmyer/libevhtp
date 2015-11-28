@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>Libevhtp: evhtp_ssl_cfg_s Struct Reference</title>
+<title>Libevhtp: evhtp_ssl_cfg_t Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -70,7 +70,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -108,97 +107,331 @@ $(document).ready(function(){initNavTree('structevhtp__ssl__cfg__s.html','');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structevhtp__ssl__cfg__s-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">evhtp_ssl_cfg_s Struct Reference</div>  </div>
+<div class="title">evhtp_ssl_cfg_t Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="evhtp_8h_source.html">evhtp.h</a>&gt;</code></p>
 <div class="dynheader">
-Collaboration diagram for evhtp_ssl_cfg_s:</div>
+Collaboration diagram for evhtp_ssl_cfg_t:</div>
 <div class="dyncontent">
-<div class="center"><img src="structevhtp__ssl__cfg__s__coll__graph.png" border="0" usemap="#evhtp__ssl__cfg__s_coll__map" alt="Collaboration graph"/></div>
-<map name="evhtp__ssl__cfg__s_coll__map" id="evhtp__ssl__cfg__s_coll__map">
-<area shape="rect" id="node2" href="structevhtp__s.html" title="main structure containing all configuration information " alt="" coords="480,113,548,138"/>
-<area shape="rect" id="node5" href="structevhtp__request__s.html" title="a structure containing all information for a http request. " alt="" coords="209,553,329,579"/>
-<area shape="rect" id="node7" href="structevhtp__connection__s.html" title="evhtp_connection_s" alt="" coords="100,207,240,232"/>
-<area shape="rect" id="node3" href="structevthr__pool.html" title="evthr_pool" alt="" coords="523,5,607,31"/>
-<area shape="rect" id="node4" href="structevhtp__defaults__s.html" title="evhtp_defaults_s" alt="" coords="208,640,330,665"/>
-<area shape="rect" id="node6" href="structevhtp__hooks__s.html" title="evhtp_hooks_s" alt="" coords="229,333,340,359"/>
-<area shape="rect" id="node8" href="structhtparser.html" title="htparser" alt="" coords="239,113,309,138"/>
-<area shape="rect" id="node9" href="structevthr.html" title="evthr" alt="" coords="333,113,384,138"/>
-<area shape="rect" id="node10" href="structevhtp__uri__s.html" title="a generic container representing an entire URI strucutre " alt="" coords="364,333,454,359"/>
-<area shape="rect" id="node11" href="structevhtp__authority__s.html" title="structure which represents authority information in a URI " alt="" coords="271,207,398,232"/>
-<area shape="rect" id="node12" href="structevhtp__path__s.html" title="structure which represents a URI path and or file " alt="" coords="421,207,522,232"/>
+<div class="center"><img src="structevhtp__ssl__cfg__s__coll__graph.png" border="0" usemap="#evhtp__ssl__cfg__t_coll__map" alt="Collaboration graph"/></div>
+<map name="evhtp__ssl__cfg__t_coll__map" id="evhtp__ssl__cfg__t_coll__map">
 </map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a336ba9e6f5c4917f1b122ed87e45d755"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a336ba9e6f5c4917f1b122ed87e45d755"></a>
-char *&#160;</td><td class="memItemRight" valign="bottom"><b>pemfile</b></td></tr>
-<tr class="separator:a336ba9e6f5c4917f1b122ed87e45d755"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a285a052efaaeda9173673c04e60600f3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a285a052efaaeda9173673c04e60600f3"></a>
-char *&#160;</td><td class="memItemRight" valign="bottom"><b>privfile</b></td></tr>
-<tr class="separator:a285a052efaaeda9173673c04e60600f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ca82049f206059cb1995cd144fa19f3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4ca82049f206059cb1995cd144fa19f3"></a>
-char *&#160;</td><td class="memItemRight" valign="bottom"><b>cafile</b></td></tr>
-<tr class="separator:a4ca82049f206059cb1995cd144fa19f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a853a1164c4937b9d709012d609b40462"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a853a1164c4937b9d709012d609b40462"></a>
-char *&#160;</td><td class="memItemRight" valign="bottom"><b>capath</b></td></tr>
-<tr class="separator:a853a1164c4937b9d709012d609b40462"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0bb633888e73f36f9e44477d71066ca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab0bb633888e73f36f9e44477d71066ca"></a>
-char *&#160;</td><td class="memItemRight" valign="bottom"><b>ciphers</b></td></tr>
-<tr class="separator:ab0bb633888e73f36f9e44477d71066ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42fce7a1f03fb4467bb2298c3b3fe28b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a42fce7a1f03fb4467bb2298c3b3fe28b"></a>
-char *&#160;</td><td class="memItemRight" valign="bottom"><b>named_curve</b></td></tr>
-<tr class="separator:a42fce7a1f03fb4467bb2298c3b3fe28b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a020d6b4e4db584d739870da09002662c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a020d6b4e4db584d739870da09002662c"></a>
-char *&#160;</td><td class="memItemRight" valign="bottom"><b>dhparams</b></td></tr>
-<tr class="separator:a020d6b4e4db584d739870da09002662c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcb529b4293ccf2295b8d46bc18f286b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adcb529b4293ccf2295b8d46bc18f286b"></a>
-long&#160;</td><td class="memItemRight" valign="bottom"><b>ssl_opts</b></td></tr>
-<tr class="separator:adcb529b4293ccf2295b8d46bc18f286b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18ca2086e2c07a31520061df78c3e357"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a18ca2086e2c07a31520061df78c3e357"></a>
-long&#160;</td><td class="memItemRight" valign="bottom"><b>ssl_ctx_timeout</b></td></tr>
-<tr class="separator:a18ca2086e2c07a31520061df78c3e357"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a9512eccdd998f8d959d1bb421976e3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7a9512eccdd998f8d959d1bb421976e3"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>verify_peer</b></td></tr>
-<tr class="separator:a7a9512eccdd998f8d959d1bb421976e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0a0f2e1001b7baf73a073e86c717cab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af0a0f2e1001b7baf73a073e86c717cab"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>verify_depth</b></td></tr>
-<tr class="separator:af0a0f2e1001b7baf73a073e86c717cab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7761733a1243784616aa935cd324aff"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac7761733a1243784616aa935cd324aff"></a>
-evhtp_ssl_verify_cb&#160;</td><td class="memItemRight" valign="bottom"><b>x509_verify_cb</b></td></tr>
-<tr class="separator:ac7761733a1243784616aa935cd324aff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3df678477d089db2dc317a463f618ae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac3df678477d089db2dc317a463f618ae"></a>
-evhtp_ssl_chk_issued_cb&#160;</td><td class="memItemRight" valign="bottom"><b>x509_chk_issued_cb</b></td></tr>
-<tr class="separator:ac3df678477d089db2dc317a463f618ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb721e2f2145ede1cf1879b116287f34"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afb721e2f2145ede1cf1879b116287f34"></a>
-long&#160;</td><td class="memItemRight" valign="bottom"><b>store_flags</b></td></tr>
-<tr class="separator:afb721e2f2145ede1cf1879b116287f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abecfda1ecab0ca6ad79d897765d7833f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abecfda1ecab0ca6ad79d897765d7833f"></a>
-evhtp_ssl_scache_type&#160;</td><td class="memItemRight" valign="bottom"><b>scache_type</b></td></tr>
-<tr class="separator:abecfda1ecab0ca6ad79d897765d7833f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad186f86293e0a9eb2145b8639eef9d03"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad186f86293e0a9eb2145b8639eef9d03"></a>
-long&#160;</td><td class="memItemRight" valign="bottom"><b>scache_timeout</b></td></tr>
-<tr class="separator:ad186f86293e0a9eb2145b8639eef9d03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac65690b27f89c9af4615ec8a34d5b531"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac65690b27f89c9af4615ec8a34d5b531"></a>
-long&#160;</td><td class="memItemRight" valign="bottom"><b>scache_size</b></td></tr>
-<tr class="separator:ac65690b27f89c9af4615ec8a34d5b531"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c74d4941390d936cb182d6a641a126d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c74d4941390d936cb182d6a641a126d"></a>
-evhtp_ssl_scache_init&#160;</td><td class="memItemRight" valign="bottom"><b>scache_init</b></td></tr>
-<tr class="separator:a0c74d4941390d936cb182d6a641a126d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a6ff5fa7eff83bb4f64b9c57ee4b647"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2a6ff5fa7eff83bb4f64b9c57ee4b647"></a>
-evhtp_ssl_scache_add&#160;</td><td class="memItemRight" valign="bottom"><b>scache_add</b></td></tr>
-<tr class="separator:a2a6ff5fa7eff83bb4f64b9c57ee4b647"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af81771839ffb39ac3b5196758bad1c26"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af81771839ffb39ac3b5196758bad1c26"></a>
-evhtp_ssl_scache_get&#160;</td><td class="memItemRight" valign="bottom"><b>scache_get</b></td></tr>
-<tr class="separator:af81771839ffb39ac3b5196758bad1c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abaefac75ccf6a4719a988189095151c6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abaefac75ccf6a4719a988189095151c6"></a>
-evhtp_ssl_scache_del&#160;</td><td class="memItemRight" valign="bottom"><b>scache_del</b></td></tr>
-<tr class="separator:abaefac75ccf6a4719a988189095151c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad34f4fda0ad0e02015fca7992125f7f5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad34f4fda0ad0e02015fca7992125f7f5"></a>
-void *&#160;</td><td class="memItemRight" valign="bottom"><b>args</b></td></tr>
-<tr class="separator:ad34f4fda0ad0e02015fca7992125f7f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcd8e497957beb8f01d5ff00ef31413e"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__ssl__cfg__s.html#abcd8e497957beb8f01d5ff00ef31413e">pemfile</a></td></tr>
+<tr class="separator:abcd8e497957beb8f01d5ff00ef31413e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35bc98ca4a30ae8ac9a23abe17c14d66"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__ssl__cfg__s.html#a35bc98ca4a30ae8ac9a23abe17c14d66">privfile</a></td></tr>
+<tr class="separator:a35bc98ca4a30ae8ac9a23abe17c14d66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab8c0ff74495d059c6a659844ad10178"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__ssl__cfg__s.html#aab8c0ff74495d059c6a659844ad10178">cafile</a></td></tr>
+<tr class="separator:aab8c0ff74495d059c6a659844ad10178"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd8773151d481a3b1cdd3f9bd5ef0a23"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__ssl__cfg__s.html#acd8773151d481a3b1cdd3f9bd5ef0a23">capath</a></td></tr>
+<tr class="separator:acd8773151d481a3b1cdd3f9bd5ef0a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dfa35187f1b89110a781176b8ed29aa"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__ssl__cfg__s.html#a8dfa35187f1b89110a781176b8ed29aa">ciphers</a></td></tr>
+<tr class="separator:a8dfa35187f1b89110a781176b8ed29aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7df5cd3df514832a236194d057ee1aa"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__ssl__cfg__s.html#ab7df5cd3df514832a236194d057ee1aa">named_curve</a></td></tr>
+<tr class="separator:ab7df5cd3df514832a236194d057ee1aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4cee6e5db6c1b0ffce4bdd09bf2cbc6"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__ssl__cfg__s.html#ac4cee6e5db6c1b0ffce4bdd09bf2cbc6">dhparams</a></td></tr>
+<tr class="separator:ac4cee6e5db6c1b0ffce4bdd09bf2cbc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abecdf4c449f762a94f255c92f3e04b73"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__ssl__cfg__s.html#abecdf4c449f762a94f255c92f3e04b73">ssl_opts</a></td></tr>
+<tr class="separator:abecdf4c449f762a94f255c92f3e04b73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaf83db3423c9dd5718ae0a4b7d6ff7b"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__ssl__cfg__s.html#aaaf83db3423c9dd5718ae0a4b7d6ff7b">ssl_ctx_timeout</a></td></tr>
+<tr class="separator:aaaf83db3423c9dd5718ae0a4b7d6ff7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5efcc6b10412ef0fae40cad272a253d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__ssl__cfg__s.html#aa5efcc6b10412ef0fae40cad272a253d">verify_peer</a></td></tr>
+<tr class="separator:aa5efcc6b10412ef0fae40cad272a253d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a1ed2243702c387c0c7be2fe0afd1e0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__ssl__cfg__s.html#a8a1ed2243702c387c0c7be2fe0afd1e0">verify_depth</a></td></tr>
+<tr class="separator:a8a1ed2243702c387c0c7be2fe0afd1e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34bdba7e2957ba6a464908109dd323dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="evhtp_8h.html#a6b32b3690ad731a26f110dce601e33b2">evhtp_ssl_verify_cb</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__ssl__cfg__s.html#a34bdba7e2957ba6a464908109dd323dc">x509_verify_cb</a></td></tr>
+<tr class="separator:a34bdba7e2957ba6a464908109dd323dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea0dafab3b7c421959201ed75950d4c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="evhtp_8h.html#a093d791b0efc75a1774aa889e67ed40c">evhtp_ssl_chk_issued_cb</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__ssl__cfg__s.html#aea0dafab3b7c421959201ed75950d4c6">x509_chk_issued_cb</a></td></tr>
+<tr class="separator:aea0dafab3b7c421959201ed75950d4c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc2e04c88caadeba8108db89f3b07a52"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__ssl__cfg__s.html#acc2e04c88caadeba8108db89f3b07a52">store_flags</a></td></tr>
+<tr class="separator:acc2e04c88caadeba8108db89f3b07a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96a5406a197f89a56dff0ec4363e7a9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="evhtp_8h.html#ab478739101b89e04a6583b835033f998">evhtp_ssl_scache_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__ssl__cfg__s.html#a96a5406a197f89a56dff0ec4363e7a9f">scache_type</a></td></tr>
+<tr class="separator:a96a5406a197f89a56dff0ec4363e7a9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9359109d45a639e403b602c6e094289"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__ssl__cfg__s.html#ab9359109d45a639e403b602c6e094289">scache_timeout</a></td></tr>
+<tr class="separator:ab9359109d45a639e403b602c6e094289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a565b3916c2820f0240f3088716e0edf6"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__ssl__cfg__s.html#a565b3916c2820f0240f3088716e0edf6">scache_size</a></td></tr>
+<tr class="separator:a565b3916c2820f0240f3088716e0edf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedde9fc6e3121ff9a98b841e8ea4594e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="evhtp_8h.html#a4c2af62488192b3e58da68e5211b91b8">evhtp_ssl_scache_init</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__ssl__cfg__s.html#aedde9fc6e3121ff9a98b841e8ea4594e">scache_init</a></td></tr>
+<tr class="separator:aedde9fc6e3121ff9a98b841e8ea4594e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc1ebdfb95c419eca92331dfc8557708"><td class="memItemLeft" align="right" valign="top"><a class="el" href="evhtp_8h.html#a4a414501331c241672f62c91c3e05817">evhtp_ssl_scache_add</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__ssl__cfg__s.html#adc1ebdfb95c419eca92331dfc8557708">scache_add</a></td></tr>
+<tr class="separator:adc1ebdfb95c419eca92331dfc8557708"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a300160ab4576890cf35fba568f1c1e11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="evhtp_8h.html#a1ce3951bf6453ae5124f36ac6b831278">evhtp_ssl_scache_get</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__ssl__cfg__s.html#a300160ab4576890cf35fba568f1c1e11">scache_get</a></td></tr>
+<tr class="separator:a300160ab4576890cf35fba568f1c1e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace3009c69c8720c6c3ab3f75b97c27fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="evhtp_8h.html#a6bba0406c1f4ad4638563271e2856129">evhtp_ssl_scache_del</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__ssl__cfg__s.html#ace3009c69c8720c6c3ab3f75b97c27fe">scache_del</a></td></tr>
+<tr class="separator:ace3009c69c8720c6c3ab3f75b97c27fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a890d59ab91eee0a8bb6a5d66c97bddcf"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structevhtp__ssl__cfg__s.html#a890d59ab91eee0a8bb6a5d66c97bddcf">args</a></td></tr>
+<tr class="separator:a890d59ab91eee0a8bb6a5d66c97bddcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="abcd8e497957beb8f01d5ff00ef31413e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* evhtp_ssl_cfg_t::pemfile</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a35bc98ca4a30ae8ac9a23abe17c14d66"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* evhtp_ssl_cfg_t::privfile</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aab8c0ff74495d059c6a659844ad10178"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* evhtp_ssl_cfg_t::cafile</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acd8773151d481a3b1cdd3f9bd5ef0a23"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* evhtp_ssl_cfg_t::capath</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8dfa35187f1b89110a781176b8ed29aa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* evhtp_ssl_cfg_t::ciphers</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab7df5cd3df514832a236194d057ee1aa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* evhtp_ssl_cfg_t::named_curve</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac4cee6e5db6c1b0ffce4bdd09bf2cbc6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* evhtp_ssl_cfg_t::dhparams</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abecdf4c449f762a94f255c92f3e04b73"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long evhtp_ssl_cfg_t::ssl_opts</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaaf83db3423c9dd5718ae0a4b7d6ff7b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long evhtp_ssl_cfg_t::ssl_ctx_timeout</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa5efcc6b10412ef0fae40cad272a253d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int evhtp_ssl_cfg_t::verify_peer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8a1ed2243702c387c0c7be2fe0afd1e0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int evhtp_ssl_cfg_t::verify_depth</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a34bdba7e2957ba6a464908109dd323dc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="evhtp_8h.html#a6b32b3690ad731a26f110dce601e33b2">evhtp_ssl_verify_cb</a> evhtp_ssl_cfg_t::x509_verify_cb</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aea0dafab3b7c421959201ed75950d4c6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="evhtp_8h.html#a093d791b0efc75a1774aa889e67ed40c">evhtp_ssl_chk_issued_cb</a> evhtp_ssl_cfg_t::x509_chk_issued_cb</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acc2e04c88caadeba8108db89f3b07a52"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long evhtp_ssl_cfg_t::store_flags</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a96a5406a197f89a56dff0ec4363e7a9f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="evhtp_8h.html#ab478739101b89e04a6583b835033f998">evhtp_ssl_scache_type</a> evhtp_ssl_cfg_t::scache_type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab9359109d45a639e403b602c6e094289"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long evhtp_ssl_cfg_t::scache_timeout</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a565b3916c2820f0240f3088716e0edf6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long evhtp_ssl_cfg_t::scache_size</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aedde9fc6e3121ff9a98b841e8ea4594e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="evhtp_8h.html#a4c2af62488192b3e58da68e5211b91b8">evhtp_ssl_scache_init</a> evhtp_ssl_cfg_t::scache_init</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adc1ebdfb95c419eca92331dfc8557708"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="evhtp_8h.html#a4a414501331c241672f62c91c3e05817">evhtp_ssl_scache_add</a> evhtp_ssl_cfg_t::scache_add</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a300160ab4576890cf35fba568f1c1e11"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="evhtp_8h.html#a1ce3951bf6453ae5124f36ac6b831278">evhtp_ssl_scache_get</a> evhtp_ssl_cfg_t::scache_get</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ace3009c69c8720c6c3ab3f75b97c27fe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="evhtp_8h.html#a6bba0406c1f4ad4638563271e2856129">evhtp_ssl_scache_del</a> evhtp_ssl_cfg_t::scache_del</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a890d59ab91eee0a8bb6a5d66c97bddcf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* evhtp_ssl_cfg_t::args</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="evhtp_8h_source.html">evhtp.h</a></li>
 </ul>
@@ -208,7 +441,7 @@ void *&#160;</td><td class="memItemRight" valign="bottom"><b>args</b></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structevhtp__ssl__cfg__s.html">evhtp_ssl_cfg_s</a></li>
-    <li class="footer">Generated on Fri Nov 27 2015 17:59:27 for Libevhtp by
+    <li class="footer">Generated on Fri Nov 27 2015 18:37:36 for Libevhtp by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

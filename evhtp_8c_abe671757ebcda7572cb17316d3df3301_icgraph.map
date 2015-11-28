@@ -1,0 +1,8 @@
+<map id="_evhtp_request_new" name="_evhtp_request_new">
+<area shape="rect" id="node2" href="$evhtp_8c.html#a58663d586f44301ab317c8dd5b4be3e6" title="_evhtp_request_parser\l_start" alt="" coords="198,5,357,44"/>
+<area shape="rect" id="node3" href="$evhtp_8h.html#ac56c49e27823ae64c4a69fc951629988" title="allocate a new request " alt="" coords="209,68,347,93"/>
+<area shape="rect" id="node4" href="$test__client_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="433,43,483,68"/>
+<area shape="rect" id="node5" href="$test__proxy_8c.html#a4d9830c19a216b9983465862d0a3f58c" title="make_request" alt="" coords="405,92,511,117"/>
+<area shape="rect" id="node6" href="$test__proxy_8c.html#ae6d15c0e22799b0d202ba7bb6f9c9a8f" title="frontend_cb" alt="" coords="559,92,651,117"/>
+<area shape="rect" id="node7" href="$test__proxy_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="699,92,749,117"/>
+</map>

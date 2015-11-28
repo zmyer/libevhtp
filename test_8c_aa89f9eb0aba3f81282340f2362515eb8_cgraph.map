@@ -1,0 +1,9 @@
+<map id="pause_init_cb" name="pause_init_cb">
+<area shape="rect" id="node2" href="$evhtp_8c.html#a30bc311c68a5c463d106766ab9250e0e" title="sets a callback hook for either a connection or a path/regex . " alt="" coords="177,5,292,31"/>
+<area shape="rect" id="node3" href="$test_8c.html#a6437543229efe2878558b51600275be1" title="pause_cb" alt="" coords="195,55,274,80"/>
+<area shape="rect" id="node4" href="$test_8c.html#a1ad3b1f51d0be67f4f61c4c7c0777f6b" title="pause_connection_fini" alt="" coords="157,104,311,129"/>
+<area shape="rect" id="node5" href="$test_8c.html#adb9ff8deafba2fd84515374ce65d38dc" title="pause_request_fini" alt="" coords="167,153,301,179"/>
+<area shape="rect" id="node6" href="$test_8c.html#a25dc771db1a1e57d95323711defc3613" title="resume_request_timer" alt="" coords="157,203,312,228"/>
+<area shape="rect" id="node7" href="$evhtp_8c.html#a3f537cfe43afe795f575e4080d8a4f69" title="Wrapper around evhtp_connection_resume. " alt="" coords="360,203,517,228"/>
+<area shape="rect" id="node8" href="$evhtp_8c.html#ac62f0e64aca4fca3648b67042a6c3646" title="resumes a connection (enables reading) and activates resume event. " alt="" coords="565,203,743,228"/>
+</map>

@@ -1,0 +1,34 @@
+<map id="evhtp_connection_get_bev" name="evhtp_connection_get_bev">
+<area shape="rect" id="node2" href="$evhtp_8h.html#aaeae63d6b7507bd38ded471c61b60c21" title="let a user take ownership of the underlying bufferevent and free all other underlying resources..." alt="" coords="235,60,394,99"/>
+<area shape="rect" id="node6" href="$evhtp_8h.html#a433daafc19baa3b17bf6f23f148c4a06" title="returns the underlying requests bufferevent " alt="" coords="234,123,395,148"/>
+<area shape="rect" id="node9" href="$evhtp_8h.html#a0515585c66f8383360eae93f5c426022" title="generates all the right information for a reply to be sent to the client " alt="" coords="251,524,378,549"/>
+<area shape="rect" id="node3" href="$evhtp_8c.html#a7786c33ef513c67c92330a50bbfda838" title="evhtp_request_take\l_ownership" alt="" coords="473,5,612,44"/>
+<area shape="rect" id="node4" href="$test_8c.html#aa1499327e145837a33d8703bc9fd35b9" title="test_ownership" alt="" coords="709,77,820,103"/>
+<area shape="rect" id="node5" href="$test_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="888,395,938,420"/>
+<area shape="rect" id="node7" href="$evhtp_8h.html#add0e0e6584dd89a474660fe6e0e3051f" title="call when all chunks have been sent and you wish to send the last bits. This will add the last 0CRLFC..." alt="" coords="443,120,642,145"/>
+<area shape="rect" id="node8" href="$test_8c.html#a4d449d2fdc7176dc2d1acd4fc0d6a047" title="test_chunking" alt="" coords="713,133,817,159"/>
+<area shape="rect" id="node10" href="$evhtp_8c.html#a4f47eea3160e177e5fb74f0ded7c4b73" title="_evhtp_default_request_cb" alt="" coords="451,169,633,195"/>
+<area shape="rect" id="node12" href="$v6__v4_8c.html#a189d196157532ac8f5a5a8160e80110e" title="_req_cb" alt="" coords="508,721,577,747"/>
+<area shape="rect" id="node14" href="$test__proxy_8c.html#a1cd873486d44ae1d755ca52302a54772" title="backend_cb" alt="" coords="496,771,589,796"/>
+<area shape="rect" id="node17" href="$test_8c.html#abcceecb37a4b7366fc990b84ceb952c9" title="create_callback" alt="" coords="708,271,822,296"/>
+<area shape="rect" id="node18" href="$test_8c.html#a883454744d978dae6eda792bc124c83a" title="dynamic_cb" alt="" coords="496,271,589,296"/>
+<area shape="rect" id="node19" href="$thread__design_8c.html#a7f594f6b4acdbd916912fe04c3c9969c" title="redis_get_srcport_cb" alt="" coords="469,820,615,845"/>
+<area shape="rect" id="node22" href="$test__perf_8c.html#a13d12a78f407ed9554ca2a13a32fc88c" title="response_cb" alt="" coords="494,869,591,895"/>
+<area shape="rect" id="node24" href="$test_8c.html#aaffdd065111cb33393cc26ce85f206a7" title="test_500_cb" alt="" coords="718,320,812,345"/>
+<area shape="rect" id="node25" href="$test_8c.html#a5c3a691d7df14787d5c5e40f6bd30419" title="test_bar_cb" alt="" coords="719,369,810,395"/>
+<area shape="rect" id="node26" href="$test_8c.html#a043e371e92938207e2d02363c5f0e65c" title="test_default_cb" alt="" coords="709,419,821,444"/>
+<area shape="rect" id="node27" href="$test_8c.html#ad493f63646b9859f6e1c8f7f1ca77bde" title="test_foo_cb" alt="" coords="720,468,810,493"/>
+<area shape="rect" id="node28" href="$test_8c.html#a30306ebad7bee75607f3614078a4ef96" title="test_glob_cb" alt="" coords="494,524,591,549"/>
+<area shape="rect" id="node29" href="$test_8c.html#ac9080332c2897cc134dc27d2b62858dc" title="test_max_body" alt="" coords="487,573,598,599"/>
+<area shape="rect" id="node30" href="$test_8c.html#a614a06b7ab7ba6b949620514b213eb1a" title="test_pause_cb" alt="" coords="488,623,596,648"/>
+<area shape="rect" id="node31" href="$test_8c.html#a5fc27c6c5930f4d970a929ea0df49124" title="test_regex" alt="" coords="501,672,584,697"/>
+<area shape="rect" id="node32" href="$test__basic_8c.html#a8bbdb0dcfef7e89742613ed5f426309c" title="testcb" alt="" coords="514,919,571,944"/>
+<area shape="rect" id="node11" href="$evhtp_8h.html#aa4b16ecda5fa6b60c003d98198fa37a1" title="creates a new evhtp_t instance " alt="" coords="722,196,808,221"/>
+<area shape="rect" id="node13" href="$v6__v4_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="740,721,790,747"/>
+<area shape="rect" id="node15" href="$test__proxy_8c.html#ae6d15c0e22799b0d202ba7bb6f9c9a8f" title="frontend_cb" alt="" coords="719,771,811,796"/>
+<area shape="rect" id="node16" href="$test__proxy_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="888,771,938,796"/>
+<area shape="rect" id="node20" href="$thread__design_8c.html#aa88a386872b2e9ed3cdf2d099d20b22d" title="app_process_request" alt="" coords="690,820,840,845"/>
+<area shape="rect" id="node21" href="$thread__design_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="888,820,938,845"/>
+<area shape="rect" id="node23" href="$test__perf_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="740,869,790,895"/>
+<area shape="rect" id="node33" href="$test__basic_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="740,919,790,944"/>
+</map>

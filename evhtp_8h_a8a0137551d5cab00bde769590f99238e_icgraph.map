@@ -1,0 +1,23 @@
+<map id="evhtp_connection_pause" name="evhtp_connection_pause">
+<area shape="rect" id="node2" href="$evhtp_8h.html#a5be08cd304ef7683b4196664c6413c62" title="Wrapper around evhtp_connection_pause. " alt="" coords="223,181,373,207"/>
+<area shape="rect" id="node3" href="$evhtp_8c.html#ae4c1691af1bf2b75cec8d8dce75b0dcb" title="_evhtp_connection_readcb" alt="" coords="421,80,602,105"/>
+<area shape="rect" id="node16" href="$test__proxy_8c.html#ae6d15c0e22799b0d202ba7bb6f9c9a8f" title="frontend_cb" alt="" coords="1773,156,1865,181"/>
+<area shape="rect" id="node21" href="$thread__design_8c.html#aa88a386872b2e9ed3cdf2d099d20b22d" title="app_process_request" alt="" coords="436,232,586,257"/>
+<area shape="rect" id="node4" href="$evhtp_8c.html#a87cc91fb2145c9e78765bfcf6e9ab89e" title="_evhtp_connection_accept" alt="" coords="1131,31,1311,56"/>
+<area shape="rect" id="node11" href="$evhtp_8c.html#ac1b32dde3c8e0e4ecf7d2350dda47be7" title="_evhtp_connection_eventcb" alt="" coords="887,131,1074,156"/>
+<area shape="rect" id="node19" href="$evhtp_8c.html#ab451e48a9a9e498641bd754a96c17776" title="_evhtp_connection_resumecb" alt="" coords="881,29,1080,55"/>
+<area shape="rect" id="node20" href="$evhtp_8c.html#a342f7eb5f4aade7153b003c18ba0c865" title="_evhtp_connection_writecb" alt="" coords="650,80,833,105"/>
+<area shape="rect" id="node5" href="$evhtp_8c.html#a01058d2a190e93744fcd8b38d3eec6c5" title="_evhtp_accept_cb" alt="" coords="1569,7,1698,32"/>
+<area shape="rect" id="node10" href="$evhtp_8c.html#aa66c50a9faa2ae92643cae6d3aa8298e" title="_evhtp_run_in_thread" alt="" coords="1366,32,1517,57"/>
+<area shape="rect" id="node6" href="$evhtp_8h.html#a8bc42cc848d9992f9a07bfeaa605b6b6" title="create the listener plus setup various options with an already&#45;bound socket. " alt="" coords="1746,7,1893,32"/>
+<area shape="rect" id="node7" href="$evhtp_8h.html#a9df8b5f5d1c042aa96bf0a9a1c241665" title="bind to an already allocated sockaddr. " alt="" coords="1941,7,2089,32"/>
+<area shape="rect" id="node8" href="$evhtp_8h.html#a72a5938d55bebe4271ad6b9b134a4979" title="bind to a socket, optionally with specific protocol support formatting. The addr can be defined as on..." alt="" coords="2137,7,2269,32"/>
+<area shape="rect" id="node9" href="$test_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="2317,7,2368,32"/>
+<area shape="rect" id="node12" href="$evhtp_8h.html#a85703228efbeb1eb62f0485088d21ffb" title="allocate a new connection " alt="" coords="1128,81,1315,107"/>
+<area shape="rect" id="node18" href="$evhtp_8h.html#a999a10dbd51528e3435c8a8f8b03ce4f" title="evhtp_connection_ssl_new" alt="" coords="1131,131,1312,156"/>
+<area shape="rect" id="node13" href="$evhtp_8h.html#a4bcd9dcde401bd1e6f98fe5fe83e82aa" title="allocate a new connection " alt="" coords="1363,81,1521,107"/>
+<area shape="rect" id="node14" href="$test__client_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1608,81,1658,107"/>
+<area shape="rect" id="node15" href="$test__proxy_8c.html#a4d9830c19a216b9983465862d0a3f58c" title="make_request" alt="" coords="1580,131,1686,156"/>
+<area shape="rect" id="node17" href="$test__proxy_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1990,156,2040,181"/>
+<area shape="rect" id="node22" href="$thread__design_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="716,232,767,257"/>
+</map>
