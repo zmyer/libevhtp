@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>Libevhtp: libevhtp - A user-friendly framework for high-performance http</title>
+<title>Libevhtp: libevhtp - A user-friendly framework for high-performance http servers.</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -98,16 +98,16 @@ $(document).ready(function(){initNavTree('index.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">libevhtp - A user-friendly framework for high-performance http </div>  </div>
+<div class="title">libevhtp - A user-friendly framework for high-performance http servers. </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>servers [a drop-in replacement for libevhttp].</p>
+<div class="textblock"><p>This is technically a drop-in replacement for Libevent's evhttp interface. Most of what calls a developer would normally make to evhttp, can just be prefixed with evhtp_ instead of evhttp_ (thus the lack of a 't').</p>
 <p>The reality of Libevent's http API: It was originally written as an example use-case for Libevent itself. Niels (the author of Libevnt) extended the example further, mainly to implement "secproxy" (I can't remember the name, but it was something like that, SORRY Niels!)</p>
 <p>In short: Libevent's evhttp API is not NGINX-IN-A-BOX.</p>
 <p>But users have those expectations.</p>
 <p>Unfortunately it falls short in many areas: flexibility, readability, and most importantly: performance, and agility.</p>
 <p>Libevhtp strives to create a "NGINX-IN-A-BOX", but allowing the developer to decide how deep down the rabbit hole they want to go. You can create a fully functioning multi-threaded HTTPS service with 4 lines of code.</p>
-<p>But much like apache's plugin API, the developer has a considerable amount of control over WHAT happens and WHERE it happens. That is; A developer can optionally create hooks into every phase of the request processing cycle. For example:</p>
+<p>But much like apache's plugin API, the developer has a considerable amount of control over WHAT happens and WHERE it happens. That is; A developer can optionally create hooks into every phase of the request processing cycle. An example case:</p>
 <p>A developer can pause the processing after the request headers have successfully been parsed, run a background job (hopefully using the deferred mechanisms defined within libevthr), and finally resuming the request processing once the job has completed.</p>
 <p>But that's just one simple example of the many things you can do with Libevhtp. Be creative, and have fun. </p>
 </div></div><!-- contents -->
@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Nov 27 2015 18:37:36 for Libevhtp by
+    <li class="footer">Generated on Fri Nov 27 2015 21:18:31 for Libevhtp by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

@@ -1,7 +1,7 @@
 var NAVTREE =
 [
   [ "Libevhtp", "index.html", [
-    [ "libevhtp - A user-friendly framework for high-performance http", "index.html", null ],
+    [ "libevhtp - A user-friendly framework for high-performance http servers.", "index.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Members", "functions.html", [

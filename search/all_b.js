@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['libevhtp_20_2d_20a_20user_2dfriendly_20framework_20for_20high_2dperformance_20http',['libevhtp - A user-friendly framework for high-performance http',['../index.html',1,'']]],
+  ['libevhtp_20_2d_20a_20user_2dfriendly_20framework_20for_20high_2dperformance_20http_20servers_2e',['libevhtp - A user-friendly framework for high-performance http servers.',['../index.html',1,'']]],
   ['lambda_2dpp_2ec',['lambda-pp.c',['../lambda-pp_8c.html',1,'']]],
   ['lambda_5fsource_5finit',['lambda_source_init',['../lambda-pp_8c.html#a3d56c2623434f5b1c0fa388ba771d2e1',1,'lambda-pp.c']]],
   ['lambda_5fvector_5fcreate_5flambda',['lambda_vector_create_lambda',['../lambda-pp_8c.html#a28a5939bc5c9775e368504951756147e',1,'lambda-pp.c']]],
