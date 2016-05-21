@@ -1,6 +1,14 @@
 #ifndef __EVHTP_JSON_H__
 #define __EVHTP_JSON_H__
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#include <evhtp/heap.h>
+#include <evhtp/keyval.h>
+#include <evhtp/array.h>
+
 enum evhtp_json_vtype_e {
     evhtp_json_vtype_string = 0,
     evhtp_json_vtype_number,
@@ -10,11 +18,24 @@ enum evhtp_json_vtype_e {
     evhtp_json_vtype_null
 };
 
-struct evhtp_json_s;
+struct evhtp_json_s
+#ifdef EVHTP_IN_DOXYGEN
+{ /*Empty body so that doxygen will generate documentation here.*/ }
+#endif
+;
 
 typedef enum evhtp_json_vtype_e evhtp_json_vtype;
 typedef struct evhtp_json_s     evhtp_json;
 
+/**
+ * @brief used for comparison filtering
+ *
+ * @param key key string
+ * @param val json value
+ *
+ * @return 0 if matched, -1 if no match
+ * @see evhtp_json_compare()
+ */
 typedef int (* evhtp_json_key_filtercb)(const char * key, evhtp_json * val);
 
 
@@ -22,16 +43,20 @@ typedef int (* evhtp_json_key_filtercb)(const char * key, evhtp_json * val);
  * @brief creates a new unordered-keyval context
  *
  * @return evhtp_json context with a vtype of 'evhtp_json_vtype_object'
+ * @see evhtp_json_free()
  */
-EVHTP_EXPORT evhtp_json * evhtp_json_new_object(void);
+EVHTP_EXPORT
+evhtp_json * evhtp_json_object_new(void);
 
 
 /**
  * @brief creates a new ordered array of evhtp_json context values
  *
  * @return evhtp_json context with a vtype of 'evhtp_json_vtype_array'
+ * @see evhtp_json_free()
  */
-EVHTP_EXPORT evhtp_json * evhtp_json_new_array(void);
+EVHTP_EXPORT
+evhtp_json * evhtp_json_array_new(void);
 
 
 /**
@@ -40,7 +65,8 @@ EVHTP_EXPORT evhtp_json * evhtp_json_new_array(void);
  *
  * @param js
  */
-EVHTP_EXPORT void evhtp_json_free(evhtp_json * js);
+EVHTP_EXPORT
+void evhtp_json_free(evhtp_json * js);
 
 /**
  * @brief creates a evhtp_json context for a null terminated string
@@ -49,8 +75,11 @@ EVHTP_EXPORT void evhtp_json_free(evhtp_json * js);
  * @param str
  *
  * @return evhtp_json context with vtype of 'evhtp_json_vtype_string'
+ * @see evhtp_json_free()
+ * @see evhtp_json_string_len_new()
  */
-EVHTP_EXPORT evhtp_json * evhtp_json_string_new(const char * str);
+EVHTP_EXPORT
+evhtp_json * evhtp_json_string_new(const char * str);
 
 
 /**
@@ -61,8 +90,13 @@ EVHTP_EXPORT evhtp_json * evhtp_json_string_new(const char * str);
  * @param len length of the string
  *
  * @return
+ * @see evhtp_json_free()
+ * @see evhtp_json_string_new()
  */
-EVHTP_EXPORT evhtp_json * evhtp_json_string_new_len(const char * str, size_t len);
+EVHTP_EXPORT
+evhtp_json * evhtp_json_string_len_new(
+    const char * str,
+    size_t       len);
 
 
 /**
@@ -72,8 +106,10 @@ EVHTP_EXPORT evhtp_json * evhtp_json_string_new_len(const char * str, size_t len
  * @param num
  *
  * @return evhtp_json context with vtype of 'evhtp_json_vtype_number'
+ * @see evhtp_json_free()
  */
-EVHTP_EXPORT evhtp_json * evhtp_json_number_new(unsigned int num);
+EVHTP_EXPORT
+evhtp_json * evhtp_json_number_new(unsigned int num);
 
 
 /**
@@ -82,16 +118,20 @@ EVHTP_EXPORT evhtp_json * evhtp_json_number_new(unsigned int num);
  * @param boolean either true or false
  *
  * @return evhtp_json context with vtype of 'evhtp_json_vtype_bool'
+ * @see evhtp_json_free()
  */
-EVHTP_EXPORT evhtp_json * evhtp_json_boolean_new(bool boolean);
+EVHTP_EXPORT
+evhtp_json * evhtp_json_boolean_new(bool boolean);
 
 
 /**
  * @brief creates a evhtp_json context for a null value
  *
  * @return evhtp_json context with vtype of 'evhtp_json_vtype_null'
+ * @see evhtp_json_free()
  */
-EVHTP_EXPORT evhtp_json * evhtp_json_null_new(void);
+EVHTP_EXPORT
+evhtp_json * evhtp_json_null_new(void);
 
 /**
  * @brief parse a buffer containing raw json and convert it to the
@@ -104,7 +144,11 @@ EVHTP_EXPORT evhtp_json * evhtp_json_null_new(void);
  *
  * @return evhtp_json context if valid json, NULL on error (also see n_read above)
  */
-EVHTP_EXPORT evhtp_json * evhtp_json_parse_buf(const char * data, size_t len, size_t * n_read);
+EVHTP_EXPORT
+evhtp_json * evhtp_json_parse_buf(
+    const char * data,
+    size_t       len,
+    size_t     * n_read);
 
 /**
  * @brief wrapper around evhtp_json_parse_buf but opens, reads, parses, and closes
@@ -115,19 +159,55 @@ EVHTP_EXPORT evhtp_json * evhtp_json_parse_buf(const char * data, size_t len, si
  *
  * @return see evhtp_json_parse_buf
  */
-EVHTP_EXPORT evhtp_json * evhtp_json_parse_file(const char * filename, size_t * n_read);
+EVHTP_EXPORT
+evhtp_json * evhtp_json_parse_file(
+    const char * filename,
+    size_t     * n_read);
 
 /* these next set of parser functions are self explainatory, and will probably be
  * made private in the future.
  */
-EVHTP_EXPORT evhtp_json * evhtp_json_parse_object(const char * data, size_t len, size_t * n_read);
-EVHTP_EXPORT evhtp_json * evhtp_json_parse_array(const char * data, size_t len, size_t * n_read);
-EVHTP_EXPORT evhtp_json * evhtp_json_parse_value(const char * data, size_t len, size_t * n_read);
-EVHTP_EXPORT evhtp_json * evhtp_json_parse_string(const char * data, size_t len, size_t * n_read);
-EVHTP_EXPORT evhtp_json * evhtp_json_parse_number(const char * data, size_t len, size_t * n_read);
-EVHTP_EXPORT evhtp_json * evhtp_json_parse_key(const char * data, size_t len, size_t * n_read);
-EVHTP_EXPORT evhtp_json * evhtp_json_parse_null(const char * data, size_t len, size_t * n_read);
-EVHTP_EXPORT evhtp_json * evhtp_json_parse_boolean(const char * data, size_t len, size_t * n_read);
+EVHTP_EXPORT
+evhtp_json * evhtp_json_parse_object(
+    const char * data,
+    size_t       len,
+    size_t     * n_read);
+
+EVHTP_EXPORT
+evhtp_json * evhtp_json_parse_array(
+    const char * data,
+    size_t       len,
+    size_t     * n_read);
+
+EVHTP_EXPORT
+evhtp_json * evhtp_json_parse_value(
+    const char * data,
+    size_t len, size_t * n_read);
+
+EVHTP_EXPORT
+evhtp_json * evhtp_json_parse_string(
+    const char * data,
+    size_t len, size_t * n_read);
+
+EVHTP_EXPORT
+evhtp_json * evhtp_json_parse_number(
+    const char * data,
+    size_t len, size_t * n_read);
+
+EVHTP_EXPORT
+evhtp_json * evhtp_json_parse_key(
+    const char * data,
+    size_t len, size_t * n_read);
+
+EVHTP_EXPORT
+evhtp_json * evhtp_json_parse_null(
+    const char * data,
+    size_t len, size_t * n_read);
+
+EVHTP_EXPORT
+evhtp_json * evhtp_json_parse_boolean(
+    const char * data,
+    size_t len, size_t * n_read);
 
 /**
  * @brief returns the underlying type of the evhtp_json context
@@ -136,28 +216,31 @@ EVHTP_EXPORT evhtp_json * evhtp_json_parse_boolean(const char * data, size_t len
  *
  * @return
  */
-EVHTP_EXPORT evhtp_json_vtype evhtp_json_get_type(evhtp_json * js);
+EVHTP_EXPORT
+evhtp_json_vtype evhtp_json_get_type(evhtp_json * js);
 
 
 /**
- * @brief returns the underlying evhtp_kvmap ADT for an object
+ * @brief returns the underlying evhtp_keyval ADT for an object
  *
  * @param js
  *
- * @return evhtp_kvmap on success, NULL if the underlying data
+ * @return evhtp_keyval on success, NULL if the underlying data
  *         is not an object.
  */
-EVHTP_EXPORT evhtp_kvmap * evhtp_json_get_object(evhtp_json * js);
+EVHTP_EXPORT
+evhtp_keyval * evhtp_json_get_object(evhtp_json * js);
 
 /**
- * @brief returns the underlying evhtp_tailq ADT for an array
+ * @brief returns the underlying evhtp_array ADT for an array
  *
  * @param js
  *
- * @return evhtp_tailq on success, NULL if the underlying data is
+ * @return evhtp_array on success, NULL if the underlying data is
  *         not an array.
  */
-EVHTP_EXPORT evhtp_tailq * evhtp_json_get_array(evhtp_json * js);
+EVHTP_EXPORT
+evhtp_array * evhtp_json_get_array(evhtp_json * js);
 
 
 /**
@@ -168,7 +251,10 @@ EVHTP_EXPORT evhtp_tailq * evhtp_json_get_array(evhtp_json * js);
  *
  * @return the evhtp_json value, NULL if not found
  */
-EVHTP_EXPORT evhtp_json * evhtp_json_get_array_index(evhtp_json * js, int index);
+EVHTP_EXPORT
+evhtp_json * evhtp_json_get_array_index(
+    evhtp_json * js,
+    int          index);
 
 
 /**
@@ -178,7 +264,8 @@ EVHTP_EXPORT evhtp_json * evhtp_json_get_array_index(evhtp_json * js, int index)
  *
  * @return
  */
-EVHTP_EXPORT unsigned int evhtp_json_get_number(evhtp_json * js);
+EVHTP_EXPORT
+unsigned int evhtp_json_get_number(evhtp_json * js);
 
 
 /**
@@ -188,7 +275,8 @@ EVHTP_EXPORT unsigned int evhtp_json_get_number(evhtp_json * js);
  *
  * @return the string on success, NULL if underlying data is not a string
  */
-EVHTP_EXPORT const char * evhtp_json_get_string(evhtp_json * js);
+EVHTP_EXPORT
+const char * evhtp_json_get_string(evhtp_json * js);
 
 
 /**
@@ -198,7 +286,8 @@ EVHTP_EXPORT const char * evhtp_json_get_string(evhtp_json * js);
  *
  * @return true or false
  */
-EVHTP_EXPORT bool evhtp_json_get_boolean(evhtp_json * js);
+EVHTP_EXPORT
+bool evhtp_json_get_boolean(evhtp_json * js);
 
 
 /**
@@ -208,7 +297,8 @@ EVHTP_EXPORT bool evhtp_json_get_boolean(evhtp_json * js);
  *
  * @return 1 if null, -1 if underlying data is not a null
  */
-EVHTP_EXPORT char evhtp_json_get_null(evhtp_json * js);
+EVHTP_EXPORT
+char evhtp_json_get_null(evhtp_json * js);
 
 
 /**
@@ -221,7 +311,8 @@ EVHTP_EXPORT char evhtp_json_get_null(evhtp_json * js);
  *
  * @return 0 if the underlying type doesn't have a size, otherwise see above
  */
-EVHTP_EXPORT ssize_t evhtp_json_get_size(evhtp_json * js);
+EVHTP_EXPORT
+ssize_t evhtp_json_get_size(evhtp_json * js);
 
 
 /**
@@ -240,7 +331,10 @@ EVHTP_EXPORT ssize_t evhtp_json_get_size(evhtp_json * js);
  *
  * @return
  */
-EVHTP_EXPORT evhtp_json * evhtp_json_path_get(evhtp_json * js, const char * path);
+EVHTP_EXPORT
+evhtp_json * evhtp_json_get_path(
+    evhtp_json * js,
+    const char * path);
 
 
 /**
@@ -251,8 +345,13 @@ EVHTP_EXPORT evhtp_json * evhtp_json_path_get(evhtp_json * js, const char * path
  * @param val
  *
  * @return
+ * @see evhtp_json_object_klen_add()
  */
-EVHTP_EXPORT int evhtp_json_object_add(evhtp_json * obj, const char * key, evhtp_json * val);
+EVHTP_EXPORT
+int evhtp_json_object_add(
+    evhtp_json * obj,
+    const char * key,
+    evhtp_json * val);
 
 
 /**
@@ -265,8 +364,14 @@ EVHTP_EXPORT int evhtp_json_object_add(evhtp_json * obj, const char * key, evhtp
  * @param v
  *
  * @return
+ * @see evhtp_json_object_add()
  */
-EVHTP_EXPORT int evhtp_json_object_add_klen(evhtp_json * o, const char * k, size_t kl, evhtp_json * v);
+EVHTP_EXPORT
+int evhtp_json_object_klen_add(
+    evhtp_json * o,
+    const char * k,
+    size_t       kl,
+    evhtp_json * v);
 
 
 /**
@@ -277,8 +382,10 @@ EVHTP_EXPORT int evhtp_json_object_add_klen(evhtp_json * o, const char * k, size
  *
  * @return
  */
-EVHTP_EXPORT int evhtp_json_array_add(evhtp_json * array, evhtp_json * val);
-
+EVHTP_EXPORT
+int evhtp_json_array_add(
+    evhtp_json * array,
+    evhtp_json * val);
 
 /**
  * @brief can be used on either evhtp_json arrays or objects. For arrays, just omit the key
@@ -289,7 +396,11 @@ EVHTP_EXPORT int evhtp_json_array_add(evhtp_json * array, evhtp_json * val);
  *
  * @return
  */
-EVHTP_EXPORT int evhtp_json_add(evhtp_json * obj, const char * k, evhtp_json * val);
+EVHTP_EXPORT
+int evhtp_json_add(
+    evhtp_json * obj,
+    const char * k,
+    evhtp_json * val);
 
 
 /**
@@ -301,7 +412,11 @@ EVHTP_EXPORT int evhtp_json_add(evhtp_json * obj, const char * k, evhtp_json * v
  *
  * @return number of bytes copied into the buffer
  */
-EVHTP_EXPORT ssize_t evhtp_json_to_buffer(evhtp_json * json, char * buf, size_t buf_len);
+EVHTP_EXPORT
+ssize_t evhtp_json_to_buffer(
+    evhtp_json * json,
+    char       * buf,
+    size_t       buf_len);
 
 
 /**
@@ -313,7 +428,11 @@ EVHTP_EXPORT ssize_t evhtp_json_to_buffer(evhtp_json * json, char * buf, size_t 
  *
  * @return
  */
-EVHTP_EXPORT ssize_t evhtp_json_to_buffer_nescp(evhtp_json * json, char * buf, size_t buf_len);
+EVHTP_EXPORT
+ssize_t evhtp_json_to_buffer_nescp(
+    evhtp_json * json,
+    char       * buf,
+    size_t       buf_len);
 
 
 /**
@@ -324,13 +443,16 @@ EVHTP_EXPORT ssize_t evhtp_json_to_buffer_nescp(evhtp_json * json, char * buf, s
  *
  * @return
  */
-EVHTP_EXPORT char * evhtp_json_to_buffer_alloc(evhtp_json * json, size_t * len);
+EVHTP_EXPORT
+char * evhtp_json_to_buffer_alloc(
+    evhtp_json * json,
+    size_t     * len);
 
 
 /**
  * @brief compares two evhtp_json contexts to determine if they match, if the filtercb
  *        argument is not NULL, and the type being compared currently is an array or object,
- *        each ts_json context is passed to the callback. If the callback returns -1, that
+ *        each evhtp_json context is passed to the callback. If the callback returns -1, that
  *        value will not be compared to the other.
  *
  * @param j1
@@ -339,7 +461,15 @@ EVHTP_EXPORT char * evhtp_json_to_buffer_alloc(evhtp_json * json, size_t * len);
  *
  * @return
  */
-EVHTP_EXPORT int evhtp_json_compare(evhtp_json * j1, evhtp_json * j2, evhtp_json_key_filtercb cb);
+EVHTP_EXPORT
+int evhtp_json_compare(
+    evhtp_json            * j1,
+    evhtp_json            * j2,
+    evhtp_json_key_filtercb cb);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif
 

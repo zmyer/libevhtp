@@ -7,7 +7,7 @@
 #include <stddef.h>
 #include <sys/queue.h>
 
-#include "evhtp-internal.h"
+#include "evhtp/evhtp-internal.h"
 #include "evhtp_heap.h"
 
 struct evhtp_heap_page_s;
