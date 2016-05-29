@@ -62,6 +62,7 @@ struct evthr {
     TAILQ_ENTRY(evthr) next;
 };
 
+//test
 #define _evthr_read(thr, cmd, sock) \
     (recv(sock, cmd, sizeof(evthr_cmd_t), 0) == sizeof(evthr_cmd_t)) ? 1 : 0
 
